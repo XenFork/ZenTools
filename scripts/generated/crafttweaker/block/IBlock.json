@@ -1,8 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.block.IBlockDefinition;",
-        "crafttweaker.block.IBlockPattern;",
-        "crafttweaker.data.IData;",
-        "crafttweaker.liquid.ILiquidDefinition;"
-    ]
-}

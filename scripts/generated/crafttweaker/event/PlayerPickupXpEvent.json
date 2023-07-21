@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.entity.IEntityXp;",
-        "crafttweaker.event.IEventCancelable;",
-        "crafttweaker.event.IPlayerEvent;"
-    ]
-}

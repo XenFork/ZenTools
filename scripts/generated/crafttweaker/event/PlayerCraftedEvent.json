@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.IPlayerEvent;",
-        "crafttweaker.item.IItemStack;",
-        "crafttweaker.recipes.ICraftingInventory;"
-    ]
-}

@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.block.IBlock;",
-        "crafttweaker.block.IBlockState;",
-        "crafttweaker.event.IBlockEvent;"
-    ]
-}

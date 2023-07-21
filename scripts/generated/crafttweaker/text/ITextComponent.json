@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.data.IData;",
-        "crafttweaker.text.IStyle;",
-        "crafttweaker.text.ITextComponent;"
-    ]
-}

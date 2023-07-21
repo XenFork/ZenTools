@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.IEventPositionable;",
-        "crafttweaker.item.IItemStack;",
-        "crafttweaker.world.IWorld;"
-    ]
-}

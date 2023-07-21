@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.IEventCancelable;",
-        "crafttweaker.event.IPotionEffectEvent;",
-        "crafttweaker.potions.IPotion;"
-    ]
-}

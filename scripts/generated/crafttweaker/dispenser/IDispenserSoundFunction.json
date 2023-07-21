@@ -1,6 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.dispenser.DispenserSound;",
-        "crafttweaker.dispenser.IBlockSource;"
-    ]
-}

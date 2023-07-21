@@ -1,9 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.item.IIngredient;",
-        "crafttweaker.item.IItemStack;",
-        "crafttweaker.recipes.ICraftingRecipe;",
-        "crafttweaker.recipes.IRecipeAction;",
-        "crafttweaker.recipes.IRecipeFunction;"
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.IEventCancelable;",
-        "crafttweaker.event.IHasCancellationResult;",
-        "crafttweaker.event.PlayerInteractEvent;",
-        "crafttweaker.world.IVector3d;"
-    ]
-}

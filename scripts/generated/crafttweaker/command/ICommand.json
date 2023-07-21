@@ -1,8 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.command.ICommand;",
-        "crafttweaker.command.ICommandSender;",
-        "crafttweaker.server.IServer;",
-        "crafttweaker.world.IBlockPos;"
-    ]
-}

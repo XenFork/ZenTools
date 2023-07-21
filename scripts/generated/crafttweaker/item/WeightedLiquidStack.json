@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.item.IIngredient;",
-        "crafttweaker.item.IWeightedIngredient;",
-        "crafttweaker.liquid.ILiquidStack;"
-    ]
-}

@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.damage.IDamageSource;",
-        "crafttweaker.event.IEventCancelable;",
-        "crafttweaker.event.ILivingEvent;"
-    ]
-}

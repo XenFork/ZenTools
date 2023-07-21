@@ -1,5 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.EntityLivingUseItemEvent.All;"
-    ]
-}

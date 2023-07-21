@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.entity.IEntityArrow;",
-        "crafttweaker.item.IItemStack;",
-        "crafttweaker.potions.IPotionEffect;"
-    ]
-}

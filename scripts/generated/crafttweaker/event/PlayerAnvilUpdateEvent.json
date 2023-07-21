@@ -1,6 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.IEventCancelable;",
-        "crafttweaker.item.IItemStack;"
-    ]
-}

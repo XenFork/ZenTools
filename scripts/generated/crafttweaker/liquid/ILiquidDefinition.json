@@ -1,6 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.block.IBlock;",
-        "crafttweaker.liquid.ILiquidStack;"
-    ]
-}

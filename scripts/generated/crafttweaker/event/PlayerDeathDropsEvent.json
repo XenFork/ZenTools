@@ -1,8 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.damage.IDamageSource;",
-        "crafttweaker.entity.IEntityItem;",
-        "crafttweaker.event.IPlayerEvent;",
-        "crafttweaker.item.IItemStack;"
-    ]
-}

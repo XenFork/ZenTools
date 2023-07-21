@@ -1,6 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.IEntityEvent;",
-        "crafttweaker.world.IRayTraceResult;"
-    ]
-}

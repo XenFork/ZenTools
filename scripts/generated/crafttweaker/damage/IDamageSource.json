@@ -1,9 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.damage.IDamageSource;",
-        "crafttweaker.entity.IEntity;",
-        "crafttweaker.entity.IEntityLivingBase;",
-        "crafttweaker.player.IPlayer;",
-        "crafttweaker.world.IVector3d;"
-    ]
-}

@@ -1,6 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.entity.IEntity;",
-        "crafttweaker.item.IItemStack;"
-    ]
-}

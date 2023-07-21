@@ -1,6 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.item.IItemStack;",
-        "crafttweaker.player.IPlayer;"
-    ]
-}

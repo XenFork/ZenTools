@@ -1,8 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.server.IServer;",
-        "crafttweaker.text.ITextComponent;",
-        "crafttweaker.world.IBlockPos;",
-        "crafttweaker.world.IWorld;"
-    ]
-}

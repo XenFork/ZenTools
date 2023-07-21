@@ -1,6 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.ILivingEvent;",
-        "crafttweaker.potions.IPotionEffect;"
-    ]
-}

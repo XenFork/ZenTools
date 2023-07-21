@@ -1,7 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.entity.IEntityEquipmentSlot;",
-        "crafttweaker.event.ILivingEvent;",
-        "crafttweaker.item.IItemStack;"
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.item.IIngredient;",
-        "crafttweaker.item.IItemStack;",
-        "crafttweaker.oredict.IOreDictEntry;",
-        "crafttweaker.oredict.WeightedOreDictEntry;"
-    ]
-}

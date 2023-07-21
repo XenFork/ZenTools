@@ -1,6 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.event.EntityLivingSpawnEvent;",
-        "crafttweaker.tileentity.IMobSpawnerBaseLogic;"
-    ]
-}

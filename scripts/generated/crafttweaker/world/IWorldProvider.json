@@ -1,8 +1,0 @@
-{
-    "imports": [
-        "crafttweaker.player.IPlayer;",
-        "crafttweaker.world.IBiome;",
-        "crafttweaker.world.IBlockPos;",
-        "crafttweaker.world.IWorldProvider;"
-    ]
-}
