@@ -1,0 +1,16 @@
+import crafttweaker.text.IStyle;
+
+zenClass IStyle {
+    var parent as IStyle;
+    var color as void;
+    var strikethrough as bool;
+    var underline as bool;
+    var bold as bool;
+    var italic as bool;
+    var obfuscated as bool;
+    var insertion as string;
+    
+    function createDeepCopy() as IStyle;
+    
+    function createShallowCopy() as IStyle;
+}

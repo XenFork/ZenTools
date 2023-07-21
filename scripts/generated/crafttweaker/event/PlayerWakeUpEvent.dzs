@@ -1,0 +1,9 @@
+import crafttweaker.event.IPlayerEvent;
+
+#extends IPlayerEvent
+zenClass PlayerWakeUpEvent {
+    val shouldUpdateWorld as bool;
+    val shouldWakeImmediately as bool;
+    val shouldSetSpawn as bool;
+    
+}

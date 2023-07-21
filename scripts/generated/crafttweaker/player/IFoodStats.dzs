@@ -1,0 +1,17 @@
+import crafttweaker.data.IData;
+import crafttweaker.player.IPlayer;
+
+zenClass IFoodStats {
+    var foodLevel as int;
+    val needFood as bool;
+    var saturationLevel as float;
+    
+    function addStats(foodValue as int, saturationLevel as float) as void;
+    
+    #caster
+    function asNBT() as IData;
+    
+    function addExhaustion(exhaustion as float) as void;
+    
+    function onUpdate(player as IPlayer) as void;
+}

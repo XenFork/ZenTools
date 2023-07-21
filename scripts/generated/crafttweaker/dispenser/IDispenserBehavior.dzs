@@ -1,0 +1,8 @@
+import crafttweaker.dispenser.IBlockSource;
+import crafttweaker.item.IItemStack;
+
+zenClass IDispenserBehavior {
+    
+    #lambda
+    function apply(source as IBlockSource, stack as IItemStack) as IItemStack;
+}

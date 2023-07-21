@@ -1,0 +1,13 @@
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.block.IBlockPattern;
+import crafttweaker.data.IData;
+import crafttweaker.liquid.ILiquidDefinition;
+
+#extends IBlockPattern
+zenClass IBlock {
+    val definition as IBlockDefinition;
+    val data as IData;
+    val fluid as ILiquidDefinition;
+    val meta as int;
+    
+}

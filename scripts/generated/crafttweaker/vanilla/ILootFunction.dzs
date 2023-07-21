@@ -1,0 +1,6 @@
+
+zenClass ILootFunction {
+    var name as void;
+    
+    function getName() as string;
+}

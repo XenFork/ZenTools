@@ -1,0 +1,8 @@
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IWorldEvent;
+
+#extends IEntityEvent IWorldEvent IEventCancelable
+zenClass EntityJoinWorldEvent {
+    
+}

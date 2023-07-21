@@ -1,0 +1,10 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IEventCancelable;
+
+#extends IEntityEvent IEventCancelable
+zenClass ItemExpireEvent {
+    val item as IEntityItem;
+    var extraLife as int;
+    
+}

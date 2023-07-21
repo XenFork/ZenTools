@@ -1,0 +1,16 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockPattern;
+
+zenClass IBlockPattern {
+    val displayName as string;
+    
+    #hidden
+    #operator CONTAINS
+    function matches(block as IBlock) as bool;
+    
+    #hidden
+    #operator OR
+    function or(pattern as IBlockPattern) as IBlockPattern;
+    
+    function blocks() as [IBlock];
+}

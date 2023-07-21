@@ -1,0 +1,13 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.event.IExplosionEvent;
+import crafttweaker.world.IBlockPos;
+
+#extends IExplosionEvent
+zenClass ExplosionDetonateEvent {
+    val affectedPositions as [IBlockPos];
+    val affectedEntities as [IEntity];
+    
+    function getAffectedPositions() as [IBlockPos];
+    
+    function getAffectedEntities() as [IEntity];
+}

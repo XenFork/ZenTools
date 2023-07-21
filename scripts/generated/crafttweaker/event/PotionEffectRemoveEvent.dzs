@@ -1,0 +1,10 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IPotionEffectEvent;
+import crafttweaker.potions.IPotion;
+
+#extends IPotionEffectEvent IEventCancelable
+zenClass PotionEffectRemoveEvent {
+    val potion as IPotion;
+    
+    function getPotion() as IPotion;
+}

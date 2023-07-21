@@ -1,0 +1,8 @@
+import crafttweaker.chat.IChatMessage;
+
+zenClass IChatMessage {
+    
+    #hidden
+    #operator ADD
+    function add(other as IChatMessage) as IChatMessage;
+}

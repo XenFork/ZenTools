@@ -1,0 +1,15 @@
+import crafttweaker.mods.IMod;
+
+zenClass ILoadedMods {
+    
+    #hidden
+    #operator ITERABLE
+    function iterator() as [IMod];
+    
+    #hidden
+    #operator INDEXGET
+    function get(name as string) as IMod;
+    
+    #operator CONTAINS
+    function contains(name as string) as bool;
+}

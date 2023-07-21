@@ -1,0 +1,13 @@
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IExplosion;
+import crafttweaker.world.IWorld;
+
+zenClass IExplosionEvent {
+    val x as double;
+    val y as double;
+    val position as IBlockPos;
+    val world as IWorld;
+    val z as double;
+    val explosion as IExplosion;
+    
+}

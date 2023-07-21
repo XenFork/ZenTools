@@ -1,0 +1,11 @@
+import crafttweaker.entity.IEntityCreature;
+
+#extends IEntityCreature
+zenClass IEntityAgeable {
+    var growingAge as int;
+    var scaleForAge as void;
+    
+    function ageUp(seconds as int, forced as bool = false) as void;
+    
+    function addGrowth(seconds as int) as void;
+}

@@ -1,0 +1,11 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+
+#extends IEventCancelable ILivingEvent
+zenClass EnderTeleportEvent {
+    var targetX as double;
+    var targetY as double;
+    var targetZ as double;
+    var attackDamage as float;
+    
+}

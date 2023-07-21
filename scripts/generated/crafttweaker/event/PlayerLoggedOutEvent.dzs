@@ -1,0 +1,10 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.player.IPlayer;
+
+#extends IPlayerEvent
+zenClass PlayerLoggedOutEvent {
+    
+    #lambda
+    #hidden
+    function getPlayer() as IPlayer;
+}

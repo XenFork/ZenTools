@@ -1,0 +1,8 @@
+import crafttweaker.event.IPlayerEvent;
+
+#extends IPlayerEvent
+zenClass PlayerAdvancementEvent {
+    val id as string;
+    
+    function getId() as string;
+}

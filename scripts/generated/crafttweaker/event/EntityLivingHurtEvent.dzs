@@ -1,0 +1,10 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+
+#extends ILivingEvent IEventCancelable
+zenClass EntityLivingHurtEvent {
+    var amount as float;
+    val damageSource as IDamageSource;
+    
+}

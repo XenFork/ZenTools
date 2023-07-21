@@ -1,0 +1,10 @@
+import crafttweaker.event.IEventHasResult;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+#extends IPlayerEvent IEventHasResult
+zenClass ArrowNockEvent {
+    val bow as IItemStack;
+    val hand as string;
+    
+}

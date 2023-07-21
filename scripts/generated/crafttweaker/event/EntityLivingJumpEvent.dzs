@@ -1,0 +1,10 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.event.ILivingEvent;
+
+#extends ILivingEvent
+zenClass EntityLivingJumpEvent {
+    
+    #lambda
+    #hidden
+    function getEntityLivingBase() as IEntityLivingBase;
+}

@@ -1,0 +1,13 @@
+import crafttweaker.entity.IEntityFishHook;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+#extends IPlayerEvent IEventCancelable
+zenClass ItemFishedEvent {
+    val drops as IItemStack[];
+    val damage as int;
+    var additionalDamage as void;
+    val fishHook as IEntityFishHook;
+    
+}

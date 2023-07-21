@@ -1,0 +1,8 @@
+import crafttweaker.event.IPlayerEvent;
+
+#extends IPlayerEvent
+zenClass PlayerVisibilityEvent {
+    val modifier as double;
+    
+    function modifyVisibility(modifier as double) as void;
+}

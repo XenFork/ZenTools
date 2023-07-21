@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass ITooltipFunction {
+    
+    #lambda
+    #hidden
+    function process(ingredient as IItemStack) as string;
+}

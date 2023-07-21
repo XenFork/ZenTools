@@ -1,0 +1,6 @@
+import crafttweaker.command.ICommandSender;
+
+#extends ICommandSender
+zenClass IUser {
+    
+}

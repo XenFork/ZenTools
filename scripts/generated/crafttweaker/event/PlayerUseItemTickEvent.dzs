@@ -1,0 +1,10 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+#extends IEventCancelable IPlayerEvent
+zenClass PlayerUseItemTickEvent {
+    val item as IItemStack;
+    val duration as int;
+    
+}

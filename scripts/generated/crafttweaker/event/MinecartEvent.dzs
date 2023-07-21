@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntity;
+
+zenClass MinecartEvent {
+    val minecart as IEntity;
+    
+    #lambda
+    #hidden
+    function getEntity() as IEntity;
+}

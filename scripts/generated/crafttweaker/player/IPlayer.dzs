@@ -1,0 +1,89 @@
+import crafttweaker.chat.IChatMessage;
+import crafttweaker.container.IContainer;
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntityFishHook;
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IFoodStats;
+import crafttweaker.player.IUser;
+import crafttweaker.text.ITextComponent;
+import crafttweaker.util.Position3f;
+import crafttweaker.world.IBlockPos;
+
+#extends IEntityLivingBase IUser
+zenClass IPlayer {
+    val name as string;
+    var xp as int;
+    val data as IData;
+    var damageDisabled as void;
+    val creative as bool;
+    val uuid as string;
+    val hotbarSize as int;
+    val inventorySize as int;
+    val currentItem as IItemStack;
+    val adventure as bool;
+    var score as int;
+    val foodStats as IFoodStats;
+    var canFly as bool;
+    var canEdit as bool;
+    val isSleeping as bool;
+    val isFullyAsleep as bool;
+    val sleepTimer as int;
+    val bedLocation as IBlockPos;
+    val fishHook as IEntityFishHook;
+    val inventoryContainer as IContainer;
+    
+    function update(data as IData) as void;
+    
+    function changeDimension(dimensionId as int) as void;
+    
+    function sendStatusMessage(message as IFormattedText, hotBar as bool = true) as void;
+    
+    function sendStatusMessage(message as string, hotBar as bool = true) as void;
+    
+    function getInventoryStack(i as int) as IItemStack;
+    
+    function teleport(pos as Position3f) as void;
+    
+    function give(stack as IItemStack) as void;
+    
+    function sendChat(message as string) as void;
+    
+    function sendChat(message as IChatMessage) as void;
+    
+    function removeXP(xp as int) as void;
+    
+    function getHotbarStack(i as int) as IItemStack;
+    
+    function getScore() as int;
+    
+    function addScore(amount as int) as void;
+    
+    function setScore(amount as int) as void;
+    
+    function executeCommand(rawCommand as string) as void;
+    
+    function dropItem(item as IItemStack) as IEntityItem;
+    
+    function dropItem(dropAll as bool) as IEntityItem;
+    
+    function setCooldown(item as IItemStack, time as int) as void;
+    
+    function getCooldown(item as IItemStack) as float;
+    
+    function isSleeping() as bool;
+    
+    function isFullyAsleep() as bool;
+    
+    function getSleepTimer() as int;
+    
+    function getBedLocation() as IBlockPos;
+    
+    function getFishHook() as IEntityFishHook;
+    
+    function getInventoryContainer() as IContainer;
+    
+    function sendRichTextStatusMessage(textComponent as ITextComponent, hotbar as bool = true) as void;
+}

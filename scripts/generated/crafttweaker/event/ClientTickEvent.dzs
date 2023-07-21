@@ -1,0 +1,6 @@
+import crafttweaker.event.ITickEvent;
+
+#extends ITickEvent
+zenClass ClientTickEvent {
+    
+}

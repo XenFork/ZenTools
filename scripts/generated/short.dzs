@@ -1,0 +1,8 @@
+import crafttweaker.data.IData;
+
+zenClass short {
+    
+    #caster
+    #hidden
+    function asNBT() as IData;
+}

@@ -1,0 +1,7 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.PotionBrewEvent;
+
+#extends PotionBrewEvent IEventCancelable
+zenClass PotionBrewPreEvent {
+    
+}

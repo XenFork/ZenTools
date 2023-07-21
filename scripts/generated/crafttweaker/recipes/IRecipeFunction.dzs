@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.recipes.ICraftingInfo;
+
+zenClass IRecipeFunction {
+    
+    #lambda
+    #hidden
+    function process(output as IItemStack, inputs as IItemStack[string], craftingInfo as ICraftingInfo) as IItemStack;
+}

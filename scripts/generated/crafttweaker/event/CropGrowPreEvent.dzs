@@ -1,0 +1,7 @@
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.IEventHasResult;
+
+#extends IBlockEvent IEventHasResult
+zenClass CropGrowPreEvent {
+    
+}

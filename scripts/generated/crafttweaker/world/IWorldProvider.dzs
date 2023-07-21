@@ -1,0 +1,92 @@
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IBiome;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorldProvider;
+
+zenClass IWorldProvider {
+    val seed as long;
+    val movementFactor as double;
+    val randomizedSpawnPoint as IBlockPos;
+    val horizon as double;
+    val cloudHeight as float;
+    val height as int;
+    val daytime as bool;
+    val worldTime as long;
+    val spawnPoint as IBlockPos;
+    val actualHeight as int;
+    val currentMoonPhaseFactor as float;
+    val dimensionID as int;
+    val saveFolder as string;
+    val canRespawnHere as bool;
+    val skylight as bool;
+    val nether as bool;
+    val skyColored as bool;
+    val actualGroundLevel as int;
+    val lightBrightnesTable as float[];
+    val spawnCoordinate as IBlockPos;
+    val voidFogYFactor as double;
+    val waterVaporize as bool;
+    val surfaceWorld as bool;
+    
+    static function getFromID(id as int) as IWorldProvider;
+    
+    function getSeed() as long;
+    
+    function getMovementFactor() as double;
+    
+    function getRandomizedSpawnPoint() as IBlockPos;
+    
+    function getRespawnDimension(player as IPlayer) as IWorldProvider;
+    
+    function getHorizon() as double;
+    
+    function getCloudHeight() as float;
+    
+    function getHeight() as int;
+    
+    function isDaytime() as bool;
+    
+    function getWorldTime() as long;
+    
+    function getSpawnPoint() as IBlockPos;
+    
+    function getActualHeight() as int;
+    
+    function getBiomeForCoords(pos as IBlockPos) as IBiome;
+    
+    function getSunBrightnessFactor(something as float) as float;
+    
+    function getCurrentMoonPhaseFactor() as float;
+    
+    function isBlockHighHumidity(pos as IBlockPos) as bool;
+    
+    function getDimensionID() as int;
+    
+    function getSaveFolder() as string;
+    
+    function getSunBrightness(something as float) as float;
+    
+    function canRespawnHere() as bool;
+    
+    function hasSkyLight() as bool;
+    
+    function isNether() as bool;
+    
+    function isSkyColored() as bool;
+    
+    function getAverageGroundLevel() as int;
+    
+    function getLightBrightnesTable() as float[];
+    
+    function getSpawnCoordinate() as IBlockPos;
+    
+    function getStarBrightness(something as float) as float;
+    
+    function getVoidFogYFactor() as double;
+    
+    function doesWaterVaporize() as bool;
+    
+    function isSurfaceWorld() as bool;
+    
+    function getMoonPhase(time as long) as int;
+}

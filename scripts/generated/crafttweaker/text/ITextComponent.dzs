@@ -1,0 +1,30 @@
+import crafttweaker.data.IData;
+import crafttweaker.text.IStyle;
+import crafttweaker.text.ITextComponent;
+
+zenClass ITextComponent {
+    var style as IStyle;
+    val formattedText as string;
+    val siblings as [ITextComponent];
+    val unformattedComponentText as string;
+    val unformattedText as string;
+    
+    #hidden
+    #operator ADD
+    function append(text as ITextComponent) as ITextComponent;
+    
+    function createCopy() as ITextComponent;
+    
+    #hidden
+    #operator CAT
+    function cat(text as ITextComponent) as ITextComponent;
+    
+    static function fromString(s as string) as ITextComponent;
+    
+    #varargs
+    static function fromTranslation(translationKey as string, args as any[]) as ITextComponent;
+    
+    static function fromTranslation(translationKey as string) as ITextComponent;
+    
+    static function fromData(data as IData) as ITextComponent;
+}

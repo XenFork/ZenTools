@@ -1,0 +1,35 @@
+import crafttweaker.api.IClient;
+import crafttweaker.api.formatting.IFormatter;
+import crafttweaker.api.item.IItemUtils;
+import crafttweaker.api.recipes.IBrewingManager;
+import crafttweaker.events.IEventManager;
+import crafttweaker.game.IGame;
+import crafttweaker.mods.ILoadedMods;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.recipes.IFurnaceManager;
+import crafttweaker.recipes.IRecipeManager;
+import crafttweaker.runtime.ILogger;
+import crafttweaker.server.IServer;
+import vanilla.IVanilla;
+
+global brewing as IBrewingManager;
+global client as IClient;
+global events as IEventManager;
+global format as IFormatter;
+global furnace as IFurnaceManager;
+global game as IGame;
+global itemUtils as IItemUtils;
+global loadedMods as ILoadedMods;
+global logger as ILogger;
+global oreDict as IOreDict;
+global recipes as IRecipeManager;
+global server as IServer;
+global vanilla as IVanilla;
+
+global function enableDebug() as void;
+global function isNull(_any as any) as bool;
+global function max(a as int, b as int) as int;
+global function min(a as int, b as int) as int;
+global function pow(a as double, b as double) as double;
+global function print(message as string) as void;
+global function totalActions() as int;

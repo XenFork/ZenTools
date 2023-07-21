@@ -1,0 +1,36 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.WeightedOreDictEntry;
+
+#extends IIngredient
+zenClass IOreDictEntry {
+    val name as string;
+    val empty as bool;
+    val firstItem as IItemStack;
+    
+    #varargs
+    function add(items as IItemStack[]) as void;
+    
+    #varargs
+    function remove(items as IItemStack[]) as void;
+    
+    #hidden
+    #operator CONTAINS
+    function contains(item as IItemStack) as bool;
+    
+    #varargs
+    function addAll(entry as IOreDictEntry[]) as void;
+    
+    function mirror(other as IOreDictEntry) as void;
+    
+    function addItems(items as IItemStack[]) as void;
+    
+    function removeItems(items as IItemStack[]) as void;
+    
+    #hidden
+    #operator MOD
+    function percent(p as float) as WeightedOreDictEntry;
+    
+    function weight(p as float) as WeightedOreDictEntry;
+}

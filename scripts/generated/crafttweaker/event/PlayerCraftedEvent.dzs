@@ -1,0 +1,10 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.recipes.ICraftingInventory;
+
+#extends IPlayerEvent
+zenClass PlayerCraftedEvent {
+    val output as IItemStack;
+    val inventory as ICraftingInventory;
+    
+}

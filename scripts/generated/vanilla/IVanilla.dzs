@@ -1,0 +1,9 @@
+import vanilla.ISeedRegistry;
+
+zenClass IVanilla {
+    val seeds as ISeedRegistry;
+    
+    #lambda
+    #hidden
+    function getSeeds() as ISeedRegistry;
+}

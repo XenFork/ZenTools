@@ -1,0 +1,8 @@
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IEventCancelable;
+
+#extends IEntityEvent IEventCancelable
+zenClass EntityTravelToDimensionEvent {
+    val dimension as int;
+    
+}

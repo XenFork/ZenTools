@@ -1,0 +1,11 @@
+import crafttweaker.entity.IEntityArrow;
+import crafttweaker.item.IItemStack;
+import crafttweaker.potions.IPotionEffect;
+
+#extends IEntityArrow
+zenClass IEntityArrowTipped {
+    
+    function setPotionEffect(stack as IItemStack) as void;
+    
+    function addPotionEffect(effect as IPotionEffect) as void;
+}

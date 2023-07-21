@@ -1,0 +1,8 @@
+import crafttweaker.data.IData;
+
+zenClass int {
+    
+    #caster
+    #hidden
+    function toData() as IData;
+}

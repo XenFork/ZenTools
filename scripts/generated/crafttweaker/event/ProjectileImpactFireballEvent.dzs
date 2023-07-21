@@ -1,0 +1,14 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ProjectileImpactEvent;
+
+#extends ProjectileImpactEvent IEventCancelable
+zenClass ProjectileImpactFireballEvent {
+    val fireball as IEntity;
+    val shooter as IEntityLivingBase;
+    var accelerationX as double;
+    var accelerationY as double;
+    var accelerationZ as double;
+    
+}

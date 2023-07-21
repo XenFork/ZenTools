@@ -1,0 +1,10 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+#extends IPlayerEvent
+zenClass PlayerItemPickupEvent {
+    val stackCopy as IItemStack;
+    val originalEntity as IEntityItem;
+    
+}

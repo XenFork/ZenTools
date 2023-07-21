@@ -1,0 +1,9 @@
+import crafttweaker.dispenser.DispenserSound;
+import crafttweaker.dispenser.IBlockSource;
+
+zenClass IDispenserSoundFunction {
+    
+    #lambda
+    #hidden
+    function apply(source as IBlockSource) as DispenserSound;
+}

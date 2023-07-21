@@ -1,0 +1,18 @@
+import crafttweaker.data.IData;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.item.IItemStack;
+
+zenClass IEnchantment {
+    val definition as IEnchantmentDefinition;
+    val displayName as string;
+    var level as int;
+    
+    #caster
+    function makeTag() as IData;
+    
+    #caster
+    function makeBookTag() as IData;
+    
+    #caster
+    function makeBook() as IItemStack;
+}

@@ -1,0 +1,112 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import crafttweaker.util.IAxisAlignedBB;
+import crafttweaker.util.IRandom;
+import crafttweaker.util.Position3f;
+import crafttweaker.world.IBiome;
+import crafttweaker.world.IBlockAccess;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IExplosion;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IRayTraceResult;
+import crafttweaker.world.IVector3d;
+import crafttweaker.world.IWorld;
+import crafttweaker.world.IWorldInfo;
+import crafttweaker.world.IWorldProvider;
+
+#extends IBlockAccess
+zenClass IWorld {
+    val provider as IWorldProvider;
+    val dimension as int;
+    val time as long;
+    val raining as bool;
+    val worldInfo as IWorldInfo;
+    val remote as bool;
+    val dayTime as bool;
+    val surfaceWorld as bool;
+    val moonPhase as int;
+    val dimensionType as string;
+    val worldType as string;
+    val random as IRandom;
+    val seaLevel as int;
+    
+    function getProvider() as IWorldProvider;
+    
+    function getDimension() as int;
+    
+    function getBlock(x as int, y as int, z as int) as IBlock;
+    
+    function getBlock(pos as IBlockPos) as IBlock;
+    
+    function getBrightness(position as IBlockPos) as int;
+    
+    function getBrightness(x as int, y as int, z as int) as int;
+    
+    function getWorldTime() as long;
+    
+    function getEntitiesInArea(start as Position3f, end as Position3f = null) as [IEntity];
+    
+    function isRaining() as bool;
+    
+    function getWorldInfo() as IWorldInfo;
+    
+    function isRemote() as bool;
+    
+    function isDayTime() as bool;
+    
+    function isSurfaceWorld() as bool;
+    
+    function getMoonPhase() as int;
+    
+    function getDimensionType() as string;
+    
+    function getWorldType() as string;
+    
+    function setBlockState(state as IBlockState, tileEntityData as IData, pos as IBlockPos) as bool;
+    
+    function setBlockState(state as IBlockState, pos as IBlockPos) as bool;
+    
+    function spawnEntity(entity as IEntity) as bool;
+    
+    function removeEntity(entity as IEntity) as void;
+    
+    function rayTraceBlocks(begin as IVector3d, ray as IVector3d, stopOnLiquid as bool = false, ignoreBlockWithoutBoundingBox as bool = false, returnLastUncollidableBlock as bool = true) as IRayTraceResult;
+    
+    function getPickedBlock(pos as IBlockPos, rayTraceResult as IRayTraceResult, player as IPlayer) as IItemStack;
+    
+    function createExplosion(exploder as IEntity, x as double, y as double, z as double, strength as float, causesFire as bool, damagesTerrain as bool) as IExplosion;
+    
+    function performExplosion(exploder as IEntity, x as double, y as double, z as double, strength as float, causesFire as bool, damagesTerrain as bool) as IExplosion;
+    
+    function performExplosion(explosion as IExplosion) as IExplosion;
+    
+    function getBiome(position as Position3f) as IBiome;
+    
+    function getBiome(position as IBlockPos) as IBiome;
+    
+    function getRandom() as IRandom;
+    
+    static function getFromID(id as int) as IWorld;
+    
+    function extinguishFire(player as IPlayer, pos as IBlockPos, side as IFacing) as bool;
+    
+    function isSpawnChunk(x as int, z as int) as bool;
+    
+    function getSeaLevel() as int;
+    
+    function addWeatherEffect(entity as IEntity) as bool;
+    
+    function createLightningBolt(x as double, y as double, z as double, effectOnly as bool = false) as IEntity;
+    
+    function summonLightningBolt(x as double, y as double, z as double, effectOnly as bool = false) as IEntity;
+    
+    function getEntitiesWithinAABB(aabb as IAxisAlignedBB) as IEntity[];
+    
+    function findNearestEntityWithinAABB(aabb as IAxisAlignedBB, closestTo as IEntity) as IEntity;
+    
+    function getEntitiesWithinAABBExcludingEntity(aabb as IAxisAlignedBB, entity as IEntity) as IEntity[];
+}

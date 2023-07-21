@@ -1,0 +1,5 @@
+
+zenClass IHasCancellationResult {
+    var cancellationResult as string;
+    
+}

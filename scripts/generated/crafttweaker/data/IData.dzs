@@ -1,0 +1,108 @@
+import crafttweaker.data.IData;
+
+zenClass IData {
+    val length as int;
+    val immutable as IData;
+    
+    #hidden
+    #operator ADD
+    function add(other as IData) as IData;
+    
+    #hidden
+    #operator EQUALS
+    function equals(data as IData) as bool;
+    
+    #hidden
+    #operator COMPARE
+    function compareTo(data as IData) as int;
+    
+    function update(data as IData) as IData;
+    
+    #hidden
+    #operator CONTAINS
+    function contains(data as IData) as bool;
+    
+    #caster
+    function asList() as [IData];
+    
+    #hidden
+    #operator AND
+    function and(other as IData) as IData;
+    
+    #hidden
+    #operator OR
+    function or(other as IData) as IData;
+    
+    #hidden
+    #operator XOR
+    function xor(other as IData) as IData;
+    
+    #hidden
+    #operator MOD
+    function mod(other as IData) as IData;
+    
+    #hidden
+    #operator NOT
+    function not() as IData;
+    
+    #hidden
+    #operator MUL
+    function mul(other as IData) as IData;
+    
+    #hidden
+    #operator SUB
+    function sub(other as IData) as IData;
+    
+    #caster
+    function asMap() as IData[string];
+    
+    #caster
+    function asString() as string;
+    
+    #caster
+    function asInt() as int;
+    
+    #caster
+    function asDouble() as double;
+    
+    #caster
+    function asLong() as long;
+    
+    #hidden
+    #operator DIV
+    function div(other as IData) as IData;
+    
+    #caster
+    function asByte() as byte;
+    
+    #caster
+    function asBool() as bool;
+    
+    #caster
+    function asFloat() as float;
+    
+    #caster
+    function asByteArray() as byte[];
+    
+    #hidden
+    #operator NEG
+    function neg() as IData;
+    
+    #caster
+    function asShort() as short;
+    
+    #caster
+    function asIntArray() as int[];
+    
+    #hidden
+    #operator INDEXGET
+    function getAt(i as int) as IData;
+    
+    #hidden
+    #operator INDEXSET
+    function setAt(i as int, value as IData) as void;
+    
+    function memberGet(name as string) as IData;
+    
+    function memberSet(name as string, data as IData) as void;
+}

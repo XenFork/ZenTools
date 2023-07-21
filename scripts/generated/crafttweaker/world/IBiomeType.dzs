@@ -1,0 +1,8 @@
+import crafttweaker.world.IBiome;
+
+zenClass IBiomeType {
+    val name as string;
+    val biomes as [IBiome];
+    
+    function getBiomes() as [IBiome];
+}

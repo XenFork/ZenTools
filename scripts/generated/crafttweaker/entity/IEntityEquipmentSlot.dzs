@@ -1,0 +1,23 @@
+import crafttweaker.entity.IEntityEquipmentSlot;
+
+zenClass IEntityEquipmentSlot {
+    val name as string;
+    val index as int;
+    val slotIndex as int;
+    
+    #hidden
+    #operator COMPARE
+    function compareTo(other as IEntityEquipmentSlot) as int;
+    
+    static function head() as IEntityEquipmentSlot;
+    
+    static function mainHand() as IEntityEquipmentSlot;
+    
+    static function offhand() as IEntityEquipmentSlot;
+    
+    static function feet() as IEntityEquipmentSlot;
+    
+    static function legs() as IEntityEquipmentSlot;
+    
+    static function chest() as IEntityEquipmentSlot;
+}

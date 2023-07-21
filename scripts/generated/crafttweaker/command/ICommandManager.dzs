@@ -1,0 +1,13 @@
+import crafttweaker.command.ICommand;
+import crafttweaker.command.ICommandSender;
+import crafttweaker.world.IBlockPos;
+
+zenClass ICommandManager {
+    val commands as ICommand[string];
+    
+    function getTabCompletions(sender as ICommandSender, input as string, pos as IBlockPos = null) as [string];
+    
+    function getPossibleCommands(sender as ICommandSender) as [ICommand];
+    
+    function executeCommand(sender as ICommandSender, rawCommand as string) as int;
+}

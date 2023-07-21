@@ -1,0 +1,8 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.event.MinecartEvent;
+
+#extends MinecartEvent
+zenClass MinecartCollisionEvent {
+    val collider as IEntity;
+    
+}

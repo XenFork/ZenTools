@@ -1,0 +1,10 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.world.IBlockPos;
+
+#extends IPlayerEvent IEventCancelable
+zenClass PlayerSetSpawnEvent {
+    val newSpawn as IBlockPos;
+    val isForced as bool;
+    
+}

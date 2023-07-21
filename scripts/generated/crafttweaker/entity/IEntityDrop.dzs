@@ -1,0 +1,10 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IEntityDrop {
+    val max as int;
+    val min as int;
+    val stack as IItemStack;
+    val playerOnly as bool;
+    val chance as float;
+    
+}

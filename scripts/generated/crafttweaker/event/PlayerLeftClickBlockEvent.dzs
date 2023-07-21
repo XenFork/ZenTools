@@ -1,0 +1,12 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IHasCancellationResult;
+import crafttweaker.event.PlayerInteractEvent;
+import crafttweaker.world.IVector3d;
+
+#extends PlayerInteractEvent IEventCancelable IHasCancellationResult
+zenClass PlayerLeftClickBlockEvent {
+    var useBlock as string;
+    var useItem as string;
+    val hitVector as IVector3d;
+    
+}

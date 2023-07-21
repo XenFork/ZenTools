@@ -1,0 +1,11 @@
+import crafttweaker.event.ILivingEvent;
+import crafttweaker.player.IPlayer;
+
+#extends ILivingEvent
+zenClass IPlayerEvent {
+    val player as IPlayer;
+    
+    #lambda
+    #hidden
+    function getPlayer() as IPlayer;
+}

@@ -1,0 +1,10 @@
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.world.IFacing;
+
+#extends IBlockEvent IEventCancelable
+zenClass BlockNeighborNotifyEvent {
+    val notifiedSides as IFacing[];
+    val forceRedstoneUpdate as bool;
+    
+}

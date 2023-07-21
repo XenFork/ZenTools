@@ -1,0 +1,14 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+
+#extends IItemStack
+zenClass IMutableItemStack {
+    
+    function copy() as IItemStack;
+    
+    function grow(quality as int) as void;
+    
+    function shrink(quality as int) as void;
+    
+    function attemptDamageItem(amount as int, player as IPlayer = null) as bool;
+}

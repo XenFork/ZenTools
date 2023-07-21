@@ -1,0 +1,6 @@
+import crafttweaker.event.EntityLivingUseItemEvent.All;
+
+#extends All
+zenClass Tick {
+    
+}

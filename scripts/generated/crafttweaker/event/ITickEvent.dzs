@@ -1,0 +1,6 @@
+
+zenClass ITickEvent {
+    val phase as string;
+    val side as string;
+    
+}

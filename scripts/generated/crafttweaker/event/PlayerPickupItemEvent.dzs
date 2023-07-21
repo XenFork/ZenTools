@@ -1,0 +1,10 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IEventHasResult;
+import crafttweaker.event.IPlayerEvent;
+
+#extends IPlayerEvent IEventHasResult IEventCancelable
+zenClass PlayerPickupItemEvent {
+    val item as IEntityItem;
+    
+}

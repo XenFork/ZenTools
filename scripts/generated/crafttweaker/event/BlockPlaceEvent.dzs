@@ -1,0 +1,13 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.player.IPlayer;
+
+#extends IBlockEvent IEventCancelable
+zenClass BlockPlaceEvent {
+    val hand as string;
+    val current as IBlockState;
+    val placedAgainst as IBlockState;
+    val player as IPlayer;
+    
+}

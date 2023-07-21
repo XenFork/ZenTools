@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntity;
+
+zenClass IEntityEvent {
+    val entity as IEntity;
+    
+    #lambda
+    #hidden
+    function getEntity() as IEntity;
+}

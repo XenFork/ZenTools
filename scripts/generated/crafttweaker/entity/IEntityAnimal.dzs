@@ -1,0 +1,18 @@
+import crafttweaker.entity.IEntityAgeable;
+import crafttweaker.entity.IEntityAnimal;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+
+#extends IEntityAgeable
+zenClass IEntityAnimal {
+    val loveCause as IPlayer;
+    val isInLove as bool;
+    
+    function isBreedingItem(itemStack as IItemStack) as bool;
+    
+    function setInLove(player as IPlayer = null) as void;
+    
+    function resetInLove() as void;
+    
+    function canMateWith(other as IEntityAnimal) as bool;
+}

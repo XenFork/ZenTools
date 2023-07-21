@@ -1,0 +1,10 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.IEventCancelable;
+
+#extends IBlockEvent IEventCancelable
+zenClass BlockFarmlandTrampleEvent {
+    val entity as IEntity;
+    val fallDistance as float;
+    
+}

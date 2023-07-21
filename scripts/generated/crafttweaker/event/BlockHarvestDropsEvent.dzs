@@ -1,0 +1,15 @@
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.item.WeightedItemStack;
+import crafttweaker.player.IPlayer;
+
+#extends IBlockEvent
+zenClass BlockHarvestDropsEvent {
+    var drops as [WeightedItemStack];
+    var dropChance as float;
+    val fortuneLevel as int;
+    val player as IPlayer;
+    val isPlayer as bool;
+    val silkTouch as bool;
+    
+    function addItem(itemStack as WeightedItemStack) as void;
+}

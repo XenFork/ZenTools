@@ -1,0 +1,11 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.event.IEntityEvent;
+
+#extends IEntityEvent
+zenClass ILivingEvent {
+    val entityLivingBase as IEntityLivingBase;
+    
+    #lambda
+    #hidden
+    function getEntityLivingBase() as IEntityLivingBase;
+}

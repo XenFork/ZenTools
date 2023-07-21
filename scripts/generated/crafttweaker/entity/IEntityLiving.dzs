@@ -1,0 +1,35 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.player.IPlayer;
+
+#extends IEntityLivingBase
+zenClass IEntityLiving {
+    var attackTarget as IEntityLivingBase;
+    val talkInterval as int;
+    val canSpawnHere as bool;
+    val isColliding as bool;
+    val canBeSteered as bool;
+    var canPickUpLoot as bool;
+    val isLeashed as bool;
+    var isAIDisabled as bool;
+    var isLeftHanded as bool;
+    val renderSizeModifier as float;
+    val maxSpawnedInChunk as int;
+    val isNoDespawnRequired as bool;
+    val leashedToEntity as IEntity;
+    
+    function playLivingSound() as void;
+    
+    function clearLeashed(sendPacket as bool, dropLead as bool) as void;
+    
+    function canBeLeashedTo(player as IPlayer) as bool;
+    
+    function spawnExplosionParticle() as void;
+    
+    function enablePersistence() as void;
+    
+    function setLeashedToEntity(entity as IEntity, sendAttachNotification as bool) as void;
+    
+    function setDropChance(slot as IEntityEquipmentSlot, chance as float) as void;
+}

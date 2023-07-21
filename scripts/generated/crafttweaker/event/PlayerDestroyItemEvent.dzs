@@ -1,0 +1,9 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+#extends IPlayerEvent
+zenClass PlayerDestroyItemEvent {
+    val hand as string;
+    val originalItem as IItemStack;
+    
+}

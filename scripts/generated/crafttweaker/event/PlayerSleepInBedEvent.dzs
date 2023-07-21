@@ -1,0 +1,8 @@
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.event.IPlayerEvent;
+
+#extends IPlayerEvent IEventPositionable
+zenClass PlayerSleepInBedEvent {
+    var result as string;
+    
+}

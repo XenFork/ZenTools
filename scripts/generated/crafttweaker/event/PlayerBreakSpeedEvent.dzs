@@ -1,0 +1,14 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.event.IPlayerEvent;
+
+#extends IPlayerEvent IEventPositionable IEventCancelable
+zenClass PlayerBreakSpeedEvent {
+    val block as IBlock;
+    var newSpeed as float;
+    val originalSpeed as float;
+    val blockState as IBlockState;
+    
+}

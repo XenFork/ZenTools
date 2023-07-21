@@ -1,0 +1,8 @@
+import crafttweaker.data.IData;
+
+zenClass byte {
+    
+    #caster
+    #hidden
+    function asData() as IData;
+}

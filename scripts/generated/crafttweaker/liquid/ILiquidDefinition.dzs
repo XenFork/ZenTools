@@ -1,0 +1,17 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass ILiquidDefinition {
+    val name as string;
+    val displayName as string;
+    val block as IBlock;
+    var luminosity as void;
+    var density as void;
+    var viscosity as void;
+    var temperature as void;
+    var gaseous as bool;
+    
+    #hidden
+    #operator MUL
+    function asStack(millibuckets as int) as ILiquidStack;
+}

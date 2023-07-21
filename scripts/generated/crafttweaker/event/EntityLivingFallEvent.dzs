@@ -1,0 +1,9 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+
+#extends ILivingEvent IEventCancelable
+zenClass EntityLivingFallEvent {
+    var damageMultiplier as float;
+    var distance as void;
+    
+}

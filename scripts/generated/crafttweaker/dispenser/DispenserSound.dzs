@@ -1,0 +1,10 @@
+import crafttweaker.dispenser.DispenserSound;
+
+zenClass DispenserSound {
+    
+    static function fail() as DispenserSound;
+    
+    static function launch() as DispenserSound;
+    
+    static function dispense() as DispenserSound;
+}

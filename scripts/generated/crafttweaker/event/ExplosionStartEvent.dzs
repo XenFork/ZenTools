@@ -1,0 +1,7 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IExplosionEvent;
+
+#extends IEventCancelable IExplosionEvent
+zenClass ExplosionStartEvent {
+    
+}

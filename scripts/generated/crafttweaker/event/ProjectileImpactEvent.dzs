@@ -1,0 +1,8 @@
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.world.IRayTraceResult;
+
+#extends IEntityEvent
+zenClass ProjectileImpactEvent {
+    val rayTrace as IRayTraceResult;
+    
+}

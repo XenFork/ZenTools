@@ -1,0 +1,6 @@
+import crafttweaker.event.PotionBrewEvent;
+
+#extends PotionBrewEvent
+zenClass PotionBrewPostEvent {
+    
+}

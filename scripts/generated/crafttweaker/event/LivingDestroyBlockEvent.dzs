@@ -1,0 +1,10 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.event.ILivingEvent;
+
+#extends ILivingEvent IEventPositionable IEventCancelable
+zenClass LivingDestroyBlockEvent {
+    val state as IBlockState;
+    
+}

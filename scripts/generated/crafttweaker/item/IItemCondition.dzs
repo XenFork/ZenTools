@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IItemCondition {
+    
+    #lambda
+    #hidden
+    function matches(stack as IItemStack) as bool;
+}

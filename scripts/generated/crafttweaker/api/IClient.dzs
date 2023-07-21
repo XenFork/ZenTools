@@ -1,0 +1,7 @@
+import crafttweaker.player.IPlayer;
+
+zenClass IClient {
+    val language as string;
+    val player as IPlayer;
+    
+}

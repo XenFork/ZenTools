@@ -1,0 +1,11 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+import crafttweaker.player.IPlayer;
+
+#extends ILivingEvent IEventCancelable
+zenClass LivingExperienceDropEvent {
+    val player as IPlayer;
+    var droppedExperience as int;
+    val originalExperience as int;
+    
+}
