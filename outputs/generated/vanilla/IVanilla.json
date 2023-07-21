@@ -1,5 +1,12 @@
 {
     "imports": [
-        "vanilla.ISeedRegistry;"
+        "vanilla.ISeedRegistry"
+    ],
+    "fields": [
+        {
+            "name": "seeds",
+            "type": "ISeedRegistry",
+            "import": "vanilla.ISeedRegistry"
+        }
     ]
 }

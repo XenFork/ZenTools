@@ -1,2 +1,91 @@
 {
+    "imports": [
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.recipes.IFurnaceRecipe"
+    ],
+    "methods": [
+        {
+            "name": "remove",
+            "type": " void",
+            "args": [
+                {
+                    "name": "output",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "input",
+                    "type": "IIngredient = null"
+                }
+            ]
+        },
+        {
+            "name": "removeAll",
+            "type": " void"
+        },
+        {
+            "name": "getSmeltingResult",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "addRecipe",
+            "type": " void",
+            "args": [
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "input",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "xp",
+                    "type": "double = 0.0"
+                }
+            ]
+        },
+        {
+            "name": "setFuel",
+            "type": " void",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "fuel",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getFuel",
+            "type": " int",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "all",
+            "type": "[IFurnaceRecipe]"
+        }
+    ]
 }

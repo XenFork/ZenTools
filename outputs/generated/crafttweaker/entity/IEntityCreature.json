@@ -1,2 +1,61 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityLiving",
+        "crafttweaker.world.IBlockPos"
+    ],
+    "methods": [
+        {
+            "name": "isPositionWithinHomeDistance",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "setHomePositionAndDistance",
+            "type": " void",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "distance",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "detachHome",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "isWithinHomeDistance",
+            "type": "bool"
+        },
+        {
+            "name": "maximumHomeDistance",
+            "type": "float"
+        },
+        {
+            "name": "hasPath",
+            "type": "bool"
+        },
+        {
+            "name": "homePosition",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "hasHome",
+            "type": "bool"
+        }
+    ]
 }

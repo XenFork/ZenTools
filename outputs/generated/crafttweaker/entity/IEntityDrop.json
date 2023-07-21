@@ -1,2 +1,28 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "max",
+            "type": "int"
+        },
+        {
+            "name": "min",
+            "type": "int"
+        },
+        {
+            "name": "stack",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "playerOnly",
+            "type": "bool"
+        },
+        {
+            "name": "chance",
+            "type": "float"
+        }
+    ]
 }

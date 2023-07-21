@@ -1,2 +1,152 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IProjectile"
+    ],
+    "methods": [
+        {
+            "name": "shoot",
+            "type": " void",
+            "args": [
+                {
+                    "name": "shooter",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                },
+                {
+                    "name": "pitch",
+                    "type": "float"
+                },
+                {
+                    "name": "yaw",
+                    "type": "float"
+                },
+                {
+                    "name": "roll",
+                    "type": "float"
+                },
+                {
+                    "name": "velocity",
+                    "type": "float"
+                },
+                {
+                    "name": "inaccuracy",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "arrowShake",
+            "type": " int"
+        },
+        {
+            "name": "setShooter",
+            "type": " void",
+            "args": [
+                {
+                    "name": "shooter",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "setPickupStatus",
+            "type": " void",
+            "args": [
+                {
+                    "name": "pickupStatus",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "setKnockbackStrength",
+            "type": " void",
+            "args": [
+                {
+                    "name": "knockbackStrength",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "setPickupDisallowed",
+            "type": " void"
+        },
+        {
+            "name": "setPickupCreativeOnly",
+            "type": " void"
+        },
+        {
+            "name": "getDamage",
+            "type": " double"
+        },
+        {
+            "name": "setDamage",
+            "type": " void",
+            "args": [
+                {
+                    "name": "damage",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "getShooter",
+            "type": " IEntity"
+        },
+        {
+            "name": "getIsCritical",
+            "type": " bool"
+        },
+        {
+            "name": "setIsCritical",
+            "type": " void",
+            "args": [
+                {
+                    "name": "critical",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "getPickupStatus",
+            "type": " string"
+        },
+        {
+            "name": "setPickupAllowed",
+            "type": " void"
+        },
+        {
+            "name": "getKnockbackStrength",
+            "type": " int"
+        }
+    ],
+    "fields": [
+        {
+            "name": "shake",
+            "type": "int"
+        },
+        {
+            "name": "shooter",
+            "type": "void"
+        },
+        {
+            "name": "pickupStatus",
+            "type": "void"
+        },
+        {
+            "name": "knockbackStrength",
+            "type": "void"
+        },
+        {
+            "name": "damage",
+            "type": "double"
+        },
+        {
+            "name": "isCritical",
+            "type": "bool"
+        }
+    ]
 }

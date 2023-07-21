@@ -1,2 +1,19 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityEquipmentSlot"
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "index",
+            "type": "int"
+        },
+        {
+            "name": "slotIndex",
+            "type": "int"
+        }
+    ]
 }

@@ -1,2 +1,8 @@
 {
+    "methods": [
+        {
+            "name": "close",
+            "type": " void"
+        }
+    ]
 }

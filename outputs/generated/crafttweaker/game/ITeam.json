@@ -1,2 +1,40 @@
 {
+    "methods": [
+        {
+            "name": "formatString",
+            "type": " string",
+            "args": [
+                {
+                    "name": "input",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "allowFriendlyFire",
+            "type": "bool"
+        },
+        {
+            "name": "membershipCollection",
+            "type": "[string]"
+        },
+        {
+            "name": "deathMessageVisibility",
+            "type": "string"
+        },
+        {
+            "name": "colorPrefix",
+            "type": "string"
+        },
+        {
+            "name": "collisionRule",
+            "type": "string"
+        }
+    ]
 }

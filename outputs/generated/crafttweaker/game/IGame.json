@@ -1,2 +1,120 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockDefinition",
+        "crafttweaker.enchantments.IEnchantmentDefinition",
+        "crafttweaker.entity.IEntityDefinition",
+        "crafttweaker.item.IItemDefinition",
+        "crafttweaker.liquid.ILiquidDefinition",
+        "crafttweaker.liquid.ILiquidStack",
+        "crafttweaker.potions.IPotion",
+        "crafttweaker.world.IBiome"
+    ],
+    "methods": [
+        {
+            "name": "getEntity",
+            "type": " IEntityDefinition",
+            "args": [
+                {
+                    "name": "entityName",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "getLiquid",
+            "type": " ILiquidStack",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "setLocalization",
+            "type": " void",
+            "args": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "setLocalization",
+            "type": " void",
+            "args": [
+                {
+                    "name": "lang",
+                    "type": "string"
+                },
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "localize",
+            "type": " string",
+            "args": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "lang",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "localize",
+            "type": " string",
+            "args": [
+                {
+                    "name": "key",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "entities",
+            "type": "[IEntityDefinition]"
+        },
+        {
+            "name": "items",
+            "type": "[IItemDefinition]"
+        },
+        {
+            "name": "blocks",
+            "type": "[IBlockDefinition]"
+        },
+        {
+            "name": "liquids",
+            "type": "[ILiquidDefinition]"
+        },
+        {
+            "name": "biomes",
+            "type": "[IBiome]"
+        },
+        {
+            "name": "potions",
+            "type": "[IPotion]"
+        },
+        {
+            "name": "enchantments",
+            "type": "[IEnchantmentDefinition]"
+        }
+    ]
 }

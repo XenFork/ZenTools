@@ -1,2 +1,326 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.creativetabs.ICreativeTab",
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.world.IBlockAccess",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IExplosion",
+        "crafttweaker.world.IFacing",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "getSlipperiness",
+            "type": " float",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                },
+                {
+                    "name": "access",
+                    "type": "IBlockAccess",
+                    "inTheClass": "crafttweaker.world.IBlockAccess"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "entity",
+                    "type": "IEntity = null"
+                }
+            ]
+        },
+        {
+            "name": "getLightOpacity",
+            "type": " float",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                },
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getLightOpacity",
+            "type": " float"
+        },
+        {
+            "name": "getLightOpacity",
+            "type": " float",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "setHarvestLevel",
+            "type": " void",
+            "args": [
+                {
+                    "name": "toolClass",
+                    "type": "string"
+                },
+                {
+                    "name": "level",
+                    "type": "int"
+                },
+                {
+                    "name": "state",
+                    "type": "IBlockState = null"
+                }
+            ]
+        },
+        {
+            "name": "getHarvestTool",
+            "type": " string",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "getHarvestTool",
+            "type": " string"
+        },
+        {
+            "name": "getHarvestLevel",
+            "type": " int"
+        },
+        {
+            "name": "getHarvestLevel",
+            "type": " int",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "isToolEffective",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "canPlaceBlockOnSide",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "facing",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        },
+        {
+            "name": "getLightLevel",
+            "type": " float",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                },
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getLightLevel",
+            "type": " float"
+        },
+        {
+            "name": "getLightLevel",
+            "type": " float",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "getResistance",
+            "type": " float",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                },
+                {
+                    "name": "explosion",
+                    "type": "IExplosion",
+                    "inTheClass": "crafttweaker.world.IExplosion"
+                }
+            ]
+        },
+        {
+            "name": "getResistance",
+            "type": " float"
+        },
+        {
+            "name": "setUnbreakable",
+            "type": " void"
+        },
+        {
+            "name": "tickRate",
+            "type": " int",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                }
+            ]
+        },
+        {
+            "name": "canPlaceBlockAt",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getStateFromMeta",
+            "type": " IBlockState",
+            "args": [
+                {
+                    "name": "meta",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "displayName",
+            "type": "string"
+        },
+        {
+            "name": "lightOpacity",
+            "type": "float"
+        },
+        {
+            "name": "unlocalizedName",
+            "type": "string"
+        },
+        {
+            "name": "defaultSlipperiness",
+            "type": "void"
+        },
+        {
+            "name": "harvestTool",
+            "type": "string"
+        },
+        {
+            "name": "harvestLevel",
+            "type": "int"
+        },
+        {
+            "name": "creativeTab",
+            "type": "ICreativeTab",
+            "import": "crafttweaker.creativetabs.ICreativeTab"
+        },
+        {
+            "name": "lightLevel",
+            "type": "void"
+        },
+        {
+            "name": "resistance",
+            "type": "void"
+        },
+        {
+            "name": "hardness",
+            "type": "void"
+        },
+        {
+            "name": "tickRandomly",
+            "type": "bool"
+        },
+        {
+            "name": "canSpawnInBlock",
+            "type": "bool"
+        },
+        {
+            "name": "defaultState",
+            "type": "IBlockState",
+            "import": "crafttweaker.block.IBlockState"
+        }
+    ]
 }

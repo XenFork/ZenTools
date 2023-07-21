@@ -1,2 +1,66 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.player.IPlayer",
+        "crafttweaker.util.Position3f",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IVector3d",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "onExplosionStart",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                }
+            ]
+        },
+        {
+            "name": "clearAffectedBlockPositions",
+            "type": " void"
+        },
+        {
+            "name": "doExplosionA",
+            "type": " void"
+        },
+        {
+            "name": "doExplosionB",
+            "type": " void",
+            "args": [
+                {
+                    "name": "spawnParticles",
+                    "type": "bool"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "position",
+            "type": "Position3f",
+            "import": "crafttweaker.util.Position3f"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "placedBy",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        },
+        {
+            "name": "affectedBlockPositions",
+            "type": "[IBlockPos]"
+        },
+        {
+            "name": "playerKnockbackMap",
+            "type": "IVector3d[IPlayer]"
+        }
+    ]
 }

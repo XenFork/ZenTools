@@ -1,2 +1,31 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "toCommandString",
+            "type": " string"
+        }
+    ],
+    "fields": [
+        {
+            "name": "input",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "commandString",
+            "type": "string"
+        },
+        {
+            "name": "output",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "xp",
+            "type": "float"
+        }
+    ]
 }

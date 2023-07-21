@@ -1,2 +1,17 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "methods": [
+        {
+            "name": "getId",
+            "type": " string"
+        }
+    ],
+    "fields": [
+        {
+            "name": "id",
+            "type": "string"
+        }
+    ]
 }

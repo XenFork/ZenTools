@@ -1,2 +1,86 @@
 {
+    "imports": [
+        "crafttweaker.data.IData",
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.WeightedLiquidStack",
+        "crafttweaker.liquid.ILiquidDefinition",
+        "crafttweaker.liquid.ILiquidStack"
+    ],
+    "methods": [
+        {
+            "name": "weight",
+            "type": " WeightedLiquidStack",
+            "args": [
+                {
+                    "name": "p",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "withAmount",
+            "type": " ILiquidStack",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "withTag",
+            "type": " ILiquidStack",
+            "args": [
+                {
+                    "name": "data",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "definition",
+            "type": "ILiquidDefinition",
+            "import": "crafttweaker.liquid.ILiquidDefinition"
+        },
+        {
+            "name": "displayName",
+            "type": "string"
+        },
+        {
+            "name": "tag",
+            "type": "IData",
+            "import": "crafttweaker.data.IData"
+        },
+        {
+            "name": "amount",
+            "type": "int"
+        },
+        {
+            "name": "gaseous",
+            "type": "bool"
+        },
+        {
+            "name": "density",
+            "type": "int"
+        },
+        {
+            "name": "luminosity",
+            "type": "int"
+        },
+        {
+            "name": "temperature",
+            "type": "int"
+        },
+        {
+            "name": "viscosity",
+            "type": "int"
+        }
+    ]
 }

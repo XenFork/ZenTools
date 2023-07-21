@@ -1,2 +1,871 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockDefinition",
+        "crafttweaker.block.IMaterial",
+        "crafttweaker.command.ICommandSender",
+        "crafttweaker.damage.IDamageSource",
+        "crafttweaker.data.IData",
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityDefinition",
+        "crafttweaker.entity.IEntityItem",
+        "crafttweaker.game.ITeam",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.util.IAxisAlignedBB",
+        "crafttweaker.util.Position3f",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IFacing",
+        "crafttweaker.world.IRayTraceResult",
+        "crafttweaker.world.IVector3d",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "doWaterSplashEffect",
+            "type": " void"
+        },
+        {
+            "name": "getLastPortalDirection",
+            "type": " IFacing"
+        },
+        {
+            "name": "setLastPortalDirection",
+            "type": " void",
+            "args": [
+                {
+                    "name": "teleportDirection",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        },
+        {
+            "name": "getHorizontalFacing",
+            "type": " IFacing"
+        },
+        {
+            "name": "setBoundingBox",
+            "type": " void",
+            "args": [
+                {
+                    "name": "aabb",
+                    "type": "IAxisAlignedBB",
+                    "inTheClass": "crafttweaker.util.IAxisAlignedBB"
+                }
+            ]
+        },
+        {
+            "name": "getStepHeight",
+            "type": " float"
+        },
+        {
+            "name": "setStepHeight",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stepHeight",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "setTeam",
+            "type": " void",
+            "args": [
+                {
+                    "name": "team",
+                    "type": "ITeam",
+                    "inTheClass": "crafttweaker.game.ITeam"
+                }
+            ]
+        },
+        {
+            "name": "removeFromWorld",
+            "type": " void"
+        },
+        {
+            "name": "getUpdateBlocked",
+            "type": " bool"
+        },
+        {
+            "name": "setUpdateBlocked",
+            "type": " void",
+            "args": [
+                {
+                    "name": "updateBlocked",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "getInPortal",
+            "type": " bool"
+        },
+        {
+            "name": "setInPortal",
+            "type": " void",
+            "args": [
+                {
+                    "name": "inPortal",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "getPortalCounter",
+            "type": " int"
+        },
+        {
+            "name": "setPortalCounter",
+            "type": " void",
+            "args": [
+                {
+                    "name": "portalCounter",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getLastPortalVec",
+            "type": " IVector3d"
+        },
+        {
+            "name": "setLastPortalVec",
+            "type": " void",
+            "args": [
+                {
+                    "name": "lastPortalVec",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                }
+            ]
+        },
+        {
+            "name": "getLastPortalPos",
+            "type": " IBlockPos"
+        },
+        {
+            "name": "setLastPortalPos",
+            "type": " void",
+            "args": [
+                {
+                    "name": "lastPortalPos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getBoundingBox",
+            "type": " IAxisAlignedBB"
+        },
+        {
+            "name": "getUUID",
+            "type": " string"
+        },
+        {
+            "name": "update",
+            "type": " void",
+            "args": [
+                {
+                    "name": "data",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                }
+            ]
+        },
+        {
+            "name": "isAlive",
+            "type": " bool"
+        },
+        {
+            "name": "getDimension",
+            "type": " int"
+        },
+        {
+            "name": "getPickedResult",
+            "type": " IItemStack"
+        },
+        {
+            "name": "canTrample",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "block",
+                    "type": "IBlockDefinition",
+                    "inTheClass": "crafttweaker.block.IBlockDefinition"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "fall",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "getX",
+            "type": " double"
+        },
+        {
+            "name": "getY",
+            "type": " double"
+        },
+        {
+            "name": "getDistanceSqToEntity",
+            "type": " double",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "spawnRunningParticles",
+            "type": " void"
+        },
+        {
+            "name": "dismountRidingEntity",
+            "type": " void"
+        },
+        {
+            "name": "setToLocationFrom",
+            "type": " void",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "shouldRiderDismountInWater",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "rider",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "setDimension",
+            "type": " void",
+            "args": [
+                {
+                    "name": "dimensionID",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "isInsideOfMaterial",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "material",
+                    "type": "IMaterial",
+                    "inTheClass": "crafttweaker.block.IMaterial"
+                }
+            ]
+        },
+        {
+            "name": "getZ",
+            "type": " double"
+        },
+        {
+            "name": "setPosition",
+            "type": " void",
+            "args": [
+                {
+                    "name": "position",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "removeTag",
+            "type": " void",
+            "args": [
+                {
+                    "name": "tag",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "isRidingSameEntity",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "dropItem",
+            "type": " IEntityItem",
+            "args": [
+                {
+                    "name": "itemStack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "offset",
+                    "type": "float = 0.0"
+                }
+            ]
+        },
+        {
+            "name": "getPosition3f",
+            "type": " Position3f"
+        },
+        {
+            "name": "setPosition3f",
+            "type": " void",
+            "args": [
+                {
+                    "name": "position3f",
+                    "type": "Position3f",
+                    "inTheClass": "crafttweaker.util.Position3f"
+                }
+            ]
+        },
+        {
+            "name": "setDead",
+            "type": " void"
+        },
+        {
+            "name": "setFire",
+            "type": " void",
+            "args": [
+                {
+                    "name": "seconds",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "extinguish",
+            "type": " void"
+        },
+        {
+            "name": "isWet",
+            "type": " bool"
+        },
+        {
+            "name": "getPassengers",
+            "type": " [IEntity]"
+        },
+        {
+            "name": "getRidingEntity",
+            "type": " IEntity"
+        },
+        {
+            "name": "getCustomName",
+            "type": " string"
+        },
+        {
+            "name": "setCustomName",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "isImmuneToFire",
+            "type": " bool"
+        },
+        {
+            "name": "getAir",
+            "type": " int"
+        },
+        {
+            "name": "setAir",
+            "type": " void",
+            "args": [
+                {
+                    "name": "seconds",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "onEntityUpdate",
+            "type": " void"
+        },
+        {
+            "name": "onUpdate",
+            "type": " void"
+        },
+        {
+            "name": "addTag",
+            "type": " void",
+            "args": [
+                {
+                    "name": "tag",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "onKillCommand",
+            "type": " void"
+        },
+        {
+            "name": "attackEntityFrom",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "source",
+                    "type": "IDamageSource",
+                    "inTheClass": "crafttweaker.damage.IDamageSource"
+                },
+                {
+                    "name": "amount",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "getNBT",
+            "type": " IData"
+        },
+        {
+            "name": "removePassengers",
+            "type": " void"
+        },
+        {
+            "name": "isOnSameTeam",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "setInWeb",
+            "type": " void"
+        },
+        {
+            "name": "parts",
+            "type": " IEntity[]"
+        },
+        {
+            "name": "isEntityEqual",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "isInvulnerableTo",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "source",
+                    "type": "IDamageSource",
+                    "inTheClass": "crafttweaker.damage.IDamageSource"
+                }
+            ]
+        },
+        {
+            "name": "isPassenger",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "getRayTrace",
+            "type": " IRayTraceResult",
+            "args": [
+                {
+                    "name": "blockReachDistance",
+                    "type": "double"
+                },
+                {
+                    "name": "partialTicks",
+                    "type": "float"
+                },
+                {
+                    "name": "stopOnLiquid",
+                    "type": "bool = false"
+                },
+                {
+                    "name": "ignoreBlockWithoutBoundingBox",
+                    "type": "bool = false"
+                },
+                {
+                    "name": "returnLastUncollidableBlock",
+                    "type": "bool = true"
+                }
+            ]
+        },
+        {
+            "name": "setNBT",
+            "type": " void",
+            "args": [
+                {
+                    "name": "data",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                }
+            ]
+        },
+        {
+            "name": "onGround",
+            "type": " bool"
+        }
+    ],
+    "fields": [
+        {
+            "name": "lastPortalDirection",
+            "type": "IFacing",
+            "import": "crafttweaker.world.IFacing"
+        },
+        {
+            "name": "horizontalFacing",
+            "type": "IFacing",
+            "import": "crafttweaker.world.IFacing"
+        },
+        {
+            "name": "boundingBox",
+            "type": "void"
+        },
+        {
+            "name": "stepHeight",
+            "type": "float"
+        },
+        {
+            "name": "team",
+            "type": "void"
+        },
+        {
+            "name": "updateBlocked",
+            "type": "bool"
+        },
+        {
+            "name": "inPortal",
+            "type": "bool"
+        },
+        {
+            "name": "portalCounter",
+            "type": "int"
+        },
+        {
+            "name": "lastPortalVec",
+            "type": "IVector3d",
+            "import": "crafttweaker.world.IVector3d"
+        },
+        {
+            "name": "lastPortalPos",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "uuid",
+            "type": "string"
+        },
+        {
+            "name": "alive",
+            "type": "bool"
+        },
+        {
+            "name": "definition",
+            "type": "IEntityDefinition",
+            "import": "crafttweaker.entity.IEntityDefinition"
+        },
+        {
+            "name": "id",
+            "type": "int"
+        },
+        {
+            "name": "dimension",
+            "type": "int"
+        },
+        {
+            "name": "isInvulnerable",
+            "type": "bool"
+        },
+        {
+            "name": "shouldRiderSit",
+            "type": "bool"
+        },
+        {
+            "name": "canRiderInteract",
+            "type": "bool"
+        },
+        {
+            "name": "x",
+            "type": "double"
+        },
+        {
+            "name": "y",
+            "type": "double"
+        },
+        {
+            "name": "canBePushed",
+            "type": "bool"
+        },
+        {
+            "name": "isBurning",
+            "type": "bool"
+        },
+        {
+            "name": "isSilent",
+            "type": "bool"
+        },
+        {
+            "name": "world",
+            "type": "void"
+        },
+        {
+            "name": "maxInPortalTime",
+            "type": "int"
+        },
+        {
+            "name": "portalCooldown",
+            "type": "int"
+        },
+        {
+            "name": "canBeCollidedWith",
+            "type": "bool"
+        },
+        {
+            "name": "isInsideOpaqueBlock",
+            "type": "bool"
+        },
+        {
+            "name": "armorInventory",
+            "type": "[IItemStack]"
+        },
+        {
+            "name": "equipmentAndArmor",
+            "type": "[IItemStack]"
+        },
+        {
+            "name": "canBeAttackedWithItem",
+            "type": "bool"
+        },
+        {
+            "name": "doesTriggerPressurePlate",
+            "type": "bool"
+        },
+        {
+            "name": "alwaysRenderNameTag",
+            "type": "void"
+        },
+        {
+            "name": "isImmuneToExplosions",
+            "type": "bool"
+        },
+        {
+            "name": "controllingPassenger",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "z",
+            "type": "double"
+        },
+        {
+            "name": "position",
+            "type": "void"
+        },
+        {
+            "name": "passengersRecursive",
+            "type": "[IEntity]"
+        },
+        {
+            "name": "lowestRidingEntity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "canPassengerSteer",
+            "type": "bool"
+        },
+        {
+            "name": "lookingDirection",
+            "type": "IVector3d",
+            "import": "crafttweaker.world.IVector3d"
+        },
+        {
+            "name": "position3f",
+            "type": "Position3f",
+            "import": "crafttweaker.util.Position3f"
+        },
+        {
+            "name": "posX",
+            "type": "void"
+        },
+        {
+            "name": "posY",
+            "type": "void"
+        },
+        {
+            "name": "posZ",
+            "type": "void"
+        },
+        {
+            "name": "fire",
+            "type": "void"
+        },
+        {
+            "name": "wet",
+            "type": "bool"
+        },
+        {
+            "name": "passengers",
+            "type": "[IEntity]"
+        },
+        {
+            "name": "ridingEntity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "customName",
+            "type": "string"
+        },
+        {
+            "name": "immuneToFire",
+            "type": "bool"
+        },
+        {
+            "name": "air",
+            "type": "int"
+        },
+        {
+            "name": "isSprinting",
+            "type": "bool"
+        },
+        {
+            "name": "isGlowing",
+            "type": "bool"
+        },
+        {
+            "name": "tags",
+            "type": "[string]"
+        },
+        {
+            "name": "hasNoGravity",
+            "type": "bool"
+        },
+        {
+            "name": "isInWater",
+            "type": "bool"
+        },
+        {
+            "name": "isOverWater",
+            "type": "bool"
+        },
+        {
+            "name": "isInLava",
+            "type": "bool"
+        },
+        {
+            "name": "nbt",
+            "type": "IData",
+            "import": "crafttweaker.data.IData"
+        },
+        {
+            "name": "heldEquipment",
+            "type": "[IItemStack]"
+        },
+        {
+            "name": "isRiding",
+            "type": "bool"
+        },
+        {
+            "name": "isBeingRidden",
+            "type": "bool"
+        },
+        {
+            "name": "isSneaking",
+            "type": "bool"
+        },
+        {
+            "name": "isInvisible",
+            "type": "bool"
+        },
+        {
+            "name": "isBoss",
+            "type": "bool"
+        },
+        {
+            "name": "maxFallHeight",
+            "type": "int"
+        },
+        {
+            "name": "isPushedByWater",
+            "type": "bool"
+        },
+        {
+            "name": "hasCustomName",
+            "type": "bool"
+        },
+        {
+            "name": "eyeHeight",
+            "type": "float"
+        },
+        {
+            "name": "isOutsideBorder",
+            "type": "bool"
+        },
+        {
+            "name": "rotationYaw",
+            "type": "float"
+        },
+        {
+            "name": "rotationPitch",
+            "type": "float"
+        },
+        {
+            "name": "motionX",
+            "type": "double"
+        },
+        {
+            "name": "motionY",
+            "type": "double"
+        },
+        {
+            "name": "motionZ",
+            "type": "double"
+        },
+        {
+            "name": "onGround",
+            "type": "bool"
+        }
+    ]
 }

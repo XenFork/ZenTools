@@ -1,2 +1,29 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlock",
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IEventPositionable",
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "fields": [
+        {
+            "name": "block",
+            "type": "IBlock",
+            "import": "crafttweaker.block.IBlock"
+        },
+        {
+            "name": "newSpeed",
+            "type": "float"
+        },
+        {
+            "name": "originalSpeed",
+            "type": "float"
+        },
+        {
+            "name": "blockState",
+            "type": "IBlockState",
+            "import": "crafttweaker.block.IBlockState"
+        }
+    ]
 }

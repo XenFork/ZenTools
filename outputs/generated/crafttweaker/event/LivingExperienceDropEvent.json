@@ -1,2 +1,22 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ILivingEvent",
+        "crafttweaker.player.IPlayer"
+    ],
+    "fields": [
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        },
+        {
+            "name": "droppedExperience",
+            "type": "int"
+        },
+        {
+            "name": "originalExperience",
+            "type": "int"
+        }
+    ]
 }

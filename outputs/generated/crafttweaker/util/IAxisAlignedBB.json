@@ -1,2 +1,158 @@
 {
+    "imports": [
+        "crafttweaker.util.IAxisAlignedBB",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IVector3d"
+    ],
+    "methods": [
+        {
+            "name": "contains",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "vec",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                }
+            ]
+        },
+        {
+            "name": "expand",
+            "type": " IAxisAlignedBB",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "double"
+                },
+                {
+                    "name": "y",
+                    "type": "double"
+                },
+                {
+                    "name": "z",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "grow",
+            "type": " IAxisAlignedBB",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "double"
+                },
+                {
+                    "name": "y",
+                    "type": "double"
+                },
+                {
+                    "name": "z",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "grow",
+            "type": " IAxisAlignedBB",
+            "args": [
+                {
+                    "name": "value",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "intersects",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IAxisAlignedBB",
+                    "inTheClass": "crafttweaker.util.IAxisAlignedBB"
+                }
+            ]
+        },
+        {
+            "name": "union",
+            "type": " IAxisAlignedBB",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IAxisAlignedBB",
+                    "inTheClass": "crafttweaker.util.IAxisAlignedBB"
+                }
+            ]
+        },
+        {
+            "name": "shrink",
+            "type": " IAxisAlignedBB",
+            "args": [
+                {
+                    "name": "value",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "intersect",
+            "type": " IAxisAlignedBB",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IAxisAlignedBB",
+                    "inTheClass": "crafttweaker.util.IAxisAlignedBB"
+                }
+            ]
+        },
+        {
+            "name": "contract",
+            "type": " IAxisAlignedBB",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "double"
+                },
+                {
+                    "name": "y",
+                    "type": "double"
+                },
+                {
+                    "name": "z",
+                    "type": "double"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "minX",
+            "type": "double"
+        },
+        {
+            "name": "minY",
+            "type": "double"
+        },
+        {
+            "name": "maxX",
+            "type": "double"
+        },
+        {
+            "name": "maxY",
+            "type": "double"
+        },
+        {
+            "name": "minZ",
+            "type": "double"
+        },
+        {
+            "name": "maxZ",
+            "type": "double"
+        },
+        {
+            "name": "center",
+            "type": "IVector3d",
+            "import": "crafttweaker.world.IVector3d"
+        }
+    ]
 }

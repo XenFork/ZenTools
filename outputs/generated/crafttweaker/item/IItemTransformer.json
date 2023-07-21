@@ -1,2 +1,24 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "transform",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "byPlayer",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        }
+    ]
 }

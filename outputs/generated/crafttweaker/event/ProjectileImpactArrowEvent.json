@@ -1,2 +1,50 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityArrow",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ProjectileImpactEvent"
+    ],
+    "methods": [
+        {
+            "name": "setPickupDisallowed",
+            "type": " void"
+        },
+        {
+            "name": "setPickupCreativeOnly",
+            "type": " void"
+        },
+        {
+            "name": "setPickupAllowed",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "knockbackStrength",
+            "type": "void"
+        },
+        {
+            "name": "damage",
+            "type": "double"
+        },
+        {
+            "name": "arrow",
+            "type": "IEntityArrow",
+            "import": "crafttweaker.entity.IEntityArrow"
+        },
+        {
+            "name": "shooter",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "isCritical",
+            "type": "bool"
+        },
+        {
+            "name": "pickupStatus",
+            "type": "string"
+        }
+    ]
 }

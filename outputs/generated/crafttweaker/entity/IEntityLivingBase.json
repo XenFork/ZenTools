@@ -1,2 +1,427 @@
 {
+    "imports": [
+        "crafttweaker.damage.IDamageSource",
+        "crafttweaker.entity.AttributeInstance",
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityEquipmentSlot",
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.potions.IPotion",
+        "crafttweaker.potions.IPotionEffect"
+    ],
+    "methods": [
+        {
+            "name": "isElytraFlying",
+            "type": " bool"
+        },
+        {
+            "name": "getActiveHand",
+            "type": " IEntityEquipmentSlot"
+        },
+        {
+            "name": "setActiveHand",
+            "type": " void",
+            "args": [
+                {
+                    "name": "hand",
+                    "type": "IEntityEquipmentSlot",
+                    "inTheClass": "crafttweaker.entity.IEntityEquipmentSlot"
+                }
+            ]
+        },
+        {
+            "name": "isHandActive",
+            "type": " bool"
+        },
+        {
+            "name": "resetActiveHand",
+            "type": " void"
+        },
+        {
+            "name": "stopActiveHand",
+            "type": " void"
+        },
+        {
+            "name": "getSwingProgress",
+            "type": " int"
+        },
+        {
+            "name": "setSwingProgress",
+            "type": " void",
+            "args": [
+                {
+                    "name": "swingProgress",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "attemptTeleport",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "double"
+                },
+                {
+                    "name": "y",
+                    "type": "double"
+                },
+                {
+                    "name": "z",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "getMoveForward",
+            "type": " float"
+        },
+        {
+            "name": "setMoveForward",
+            "type": " void",
+            "args": [
+                {
+                    "name": "moveForward",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "getMoveStrafing",
+            "type": " float"
+        },
+        {
+            "name": "setMoveStrafing",
+            "type": " void",
+            "args": [
+                {
+                    "name": "moveStrafing",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "getMoveVertical",
+            "type": " float"
+        },
+        {
+            "name": "setMoveVertical",
+            "type": " void",
+            "args": [
+                {
+                    "name": "moveVertical",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "getActiveItemStack",
+            "type": " IItemStack"
+        },
+        {
+            "name": "isActiveItemStackBlocking",
+            "type": " bool"
+        },
+        {
+            "name": "isSwingInProgress",
+            "type": " bool"
+        },
+        {
+            "name": "getCreatureAttribute",
+            "type": " string"
+        },
+        {
+            "name": "removePotionEffect",
+            "type": " void",
+            "args": [
+                {
+                    "name": "potion",
+                    "type": "IPotion",
+                    "inTheClass": "crafttweaker.potions.IPotion"
+                }
+            ]
+        },
+        {
+            "name": "getAttribute",
+            "type": " AttributeInstance",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "onLivingUpdate",
+            "type": " void"
+        },
+        {
+            "name": "clearActivePotions",
+            "type": " void"
+        },
+        {
+            "name": "getHeldItemOffHand",
+            "type": " IItemStack"
+        },
+        {
+            "name": "getActivePotionEffect",
+            "type": " IPotionEffect",
+            "args": [
+                {
+                    "name": "potion",
+                    "type": "IPotion",
+                    "inTheClass": "crafttweaker.potions.IPotion"
+                }
+            ]
+        },
+        {
+            "name": "isPotionEffectApplicable",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "potionEffect",
+                    "type": "IPotionEffect",
+                    "inTheClass": "crafttweaker.potions.IPotionEffect"
+                }
+            ]
+        },
+        {
+            "name": "isPotionActive",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "potion",
+                    "type": "IPotion",
+                    "inTheClass": "crafttweaker.potions.IPotion"
+                }
+            ]
+        },
+        {
+            "name": "heal",
+            "type": " void",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "onDeath",
+            "type": " void",
+            "args": [
+                {
+                    "name": "source",
+                    "type": "IDamageSource",
+                    "inTheClass": "crafttweaker.damage.IDamageSource"
+                }
+            ]
+        },
+        {
+            "name": "knockBack",
+            "type": " void",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                },
+                {
+                    "name": "one",
+                    "type": "float"
+                },
+                {
+                    "name": "two",
+                    "type": "double"
+                },
+                {
+                    "name": "three",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "canEntityBeSeen",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "addPotionEffect",
+            "type": " void",
+            "args": [
+                {
+                    "name": "potionEffect",
+                    "type": "IPotionEffect",
+                    "inTheClass": "crafttweaker.potions.IPotionEffect"
+                }
+            ]
+        },
+        {
+            "name": "setItemToSlot",
+            "type": " void",
+            "args": [
+                {
+                    "name": "slot",
+                    "type": "IEntityEquipmentSlot",
+                    "inTheClass": "crafttweaker.entity.IEntityEquipmentSlot"
+                },
+                {
+                    "name": "itemStack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "hasItemInSlot",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "slot",
+                    "type": "IEntityEquipmentSlot",
+                    "inTheClass": "crafttweaker.entity.IEntityEquipmentSlot"
+                }
+            ]
+        },
+        {
+            "name": "getItemInSlot",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "slot",
+                    "type": "IEntityEquipmentSlot",
+                    "inTheClass": "crafttweaker.entity.IEntityEquipmentSlot"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "isElytraFlying",
+            "type": "bool"
+        },
+        {
+            "name": "activeHand",
+            "type": "IEntityEquipmentSlot",
+            "import": "crafttweaker.entity.IEntityEquipmentSlot"
+        },
+        {
+            "name": "isHandActive",
+            "type": "bool"
+        },
+        {
+            "name": "swingProgress",
+            "type": "int"
+        },
+        {
+            "name": "moveForward",
+            "type": "float"
+        },
+        {
+            "name": "moveStrafing",
+            "type": "float"
+        },
+        {
+            "name": "moveVertical",
+            "type": "float"
+        },
+        {
+            "name": "activeItemStack",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "isActiveItemStackBlocking",
+            "type": "bool"
+        },
+        {
+            "name": "isSwingInProgress",
+            "type": "bool"
+        },
+        {
+            "name": "creatureAttribute",
+            "type": "string"
+        },
+        {
+            "name": "isChild",
+            "type": "bool"
+        },
+        {
+            "name": "totalArmorValue",
+            "type": "int"
+        },
+        {
+            "name": "canBreatheUnderwater",
+            "type": "bool"
+        },
+        {
+            "name": "mainHandHeldItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "offHandHeldItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "lastAttackedEntity",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        },
+        {
+            "name": "lastAttackedEntityTime",
+            "type": "int"
+        },
+        {
+            "name": "activePotionEffects",
+            "type": "[IPotionEffect]"
+        },
+        {
+            "name": "lastDamageSource",
+            "type": "IDamageSource",
+            "import": "crafttweaker.damage.IDamageSource"
+        },
+        {
+            "name": "attackingEntity",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        },
+        {
+            "name": "arrowsInEntity",
+            "type": "int"
+        },
+        {
+            "name": "health",
+            "type": "float"
+        },
+        {
+            "name": "isUndead",
+            "type": "bool"
+        },
+        {
+            "name": "maxHealth",
+            "type": "float"
+        },
+        {
+            "name": "revengeTarget",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        },
+        {
+            "name": "isOnLadder",
+            "type": "bool"
+        },
+        {
+            "name": "AIMovementSpeed",
+            "type": "float"
+        }
+    ]
 }

@@ -1,2 +1,105 @@
 {
+    "imports": [
+        "crafttweaker.command.ICommand",
+        "crafttweaker.command.ICommandSender",
+        "crafttweaker.server.IServer",
+        "crafttweaker.world.IBlockPos"
+    ],
+    "methods": [
+        {
+            "name": "checkPermission",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "server",
+                    "type": "IServer",
+                    "inTheClass": "crafttweaker.server.IServer"
+                },
+                {
+                    "name": "sender",
+                    "type": "ICommandSender",
+                    "inTheClass": "crafttweaker.command.ICommandSender"
+                }
+            ]
+        },
+        {
+            "name": "execute",
+            "type": " void",
+            "args": [
+                {
+                    "name": "server",
+                    "type": "IServer",
+                    "inTheClass": "crafttweaker.server.IServer"
+                },
+                {
+                    "name": "sender",
+                    "type": "ICommandSender",
+                    "inTheClass": "crafttweaker.command.ICommandSender"
+                },
+                {
+                    "name": "args",
+                    "type": "string[]"
+                }
+            ]
+        },
+        {
+            "name": "getUsage",
+            "type": " string",
+            "args": [
+                {
+                    "name": "sender",
+                    "type": "ICommandSender",
+                    "inTheClass": "crafttweaker.command.ICommandSender"
+                }
+            ]
+        },
+        {
+            "name": "isUsernameIndex",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "args",
+                    "type": "string[]"
+                },
+                {
+                    "name": "index",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getTabCompletions",
+            "type": " [string]",
+            "args": [
+                {
+                    "name": "server",
+                    "type": "IServer",
+                    "inTheClass": "crafttweaker.server.IServer"
+                },
+                {
+                    "name": "sender",
+                    "type": "ICommandSender",
+                    "inTheClass": "crafttweaker.command.ICommandSender"
+                },
+                {
+                    "name": "args",
+                    "type": "string[]"
+                },
+                {
+                    "name": "targetPos",
+                    "type": "IBlockPos = null"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "aliases",
+            "type": "[string]"
+        }
+    ]
 }

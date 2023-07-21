@@ -1,2 +1,388 @@
 {
+    "imports": [
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.recipes.ICraftingRecipe",
+        "crafttweaker.recipes.IRecipeAction",
+        "crafttweaker.recipes.IRecipeFunction"
+    ],
+    "methods": [
+        {
+            "name": "remove",
+            "type": " void",
+            "args": [
+                {
+                    "name": "output",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "nbtMatch",
+                    "type": "bool = false"
+                }
+            ]
+        },
+        {
+            "name": "removeAll",
+            "type": " void"
+        },
+        {
+            "name": "addShapedMirrored",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[][]"
+                },
+                {
+                    "name": "_function",
+                    "type": "IRecipeFunction = null"
+                },
+                {
+                    "name": "action",
+                    "type": "IRecipeAction = null"
+                }
+            ]
+        },
+        {
+            "name": "addShapedMirrored",
+            "type": " void",
+            "args": [
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[][]"
+                },
+                {
+                    "name": "_function",
+                    "type": "IRecipeFunction = null"
+                },
+                {
+                    "name": "action",
+                    "type": "IRecipeAction = null"
+                }
+            ]
+        },
+        {
+            "name": "addHiddenShapeless",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[]"
+                },
+                {
+                    "name": "_function",
+                    "type": "IRecipeFunction = null"
+                },
+                {
+                    "name": "action",
+                    "type": "IRecipeAction = null"
+                }
+            ]
+        },
+        {
+            "name": "removeByRecipeName",
+            "type": " void",
+            "args": [
+                {
+                    "name": "recipeName",
+                    "type": "string"
+                },
+                {
+                    "name": "outputFilter",
+                    "type": "IItemStack = null"
+                }
+            ]
+        },
+        {
+            "name": "replaceAllOccurences",
+            "type": " void",
+            "args": [
+                {
+                    "name": "toReplace",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "replaceWith",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "forOutput",
+                    "type": "IIngredient = null"
+                }
+            ]
+        },
+        {
+            "name": "replaceAllOccurrences",
+            "type": " void",
+            "args": [
+                {
+                    "name": "toReplace",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "replaceWith",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "forOutput",
+                    "type": "IIngredient = null"
+                }
+            ]
+        },
+        {
+            "name": "getRecipesFor",
+            "type": " [ICraftingRecipe]",
+            "args": [
+                {
+                    "name": "ingredient",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                }
+            ]
+        },
+        {
+            "name": "addShaped",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[][]"
+                },
+                {
+                    "name": "_function",
+                    "type": "IRecipeFunction = null"
+                },
+                {
+                    "name": "action",
+                    "type": "IRecipeAction = null"
+                }
+            ]
+        },
+        {
+            "name": "addShaped",
+            "type": " void",
+            "args": [
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[][]"
+                },
+                {
+                    "name": "_function",
+                    "type": "IRecipeFunction = null"
+                },
+                {
+                    "name": "action",
+                    "type": "IRecipeAction = null"
+                }
+            ]
+        },
+        {
+            "name": "addShapeless",
+            "type": " void",
+            "args": [
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[]"
+                },
+                {
+                    "name": "_function",
+                    "type": "IRecipeFunction = null"
+                },
+                {
+                    "name": "action",
+                    "type": "IRecipeAction = null"
+                }
+            ]
+        },
+        {
+            "name": "addShapeless",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[]"
+                },
+                {
+                    "name": "_function",
+                    "type": "IRecipeFunction = null"
+                },
+                {
+                    "name": "action",
+                    "type": "IRecipeAction = null"
+                }
+            ]
+        },
+        {
+            "name": "addHiddenShaped",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[][]"
+                },
+                {
+                    "name": "_function",
+                    "type": "IRecipeFunction = null"
+                },
+                {
+                    "name": "action",
+                    "type": "IRecipeAction = null"
+                },
+                {
+                    "name": "mirrored",
+                    "type": "bool = false"
+                }
+            ]
+        },
+        {
+            "name": "removeByRegex",
+            "type": " void",
+            "args": [
+                {
+                    "name": "regexString",
+                    "type": "string"
+                },
+                {
+                    "name": "outputFilter",
+                    "type": "IItemStack = null"
+                }
+            ]
+        },
+        {
+            "name": "removeByMod",
+            "type": " void",
+            "args": [
+                {
+                    "name": "modid",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "removeShaped",
+            "type": " void",
+            "args": [
+                {
+                    "name": "output",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[][] = null"
+                }
+            ]
+        },
+        {
+            "name": "removeShapeless",
+            "type": " void",
+            "args": [
+                {
+                    "name": "output",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[] = null"
+                },
+                {
+                    "name": "wildcard",
+                    "type": "bool = false"
+                }
+            ]
+        },
+        {
+            "name": "removeByInput",
+            "type": " void",
+            "args": [
+                {
+                    "name": "input",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                }
+            ]
+        },
+        {
+            "name": "craft",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "contents",
+                    "type": "IItemStack[][]"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "all",
+            "type": "[ICraftingRecipe]"
+        }
+    ]
 }

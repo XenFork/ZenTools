@@ -1,2 +1,74 @@
 {
+    "imports": [
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "logError",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "logInfo",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "logCommand",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "logWarning",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "logPlayer",
+            "type": " void",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        },
+        {
+            "name": "logDefault",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "logDisabled",
+            "type": "bool"
+        }
+    ]
 }

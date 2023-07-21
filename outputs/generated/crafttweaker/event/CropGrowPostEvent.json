@@ -1,2 +1,19 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlock",
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.event.IBlockEvent"
+    ],
+    "fields": [
+        {
+            "name": "originalBlockState",
+            "type": "IBlockState",
+            "import": "crafttweaker.block.IBlockState"
+        },
+        {
+            "name": "originalBlock",
+            "type": "IBlock",
+            "import": "crafttweaker.block.IBlock"
+        }
+    ]
 }

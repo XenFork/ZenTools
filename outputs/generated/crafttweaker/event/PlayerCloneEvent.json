@@ -1,2 +1,17 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.player.IPlayer"
+    ],
+    "fields": [
+        {
+            "name": "wasDeath",
+            "type": "bool"
+        },
+        {
+            "name": "originalPlayer",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        }
+    ]
 }

@@ -1,2 +1,34 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.entity.IProjectile"
+    ],
+    "methods": [
+        {
+            "name": "getThrowableShake",
+            "type": " int"
+        },
+        {
+            "name": "getThrower",
+            "type": "e",
+            "args": [
+                {
+                    "name": "",
+                    "type": "IEntityLivingB"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "shake",
+            "type": "int"
+        },
+        {
+            "name": "thrower",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        }
+    ]
 }

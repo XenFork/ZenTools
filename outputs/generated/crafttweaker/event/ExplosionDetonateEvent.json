@@ -1,2 +1,27 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.event.IExplosionEvent",
+        "crafttweaker.world.IBlockPos"
+    ],
+    "methods": [
+        {
+            "name": "getAffectedPositions",
+            "type": " [IBlockPos]"
+        },
+        {
+            "name": "getAffectedEntities",
+            "type": " [IEntity]"
+        }
+    ],
+    "fields": [
+        {
+            "name": "affectedPositions",
+            "type": "[IBlockPos]"
+        },
+        {
+            "name": "affectedEntities",
+            "type": "[IEntity]"
+        }
+    ]
 }

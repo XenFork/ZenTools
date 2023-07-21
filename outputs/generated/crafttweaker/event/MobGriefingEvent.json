@@ -1,2 +1,6 @@
 {
+    "imports": [
+        "crafttweaker.event.IEntityEvent",
+        "crafttweaker.event.IEventHasResult"
+    ]
 }

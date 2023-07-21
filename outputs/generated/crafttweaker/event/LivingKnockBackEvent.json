@@ -1,2 +1,43 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ILivingEvent"
+    ],
+    "fields": [
+        {
+            "name": "strength",
+            "type": "float"
+        },
+        {
+            "name": "ratioX",
+            "type": "double"
+        },
+        {
+            "name": "ratioZ",
+            "type": "double"
+        },
+        {
+            "name": "originalAttacker",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "originalStrength",
+            "type": "float"
+        },
+        {
+            "name": "originalRatioX",
+            "type": "double"
+        },
+        {
+            "name": "originalRatioZ",
+            "type": "double"
+        },
+        {
+            "name": "attacker",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        }
+    ]
 }

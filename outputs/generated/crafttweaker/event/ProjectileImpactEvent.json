@@ -1,2 +1,13 @@
 {
+    "imports": [
+        "crafttweaker.event.IEntityEvent",
+        "crafttweaker.world.IRayTraceResult"
+    ],
+    "fields": [
+        {
+            "name": "rayTrace",
+            "type": "IRayTraceResult",
+            "import": "crafttweaker.world.IRayTraceResult"
+        }
+    ]
 }

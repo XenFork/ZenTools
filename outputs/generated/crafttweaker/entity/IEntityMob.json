@@ -1,2 +1,19 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityCreature",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "isPreventingPlayerRest",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        }
+    ]
 }

@@ -1,2 +1,6 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.recipes.ICraftingInfo"
+    ]
 }

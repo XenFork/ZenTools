@@ -1,2 +1,96 @@
 {
+    "imports": [
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.oredict.IOreDictEntry",
+        "crafttweaker.oredict.WeightedOreDictEntry"
+    ],
+    "methods": [
+        {
+            "name": "add",
+            "type": " void",
+            "args": [
+                {
+                    "name": "items",
+                    "type": "IItemStack[]"
+                }
+            ]
+        },
+        {
+            "name": "remove",
+            "type": " void",
+            "args": [
+                {
+                    "name": "items",
+                    "type": "IItemStack[]"
+                }
+            ]
+        },
+        {
+            "name": "addAll",
+            "type": " void",
+            "args": [
+                {
+                    "name": "entry",
+                    "type": "IOreDictEntry[]"
+                }
+            ]
+        },
+        {
+            "name": "mirror",
+            "type": " void",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IOreDictEntry",
+                    "inTheClass": "crafttweaker.oredict.IOreDictEntry"
+                }
+            ]
+        },
+        {
+            "name": "addItems",
+            "type": " void",
+            "args": [
+                {
+                    "name": "items",
+                    "type": "IItemStack[]"
+                }
+            ]
+        },
+        {
+            "name": "removeItems",
+            "type": " void",
+            "args": [
+                {
+                    "name": "items",
+                    "type": "IItemStack[]"
+                }
+            ]
+        },
+        {
+            "name": "weight",
+            "type": " WeightedOreDictEntry",
+            "args": [
+                {
+                    "name": "p",
+                    "type": "float"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "empty",
+            "type": "bool"
+        },
+        {
+            "name": "firstItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        }
+    ]
 }

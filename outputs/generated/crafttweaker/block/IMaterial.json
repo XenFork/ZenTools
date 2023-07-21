@@ -1,2 +1,98 @@
 {
+    "imports": [
+        "crafttweaker.block.IMaterial",
+        "crafttweaker.block.IMobilityFlag"
+    ],
+    "methods": [
+        {
+            "name": "matches",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IMaterial",
+                    "inTheClass": "crafttweaker.block.IMaterial"
+                }
+            ]
+        },
+        {
+            "name": "isOpaque",
+            "type": " bool"
+        },
+        {
+            "name": "isReplaceable",
+            "type": " bool"
+        },
+        {
+            "name": "isToolNotRequired",
+            "type": " bool"
+        },
+        {
+            "name": "getMobilityFlag",
+            "type": " IMobilityFlag"
+        },
+        {
+            "name": "blocksLight",
+            "type": " bool"
+        },
+        {
+            "name": "blocksMovement",
+            "type": " bool"
+        },
+        {
+            "name": "getCanBurn",
+            "type": " bool"
+        },
+        {
+            "name": "isLiquid",
+            "type": " bool"
+        },
+        {
+            "name": "isSolid",
+            "type": " bool"
+        },
+        {
+            "name": "setReplaceable",
+            "type": " IMaterial"
+        }
+    ],
+    "fields": [
+        {
+            "name": "opaque",
+            "type": "bool"
+        },
+        {
+            "name": "replaceable",
+            "type": "bool"
+        },
+        {
+            "name": "toolNotRequired",
+            "type": "bool"
+        },
+        {
+            "name": "mobilityFlag",
+            "type": "IMobilityFlag",
+            "import": "crafttweaker.block.IMobilityFlag"
+        },
+        {
+            "name": "blocksLight",
+            "type": "bool"
+        },
+        {
+            "name": "blocksMovement",
+            "type": "bool"
+        },
+        {
+            "name": "canBurn",
+            "type": "bool"
+        },
+        {
+            "name": "liquid",
+            "type": "bool"
+        },
+        {
+            "name": "solid",
+            "type": "bool"
+        }
+    ]
 }

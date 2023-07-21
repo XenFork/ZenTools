@@ -1,2 +1,48 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IFacing"
+    ],
+    "methods": [
+        {
+            "name": "getName",
+            "type": " string"
+        },
+        {
+            "name": "compare",
+            "type": " int",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        },
+        {
+            "name": "opposite",
+            "type": " IFacing"
+        },
+        {
+            "name": "rotateY",
+            "type": " IFacing"
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "opposite",
+            "type": "IFacing",
+            "import": "crafttweaker.world.IFacing"
+        },
+        {
+            "name": "rotateY",
+            "type": "IFacing",
+            "import": "crafttweaker.world.IFacing"
+        }
+    ]
 }

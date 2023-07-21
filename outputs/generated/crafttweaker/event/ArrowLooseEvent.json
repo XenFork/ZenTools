@@ -1,2 +1,19 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.event.IWorldEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "charge",
+            "type": "int"
+        },
+        {
+            "name": "bow",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        }
+    ]
 }

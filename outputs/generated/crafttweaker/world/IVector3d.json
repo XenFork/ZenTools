@@ -1,2 +1,102 @@
 {
+    "imports": [
+        "crafttweaker.world.IVector3d"
+    ],
+    "methods": [
+        {
+            "name": "add",
+            "type": " IVector3d",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                }
+            ]
+        },
+        {
+            "name": "scale",
+            "type": " IVector3d",
+            "args": [
+                {
+                    "name": "factor",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "subtract",
+            "type": " IVector3d",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                }
+            ]
+        },
+        {
+            "name": "distanceTo",
+            "type": " double",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                }
+            ]
+        },
+        {
+            "name": "subtractReverse",
+            "type": " IVector3d",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                }
+            ]
+        },
+        {
+            "name": "crossProduct",
+            "type": " IVector3d",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                }
+            ]
+        },
+        {
+            "name": "dotProduct",
+            "type": " double",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "x",
+            "type": "double"
+        },
+        {
+            "name": "y",
+            "type": "double"
+        },
+        {
+            "name": "z",
+            "type": "double"
+        },
+        {
+            "name": "normalized",
+            "type": "IVector3d",
+            "import": "crafttweaker.world.IVector3d"
+        }
+    ]
 }

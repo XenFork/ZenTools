@@ -1,7 +1,479 @@
 {
     "imports": [
-        "crafttweaker.chat.IChatMessage;",
-        "crafttweaker.data.IData;",
-        "crafttweaker.formatting.IFormattedText;"
+        "crafttweaker.chat.IChatMessage",
+        "crafttweaker.data.IData",
+        "crafttweaker.formatting.IFormattedText"
+    ],
+    "methods": [
+        {
+            "name": "toString",
+            "type": " string"
+        },
+        {
+            "name": "hashCode",
+            "type": " int"
+        },
+        {
+            "name": "compareTo",
+            "type": " int",
+            "args": [
+                {
+                    "name": "anotherString",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "indexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "str",
+                    "type": "string"
+                },
+                {
+                    "name": "fromIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "indexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "str",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "indexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "ch",
+                    "type": "int"
+                },
+                {
+                    "name": "fromIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "indexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "ch",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "codePointAt",
+            "type": " int",
+            "args": [
+                {
+                    "name": "index",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "codePointBefore",
+            "type": " int",
+            "args": [
+                {
+                    "name": "index",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "codePointCount",
+            "type": " int",
+            "args": [
+                {
+                    "name": "beginIndex",
+                    "type": "int"
+                },
+                {
+                    "name": "endIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "compareToIgnoreCase",
+            "type": " int",
+            "args": [
+                {
+                    "name": "anotherString",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "concat",
+            "type": " string",
+            "args": [
+                {
+                    "name": "str",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "contains",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "s",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "contentEquals",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "arg0",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "endsWith",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "suffix",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "equalsIgnoreCase",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "anotherString",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "intern",
+            "type": " string"
+        },
+        {
+            "name": "isEmpty",
+            "type": " bool"
+        },
+        {
+            "name": "lastIndexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "ch",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "lastIndexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "str",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "lastIndexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "str",
+                    "type": "string"
+                },
+                {
+                    "name": "fromIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "lastIndexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "ch",
+                    "type": "int"
+                },
+                {
+                    "name": "fromIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "length",
+            "type": " int"
+        },
+        {
+            "name": "matches",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "regex",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "offsetByCodePoints",
+            "type": " int",
+            "args": [
+                {
+                    "name": "index",
+                    "type": "int"
+                },
+                {
+                    "name": "codePointOffset",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "regionMatches",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "toffset",
+                    "type": "int"
+                },
+                {
+                    "name": "other",
+                    "type": "string"
+                },
+                {
+                    "name": "ooffset",
+                    "type": "int"
+                },
+                {
+                    "name": "len",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "regionMatches",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "ignoreCase",
+                    "type": "bool"
+                },
+                {
+                    "name": "toffset",
+                    "type": "int"
+                },
+                {
+                    "name": "other",
+                    "type": "string"
+                },
+                {
+                    "name": "ooffset",
+                    "type": "int"
+                },
+                {
+                    "name": "len",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "replace",
+            "type": " string",
+            "args": [
+                {
+                    "name": "target",
+                    "type": "string"
+                },
+                {
+                    "name": "replacement",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "replaceAll",
+            "type": " string",
+            "args": [
+                {
+                    "name": "regex",
+                    "type": "string"
+                },
+                {
+                    "name": "replacement",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "replaceFirst",
+            "type": " string",
+            "args": [
+                {
+                    "name": "regex",
+                    "type": "string"
+                },
+                {
+                    "name": "replacement",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "startsWith",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "prefix",
+                    "type": "string"
+                },
+                {
+                    "name": "toffset",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "startsWith",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "prefix",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "subSequence",
+            "type": " string",
+            "args": [
+                {
+                    "name": "beginIndex",
+                    "type": "int"
+                },
+                {
+                    "name": "endIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "substring",
+            "type": " string",
+            "args": [
+                {
+                    "name": "beginIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "substring",
+            "type": " string",
+            "args": [
+                {
+                    "name": "beginIndex",
+                    "type": "int"
+                },
+                {
+                    "name": "endIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "toLowerCase",
+            "type": " string"
+        },
+        {
+            "name": "toUpperCase",
+            "type": " string"
+        },
+        {
+            "name": "trim",
+            "type": " string"
+        },
+        {
+            "name": "indexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "needle",
+                    "type": "string"
+                },
+                {
+                    "name": "fromIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "indexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "needle",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "lastIndexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "needle",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "lastIndexOf",
+            "type": " int",
+            "args": [
+                {
+                    "name": "needle",
+                    "type": "string"
+                },
+                {
+                    "name": "fromIndex",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "split",
+            "type": " [string]",
+            "args": [
+                {
+                    "name": "separator",
+                    "type": "string"
+                },
+                {
+                    "name": "maximum",
+                    "type": "int = 0"
+                }
+            ]
+        }
     ]
 }

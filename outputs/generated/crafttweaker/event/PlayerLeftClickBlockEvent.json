@@ -1,2 +1,23 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IHasCancellationResult",
+        "crafttweaker.event.PlayerInteractEvent",
+        "crafttweaker.world.IVector3d"
+    ],
+    "fields": [
+        {
+            "name": "useBlock",
+            "type": "string"
+        },
+        {
+            "name": "useItem",
+            "type": "string"
+        },
+        {
+            "name": "hitVector",
+            "type": "IVector3d",
+            "import": "crafttweaker.world.IVector3d"
+        }
+    ]
 }

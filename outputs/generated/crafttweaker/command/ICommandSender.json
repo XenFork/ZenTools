@@ -1,2 +1,52 @@
 {
+    "imports": [
+        "crafttweaker.server.IServer",
+        "crafttweaker.text.ITextComponent",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "sendRichTextMessage",
+            "type": " void",
+            "args": [
+                {
+                    "name": "textComponent",
+                    "type": "ITextComponent",
+                    "inTheClass": "crafttweaker.text.ITextComponent"
+                }
+            ]
+        },
+        {
+            "name": "sendMessage",
+            "type": " void",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "displayName",
+            "type": "string"
+        },
+        {
+            "name": "position",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "server",
+            "type": "IServer",
+            "import": "crafttweaker.server.IServer"
+        }
+    ]
 }

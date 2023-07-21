@@ -1,2 +1,13 @@
 {
+    "imports": [
+        "crafttweaker.event.ILivingEvent",
+        "crafttweaker.potions.IPotionEffect"
+    ],
+    "fields": [
+        {
+            "name": "potionEffect",
+            "type": "IPotionEffect",
+            "import": "crafttweaker.potions.IPotionEffect"
+        }
+    ]
 }

@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityItem",
+        "crafttweaker.event.IEntityEvent",
+        "crafttweaker.event.IEventCancelable"
+    ],
+    "fields": [
+        {
+            "name": "item",
+            "type": "IEntityItem",
+            "import": "crafttweaker.entity.IEntityItem"
+        },
+        {
+            "name": "extraLife",
+            "type": "int"
+        }
+    ]
 }

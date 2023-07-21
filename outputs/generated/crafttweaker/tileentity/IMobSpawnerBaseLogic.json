@@ -1,2 +1,40 @@
 {
+    "imports": [
+        "crafttweaker.data.IData",
+        "crafttweaker.entity.IEntityDefinition",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "updateSpawner",
+            "type": " void"
+        },
+        {
+            "name": "setDelayToMin",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "entityDefinition",
+            "type": "IEntityDefinition",
+            "import": "crafttweaker.entity.IEntityDefinition"
+        },
+        {
+            "name": "nbtData",
+            "type": "IData",
+            "import": "crafttweaker.data.IData"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "blockPos",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        }
+    ]
 }

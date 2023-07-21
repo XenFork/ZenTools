@@ -1,2 +1,116 @@
 {
+    "imports": [
+        "crafttweaker.enchantments.IEnchantment",
+        "crafttweaker.enchantments.IEnchantmentDefinition",
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "isCompatibleWith",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IEnchantmentDefinition",
+                    "inTheClass": "crafttweaker.enchantments.IEnchantmentDefinition"
+                }
+            ]
+        },
+        {
+            "name": "canApplyAtEnchantmentTable",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "itemStack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "getMaxEnchantability",
+            "type": " int",
+            "args": [
+                {
+                    "name": "enchantmentLevel",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getMinEnchantability",
+            "type": " int",
+            "args": [
+                {
+                    "name": "enchantmentLevel",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getTranslatedName",
+            "type": " string",
+            "args": [
+                {
+                    "name": "enchantmentLevel",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "canApply",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "itemStack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "makeEnchantment",
+            "type": " IEnchantment",
+            "args": [
+                {
+                    "name": "level",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "id",
+            "type": "int"
+        },
+        {
+            "name": "registryName",
+            "type": "string"
+        },
+        {
+            "name": "minLevel",
+            "type": "int"
+        },
+        {
+            "name": "isAllowedOnBooks",
+            "type": "bool"
+        },
+        {
+            "name": "isTreasureEnchantment",
+            "type": "bool"
+        },
+        {
+            "name": "maxLevel",
+            "type": "int"
+        },
+        {
+            "name": "isCurse",
+            "type": "bool"
+        }
+    ]
 }

@@ -1,2 +1,13 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.event.MinecartEvent"
+    ],
+    "fields": [
+        {
+            "name": "collider",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        }
+    ]
 }

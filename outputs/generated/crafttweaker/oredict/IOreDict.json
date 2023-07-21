@@ -1,2 +1,33 @@
 {
+    "imports": [
+        "crafttweaker.oredict.IOreDictEntry"
+    ],
+    "methods": [
+        {
+            "name": "get",
+            "type": " IOreDictEntry",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "contains",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "entries",
+            "type": "[IOreDictEntry]"
+        }
+    ]
 }

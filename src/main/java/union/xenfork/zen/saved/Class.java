@@ -22,4 +22,24 @@ public class Class {
     public ArrayList<String> getImports() {
         return imports;
     }
+
+    public void addMethod(Method method) {
+        if (this.methods == null) {
+            this.methods = new ArrayList<>();
+        }
+        methods.add(method);
+    }
+
+    public ArrayList<Method> getMethods() {
+        return methods;
+    }
+
+    public void addFields(Field field) {
+        if (this.fields == null) fields = new ArrayList<>();
+        fields.add(field);
+    }
+
+    public ArrayList<Field> getFields() {
+        return fields;
+    }
 }

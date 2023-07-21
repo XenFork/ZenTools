@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.world.IBlockPos"
+    ],
+    "fields": [
+        {
+            "name": "newSpawn",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "isForced",
+            "type": "bool"
+        }
+    ]
 }

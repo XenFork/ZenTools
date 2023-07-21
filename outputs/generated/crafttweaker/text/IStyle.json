@@ -1,2 +1,50 @@
 {
+    "imports": [
+        "crafttweaker.text.IStyle"
+    ],
+    "methods": [
+        {
+            "name": "createDeepCopy",
+            "type": " IStyle"
+        },
+        {
+            "name": "createShallowCopy",
+            "type": " IStyle"
+        }
+    ],
+    "fields": [
+        {
+            "name": "parent",
+            "type": "IStyle",
+            "import": "crafttweaker.text.IStyle"
+        },
+        {
+            "name": "color",
+            "type": "void"
+        },
+        {
+            "name": "strikethrough",
+            "type": "bool"
+        },
+        {
+            "name": "underline",
+            "type": "bool"
+        },
+        {
+            "name": "bold",
+            "type": "bool"
+        },
+        {
+            "name": "italic",
+            "type": "bool"
+        },
+        {
+            "name": "obfuscated",
+            "type": "bool"
+        },
+        {
+            "name": "insertion",
+            "type": "string"
+        }
+    ]
 }

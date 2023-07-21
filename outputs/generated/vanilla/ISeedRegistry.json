@@ -1,6 +1,36 @@
 {
     "imports": [
-        "crafttweaker.item.IIngredient;",
-        "crafttweaker.item.WeightedItemStack;"
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.WeightedItemStack"
+    ],
+    "methods": [
+        {
+            "name": "addSeed",
+            "type": " void",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "WeightedItemStack",
+                    "inTheClass": "crafttweaker.item.WeightedItemStack"
+                }
+            ]
+        },
+        {
+            "name": "removeSeed",
+            "type": " void",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "seeds",
+            "type": "[WeightedItemStack]"
+        }
     ]
 }

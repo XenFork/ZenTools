@@ -1,2 +1,41 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlock",
+        "crafttweaker.liquid.ILiquidStack"
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "displayName",
+            "type": "string"
+        },
+        {
+            "name": "block",
+            "type": "IBlock",
+            "import": "crafttweaker.block.IBlock"
+        },
+        {
+            "name": "luminosity",
+            "type": "void"
+        },
+        {
+            "name": "density",
+            "type": "void"
+        },
+        {
+            "name": "viscosity",
+            "type": "void"
+        },
+        {
+            "name": "temperature",
+            "type": "void"
+        },
+        {
+            "name": "gaseous",
+            "type": "bool"
+        }
+    ]
 }

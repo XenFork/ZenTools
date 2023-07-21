@@ -1,2 +1,47 @@
 {
+    "imports": [
+        "crafttweaker.event.IBlockEvent",
+        "crafttweaker.item.WeightedItemStack",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "addItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "itemStack",
+                    "type": "WeightedItemStack",
+                    "inTheClass": "crafttweaker.item.WeightedItemStack"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "drops",
+            "type": "[WeightedItemStack]"
+        },
+        {
+            "name": "dropChance",
+            "type": "float"
+        },
+        {
+            "name": "fortuneLevel",
+            "type": "int"
+        },
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        },
+        {
+            "name": "isPlayer",
+            "type": "bool"
+        },
+        {
+            "name": "silkTouch",
+            "type": "bool"
+        }
+    ]
 }

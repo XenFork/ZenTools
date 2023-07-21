@@ -1,2 +1,272 @@
 {
+    "imports": [
+        "crafttweaker.player.IPlayer",
+        "crafttweaker.world.IBiome",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IWorldProvider"
+    ],
+    "methods": [
+        {
+            "name": "getSeed",
+            "type": " long"
+        },
+        {
+            "name": "getMovementFactor",
+            "type": " double"
+        },
+        {
+            "name": "getRandomizedSpawnPoint",
+            "type": " IBlockPos"
+        },
+        {
+            "name": "getRespawnDimension",
+            "type": " IWorldProvider",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        },
+        {
+            "name": "getHorizon",
+            "type": " double"
+        },
+        {
+            "name": "getCloudHeight",
+            "type": " float"
+        },
+        {
+            "name": "getHeight",
+            "type": " int"
+        },
+        {
+            "name": "isDaytime",
+            "type": " bool"
+        },
+        {
+            "name": "getWorldTime",
+            "type": " long"
+        },
+        {
+            "name": "getSpawnPoint",
+            "type": " IBlockPos"
+        },
+        {
+            "name": "getActualHeight",
+            "type": " int"
+        },
+        {
+            "name": "getBiomeForCoords",
+            "type": " IBiome",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getSunBrightnessFactor",
+            "type": " float",
+            "args": [
+                {
+                    "name": "something",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "getCurrentMoonPhaseFactor",
+            "type": " float"
+        },
+        {
+            "name": "isBlockHighHumidity",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getDimensionID",
+            "type": " int"
+        },
+        {
+            "name": "getSaveFolder",
+            "type": " string"
+        },
+        {
+            "name": "getSunBrightness",
+            "type": " float",
+            "args": [
+                {
+                    "name": "something",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "canRespawnHere",
+            "type": " bool"
+        },
+        {
+            "name": "hasSkyLight",
+            "type": " bool"
+        },
+        {
+            "name": "isNether",
+            "type": " bool"
+        },
+        {
+            "name": "isSkyColored",
+            "type": " bool"
+        },
+        {
+            "name": "getAverageGroundLevel",
+            "type": " int"
+        },
+        {
+            "name": "getLightBrightnesTable",
+            "type": " float[]"
+        },
+        {
+            "name": "getSpawnCoordinate",
+            "type": " IBlockPos"
+        },
+        {
+            "name": "getStarBrightness",
+            "type": " float",
+            "args": [
+                {
+                    "name": "something",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "getVoidFogYFactor",
+            "type": " double"
+        },
+        {
+            "name": "doesWaterVaporize",
+            "type": " bool"
+        },
+        {
+            "name": "isSurfaceWorld",
+            "type": " bool"
+        },
+        {
+            "name": "getMoonPhase",
+            "type": " int",
+            "args": [
+                {
+                    "name": "time",
+                    "type": "long"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "seed",
+            "type": "long"
+        },
+        {
+            "name": "movementFactor",
+            "type": "double"
+        },
+        {
+            "name": "randomizedSpawnPoint",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "horizon",
+            "type": "double"
+        },
+        {
+            "name": "cloudHeight",
+            "type": "float"
+        },
+        {
+            "name": "height",
+            "type": "int"
+        },
+        {
+            "name": "daytime",
+            "type": "bool"
+        },
+        {
+            "name": "worldTime",
+            "type": "long"
+        },
+        {
+            "name": "spawnPoint",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "actualHeight",
+            "type": "int"
+        },
+        {
+            "name": "currentMoonPhaseFactor",
+            "type": "float"
+        },
+        {
+            "name": "dimensionID",
+            "type": "int"
+        },
+        {
+            "name": "saveFolder",
+            "type": "string"
+        },
+        {
+            "name": "canRespawnHere",
+            "type": "bool"
+        },
+        {
+            "name": "skylight",
+            "type": "bool"
+        },
+        {
+            "name": "nether",
+            "type": "bool"
+        },
+        {
+            "name": "skyColored",
+            "type": "bool"
+        },
+        {
+            "name": "actualGroundLevel",
+            "type": "int"
+        },
+        {
+            "name": "lightBrightnesTable",
+            "type": "float[]"
+        },
+        {
+            "name": "spawnCoordinate",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "voidFogYFactor",
+            "type": "double"
+        },
+        {
+            "name": "waterVaporize",
+            "type": "bool"
+        },
+        {
+            "name": "surfaceWorld",
+            "type": "bool"
+        }
+    ]
 }

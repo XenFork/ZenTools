@@ -1,2 +1,11 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity"
+    ],
+    "fields": [
+        {
+            "name": "xp",
+            "type": "void"
+        }
+    ]
 }

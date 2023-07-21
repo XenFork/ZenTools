@@ -1,2 +1,27 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "version",
+            "type": "string"
+        },
+        {
+            "name": "description",
+            "type": "string"
+        },
+        {
+            "name": "items",
+            "type": "IItemStack[]"
+        }
+    ]
 }

@@ -1,2 +1,14 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.PlayerInteractEvent"
+    ],
+    "fields": [
+        {
+            "name": "target",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        }
+    ]
 }

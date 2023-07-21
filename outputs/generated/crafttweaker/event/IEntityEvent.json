@@ -1,2 +1,12 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity"
+    ],
+    "fields": [
+        {
+            "name": "entity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        }
+    ]
 }

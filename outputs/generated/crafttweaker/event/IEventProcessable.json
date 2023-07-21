@@ -1,2 +1,14 @@
 {
+    "methods": [
+        {
+            "name": "process",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "processed",
+            "type": "bool"
+        }
+    ]
 }

@@ -1,2 +1,270 @@
 {
+    "methods": [
+        {
+            "name": "getSeed",
+            "type": " long"
+        },
+        {
+            "name": "isInitialized",
+            "type": " bool"
+        },
+        {
+            "name": "getDifficulty",
+            "type": " string"
+        },
+        {
+            "name": "getBorderCenterX",
+            "type": " double"
+        },
+        {
+            "name": "getBorderCenterZ",
+            "type": " double"
+        },
+        {
+            "name": "getBorderSize",
+            "type": " double"
+        },
+        {
+            "name": "getRainTime",
+            "type": " int"
+        },
+        {
+            "name": "getSaveVersion",
+            "type": " int"
+        },
+        {
+            "name": "getSpawnX",
+            "type": " int"
+        },
+        {
+            "name": "getSpawnY",
+            "type": " int"
+        },
+        {
+            "name": "getSpawnZ",
+            "type": " int"
+        },
+        {
+            "name": "getThunderTime",
+            "type": " int"
+        },
+        {
+            "name": "getVersionId",
+            "type": " int"
+        },
+        {
+            "name": "getVersionName",
+            "type": " string"
+        },
+        {
+            "name": "getWorldName",
+            "type": " string"
+        },
+        {
+            "name": "getBoderLerpTime",
+            "type": " long"
+        },
+        {
+            "name": "isThundering",
+            "type": " bool"
+        },
+        {
+            "name": "isCommandsAllowed",
+            "type": " bool"
+        },
+        {
+            "name": "getBorderDamagePerBlock",
+            "type": " double"
+        },
+        {
+            "name": "getBorderSafeZone",
+            "type": " double"
+        },
+        {
+            "name": "getBorderWarningDistance",
+            "type": " int"
+        },
+        {
+            "name": "getBorderWarningTime",
+            "type": " int"
+        },
+        {
+            "name": "getCleanWeatherTime",
+            "type": " double"
+        },
+        {
+            "name": "getGeneratorOptions",
+            "type": " string"
+        },
+        {
+            "name": "getLastTimePlayed",
+            "type": " long"
+        },
+        {
+            "name": "getWorldTotalTime",
+            "type": " long"
+        },
+        {
+            "name": "getBoderLerpTarget",
+            "type": " double"
+        },
+        {
+            "name": "getBorderLerpTarget",
+            "type": " double"
+        },
+        {
+            "name": "getBorderLerpTime",
+            "type": " long"
+        },
+        {
+            "name": "isDifficultyLocked",
+            "type": " bool"
+        },
+        {
+            "name": "isHardcoreModeEnabled",
+            "type": " bool"
+        },
+        {
+            "name": "isMapFeaturesEnabled",
+            "type": " bool"
+        },
+        {
+            "name": "isVersionSnapshot",
+            "type": " bool"
+        }
+    ],
+    "fields": [
+        {
+            "name": "seed",
+            "type": "long"
+        },
+        {
+            "name": "initialized",
+            "type": "bool"
+        },
+        {
+            "name": "difficulty",
+            "type": "string"
+        },
+        {
+            "name": "borderCenterX",
+            "type": "double"
+        },
+        {
+            "name": "borderCenterZ",
+            "type": "double"
+        },
+        {
+            "name": "borderSize",
+            "type": "double"
+        },
+        {
+            "name": "rainTime",
+            "type": "int"
+        },
+        {
+            "name": "saveVersion",
+            "type": "int"
+        },
+        {
+            "name": "spawnX",
+            "type": "int"
+        },
+        {
+            "name": "spawnY",
+            "type": "int"
+        },
+        {
+            "name": "spawnZ",
+            "type": "int"
+        },
+        {
+            "name": "thunderTime",
+            "type": "int"
+        },
+        {
+            "name": "versionId",
+            "type": "int"
+        },
+        {
+            "name": "versionName",
+            "type": "string"
+        },
+        {
+            "name": "worldName",
+            "type": "string"
+        },
+        {
+            "name": "boderLerpTime",
+            "type": "long"
+        },
+        {
+            "name": "thundering",
+            "type": "bool"
+        },
+        {
+            "name": "commandsAllowed",
+            "type": "bool"
+        },
+        {
+            "name": "borderDamagePerBlock",
+            "type": "double"
+        },
+        {
+            "name": "borderSafeZone",
+            "type": "double"
+        },
+        {
+            "name": "borderWarningDistance",
+            "type": "int"
+        },
+        {
+            "name": "borderWarningTime",
+            "type": "int"
+        },
+        {
+            "name": "cleanWeatherTime",
+            "type": "double"
+        },
+        {
+            "name": "generatorOptions",
+            "type": "string"
+        },
+        {
+            "name": "lastTimePlayed",
+            "type": "long"
+        },
+        {
+            "name": "worldTotalTime",
+            "type": "long"
+        },
+        {
+            "name": "boderLerpTarget",
+            "type": "double"
+        },
+        {
+            "name": "borderLerpTarget",
+            "type": "double"
+        },
+        {
+            "name": "borderLerpTime",
+            "type": "long"
+        },
+        {
+            "name": "difficultyLocked",
+            "type": "bool"
+        },
+        {
+            "name": "hardcoreModeEnabled",
+            "type": "bool"
+        },
+        {
+            "name": "mapFeaturesEnabled",
+            "type": "bool"
+        },
+        {
+            "name": "versionSnapshot",
+            "type": "bool"
+        }
+    ]
 }

@@ -1,2 +1,35 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "materialCost",
+            "type": "int"
+        },
+        {
+            "name": "leftItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "rightItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "outputItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "itemName",
+            "type": "string"
+        },
+        {
+            "name": "xpCost",
+            "type": "int"
+        }
+    ]
 }

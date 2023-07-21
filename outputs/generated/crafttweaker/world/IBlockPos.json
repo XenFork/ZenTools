@@ -1,2 +1,54 @@
 {
+    "imports": [
+        "crafttweaker.util.Position3f",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IFacing"
+    ],
+    "methods": [
+        {
+            "name": "getOffset",
+            "type": " IBlockPos",
+            "args": [
+                {
+                    "name": "direction",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                },
+                {
+                    "name": "offset",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getX",
+            "type": " int"
+        },
+        {
+            "name": "getY",
+            "type": " int"
+        },
+        {
+            "name": "getZ",
+            "type": " int"
+        },
+        {
+            "name": "asPosition3f",
+            "type": " Position3f"
+        }
+    ],
+    "fields": [
+        {
+            "name": "x",
+            "type": "int"
+        },
+        {
+            "name": "y",
+            "type": "int"
+        },
+        {
+            "name": "z",
+            "type": "int"
+        }
+    ]
 }

@@ -1,2 +1,25 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "setItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "item",
+            "type": "void"
+        }
+    ]
 }

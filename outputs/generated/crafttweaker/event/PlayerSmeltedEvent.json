@@ -1,2 +1,13 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "output",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        }
+    ]
 }

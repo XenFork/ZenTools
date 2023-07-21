@@ -1,2 +1,63 @@
 {
+    "imports": [
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "getName",
+            "type": " string"
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "hidden",
+            "type": "bool"
+        },
+        {
+            "name": "hasRecipeFunction",
+            "type": "bool"
+        },
+        {
+            "name": "resourceDomain",
+            "type": "string"
+        },
+        {
+            "name": "fullResourceDomain",
+            "type": "string"
+        },
+        {
+            "name": "commandString",
+            "type": "string"
+        },
+        {
+            "name": "hasTransformers",
+            "type": "bool"
+        },
+        {
+            "name": "output",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "hasRecipeAction",
+            "type": "bool"
+        },
+        {
+            "name": "ingredients1D",
+            "type": "IIngredient[]"
+        },
+        {
+            "name": "ingredients2D",
+            "type": "IIngredient[][]"
+        },
+        {
+            "name": "shaped",
+            "type": "bool"
+        }
+    ]
 }

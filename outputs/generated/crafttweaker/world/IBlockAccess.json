@@ -1,2 +1,47 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IFacing"
+    ],
+    "methods": [
+        {
+            "name": "getBlockState",
+            "type": " IBlockState",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "isAirBlock",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getStrongPower",
+            "type": " int",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "facing",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        }
+    ]
 }

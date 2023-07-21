@@ -1,2 +1,19 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "fields": [
+        {
+            "name": "shouldUpdateWorld",
+            "type": "bool"
+        },
+        {
+            "name": "shouldWakeImmediately",
+            "type": "bool"
+        },
+        {
+            "name": "shouldSetSpawn",
+            "type": "bool"
+        }
+    ]
 }

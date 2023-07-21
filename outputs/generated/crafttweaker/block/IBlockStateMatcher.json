@@ -1,2 +1,75 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.block.IBlockStateMatcher"
+    ],
+    "methods": [
+        {
+            "name": "matches",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "blockState",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "withMatchedValuesForProperty",
+            "type": " IBlockStateMatcher",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "values",
+                    "type": "string[]"
+                }
+            ]
+        },
+        {
+            "name": "allowValuesForProperty",
+            "type": " IBlockStateMatcher",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "values",
+                    "type": "string[]"
+                }
+            ]
+        },
+        {
+            "name": "getMatchingBlockStates",
+            "type": " any"
+        },
+        {
+            "name": "getMatchedValuesForProperty",
+            "type": " [string]",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "getMatchedProperties",
+            "type": " [string][string]"
+        },
+        {
+            "name": "isCompound",
+            "type": " bool"
+        }
+    ],
+    "fields": [
+        {
+            "name": "commandString",
+            "type": "string"
+        }
+    ]
 }

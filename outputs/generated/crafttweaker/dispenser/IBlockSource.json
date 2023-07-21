@@ -1,2 +1,42 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IFacing",
+        "crafttweaker.world.IWorld"
+    ],
+    "fields": [
+        {
+            "name": "x",
+            "type": "double"
+        },
+        {
+            "name": "y",
+            "type": "double"
+        },
+        {
+            "name": "facing",
+            "type": "IFacing",
+            "import": "crafttweaker.world.IFacing"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "z",
+            "type": "double"
+        },
+        {
+            "name": "pos",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "blockState",
+            "type": "IBlockState",
+            "import": "crafttweaker.block.IBlockState"
+        }
+    ]
 }

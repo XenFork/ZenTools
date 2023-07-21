@@ -1,2 +1,27 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "itemIngredient",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "breakChance",
+            "type": "float"
+        },
+        {
+            "name": "itemResult",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "itemInput",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        }
+    ]
 }

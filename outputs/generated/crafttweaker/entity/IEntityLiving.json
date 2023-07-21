@@ -1,2 +1,133 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityEquipmentSlot",
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "playLivingSound",
+            "type": " void"
+        },
+        {
+            "name": "clearLeashed",
+            "type": " void",
+            "args": [
+                {
+                    "name": "sendPacket",
+                    "type": "bool"
+                },
+                {
+                    "name": "dropLead",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "canBeLeashedTo",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        },
+        {
+            "name": "spawnExplosionParticle",
+            "type": " void"
+        },
+        {
+            "name": "enablePersistence",
+            "type": " void"
+        },
+        {
+            "name": "setLeashedToEntity",
+            "type": " void",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                },
+                {
+                    "name": "sendAttachNotification",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "setDropChance",
+            "type": " void",
+            "args": [
+                {
+                    "name": "slot",
+                    "type": "IEntityEquipmentSlot",
+                    "inTheClass": "crafttweaker.entity.IEntityEquipmentSlot"
+                },
+                {
+                    "name": "chance",
+                    "type": "float"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "attackTarget",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        },
+        {
+            "name": "talkInterval",
+            "type": "int"
+        },
+        {
+            "name": "canSpawnHere",
+            "type": "bool"
+        },
+        {
+            "name": "isColliding",
+            "type": "bool"
+        },
+        {
+            "name": "canBeSteered",
+            "type": "bool"
+        },
+        {
+            "name": "canPickUpLoot",
+            "type": "bool"
+        },
+        {
+            "name": "isLeashed",
+            "type": "bool"
+        },
+        {
+            "name": "isAIDisabled",
+            "type": "bool"
+        },
+        {
+            "name": "isLeftHanded",
+            "type": "bool"
+        },
+        {
+            "name": "renderSizeModifier",
+            "type": "float"
+        },
+        {
+            "name": "maxSpawnedInChunk",
+            "type": "int"
+        },
+        {
+            "name": "isNoDespawnRequired",
+            "type": "bool"
+        },
+        {
+            "name": "leashedToEntity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        }
+    ]
 }

@@ -1,2 +1,28 @@
 {
+    "imports": [
+        "crafttweaker.player.IPlayer",
+        "crafttweaker.recipes.ICraftingInventory",
+        "crafttweaker.world.IWorld"
+    ],
+    "fields": [
+        {
+            "name": "dimensionID",
+            "type": "int"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        },
+        {
+            "name": "inventory",
+            "type": "ICraftingInventory",
+            "import": "crafttweaker.recipes.ICraftingInventory"
+        }
+    ]
 }

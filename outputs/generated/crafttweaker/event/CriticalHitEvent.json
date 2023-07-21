@@ -1,2 +1,26 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.event.IEventHasResult",
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "fields": [
+        {
+            "name": "target",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "damageModifier",
+            "type": "void"
+        },
+        {
+            "name": "oldDamageModifier",
+            "type": "float"
+        },
+        {
+            "name": "isVanillaCrit",
+            "type": "bool"
+        }
+    ]
 }

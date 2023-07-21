@@ -1,2 +1,78 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.potions.IPotion",
+        "crafttweaker.potions.IPotionEffect"
+    ],
+    "methods": [
+        {
+            "name": "combine",
+            "type": " void",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IPotionEffect",
+                    "inTheClass": "crafttweaker.potions.IPotionEffect"
+                }
+            ]
+        },
+        {
+            "name": "isCurativeItem",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "performEffect",
+            "type": " void",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "duration",
+            "type": "int"
+        },
+        {
+            "name": "potion",
+            "type": "IPotion",
+            "import": "crafttweaker.potions.IPotion"
+        },
+        {
+            "name": "curativeItems",
+            "type": "[IItemStack]"
+        },
+        {
+            "name": "amplifier",
+            "type": "int"
+        },
+        {
+            "name": "effectName",
+            "type": "string"
+        },
+        {
+            "name": "isAmbient",
+            "type": "bool"
+        },
+        {
+            "name": "doesShowParticles",
+            "type": "bool"
+        },
+        {
+            "name": "isPotionDurationMax",
+            "type": "bool"
+        }
+    ]
 }

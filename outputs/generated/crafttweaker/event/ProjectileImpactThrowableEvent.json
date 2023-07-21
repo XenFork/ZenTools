@@ -1,2 +1,20 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.entity.IEntityThrowable",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ProjectileImpactEvent"
+    ],
+    "fields": [
+        {
+            "name": "thrower",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        },
+        {
+            "name": "throwable",
+            "type": "IEntityThrowable",
+            "import": "crafttweaker.entity.IEntityThrowable"
+        }
+    ]
 }

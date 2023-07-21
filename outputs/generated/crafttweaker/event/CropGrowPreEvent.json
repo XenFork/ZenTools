@@ -1,2 +1,6 @@
 {
+    "imports": [
+        "crafttweaker.event.IBlockEvent",
+        "crafttweaker.event.IEventHasResult"
+    ]
 }

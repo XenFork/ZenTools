@@ -1,2 +1,13 @@
 {
+    "imports": [
+        "crafttweaker.event.ILivingEvent",
+        "crafttweaker.player.IPlayer"
+    ],
+    "fields": [
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        }
+    ]
 }

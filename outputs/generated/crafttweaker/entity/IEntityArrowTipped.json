@@ -1,2 +1,31 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityArrow",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.potions.IPotionEffect"
+    ],
+    "methods": [
+        {
+            "name": "setPotionEffect",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "addPotionEffect",
+            "type": " void",
+            "args": [
+                {
+                    "name": "effect",
+                    "type": "IPotionEffect",
+                    "inTheClass": "crafttweaker.potions.IPotionEffect"
+                }
+            ]
+        }
+    ]
 }

@@ -1,2 +1,13 @@
 {
+    "imports": [
+        "crafttweaker.container.IContainer",
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "fields": [
+        {
+            "name": "container",
+            "type": "IContainer",
+            "import": "crafttweaker.container.IContainer"
+        }
+    ]
 }

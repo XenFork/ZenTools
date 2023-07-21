@@ -1,2 +1,164 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityDrop",
+        "crafttweaker.entity.IEntityDropFunction",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.item.WeightedItemStack",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "createEntity",
+            "type": " IEntity",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                }
+            ]
+        },
+        {
+            "name": "addPlayerOnlyDrop",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "min",
+                    "type": "int = 0"
+                },
+                {
+                    "name": "max",
+                    "type": "int = 0"
+                },
+                {
+                    "name": "chance",
+                    "type": "float = 0.0"
+                }
+            ]
+        },
+        {
+            "name": "addPlayerOnlyDrop",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "WeightedItemStack",
+                    "inTheClass": "crafttweaker.item.WeightedItemStack"
+                },
+                {
+                    "name": "min",
+                    "type": "int = 0"
+                },
+                {
+                    "name": "max",
+                    "type": "int = 0"
+                }
+            ]
+        },
+        {
+            "name": "spawnEntity",
+            "type": " IEntity",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "addDrop",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "WeightedItemStack",
+                    "inTheClass": "crafttweaker.item.WeightedItemStack"
+                },
+                {
+                    "name": "min",
+                    "type": "int = 0"
+                },
+                {
+                    "name": "max",
+                    "type": "int = 0"
+                }
+            ]
+        },
+        {
+            "name": "addDrop",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "min",
+                    "type": "int = 0"
+                },
+                {
+                    "name": "max",
+                    "type": "int = 0"
+                },
+                {
+                    "name": "chance",
+                    "type": "float = 0.0"
+                }
+            ]
+        },
+        {
+            "name": "addDropFunction",
+            "type": " void",
+            "args": [
+                {
+                    "name": "_function",
+                    "type": "IEntityDropFunction",
+                    "inTheClass": "crafttweaker.entity.IEntityDropFunction"
+                }
+            ]
+        },
+        {
+            "name": "removeDrop",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "clearDrops",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "drops",
+            "type": "[IEntityDrop]"
+        }
+    ]
 }

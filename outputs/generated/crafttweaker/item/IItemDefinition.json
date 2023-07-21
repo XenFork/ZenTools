@@ -1,2 +1,167 @@
 {
+    "imports": [
+        "crafttweaker.creativetabs.ICreativeTab",
+        "crafttweaker.dispenser.IDispenserBehavior",
+        "crafttweaker.dispenser.IDispenserSoundFunction",
+        "crafttweaker.entity.IEntityDefinition",
+        "crafttweaker.item.IItemDefinition",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.oredict.IOreDictEntry"
+    ],
+    "methods": [
+        {
+            "name": "setHarvestLevel",
+            "type": " void",
+            "args": [
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "level",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "setNoRepair",
+            "type": " void"
+        },
+        {
+            "name": "getItemBurnTime",
+            "type": " int",
+            "args": [
+                {
+                    "name": "itemStack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "makeStack",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "meta",
+                    "type": "int = 0"
+                }
+            ]
+        },
+        {
+            "name": "setContainerItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemDefinition",
+                    "inTheClass": "crafttweaker.item.IItemDefinition"
+                }
+            ]
+        },
+        {
+            "name": "getSubItems",
+            "type": " [IItemStack]",
+            "args": [
+                {
+                    "name": "tab",
+                    "type": "ICreativeTab",
+                    "inTheClass": "crafttweaker.creativetabs.ICreativeTab"
+                }
+            ]
+        },
+        {
+            "name": "isArrow",
+            "type": " bool"
+        },
+        {
+            "name": "setAlwaysEdible",
+            "type": " void"
+        },
+        {
+            "name": "addDispenserBehavior",
+            "type": " void",
+            "args": [
+                {
+                    "name": "behavior",
+                    "type": "IDispenserBehavior",
+                    "inTheClass": "crafttweaker.dispenser.IDispenserBehavior"
+                },
+                {
+                    "name": "soundFunction",
+                    "type": "IDispenserSoundFunction = null"
+                }
+            ]
+        },
+        {
+            "name": "removeDispenserBehavior",
+            "type": " void"
+        },
+        {
+            "name": "addShootingProjectileDispenserBehavior",
+            "type": " void",
+            "args": [
+                {
+                    "name": "projectile",
+                    "type": "IEntityDefinition",
+                    "inTheClass": "crafttweaker.entity.IEntityDefinition"
+                },
+                {
+                    "name": "inaccuracy",
+                    "type": "float = 6.0"
+                },
+                {
+                    "name": "velocity",
+                    "type": "float = 1.1"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "owner",
+            "type": "string"
+        },
+        {
+            "name": "defaultInstance",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "itemEnchantability",
+            "type": "int"
+        },
+        {
+            "name": "creativeTabs",
+            "type": "ICreativeTab[]"
+        },
+        {
+            "name": "ores",
+            "type": "[IOreDictEntry]"
+        },
+        {
+            "name": "canItemEditBlocks",
+            "type": "bool"
+        },
+        {
+            "name": "creativeTab",
+            "type": "void"
+        },
+        {
+            "name": "subItems",
+            "type": "[IItemStack]"
+        },
+        {
+            "name": "isArrow",
+            "type": "bool"
+        }
+    ]
 }

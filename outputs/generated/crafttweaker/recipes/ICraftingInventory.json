@@ -1,2 +1,97 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "getStack",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "i",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getStack",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "row",
+                    "type": "int"
+                },
+                {
+                    "name": "column",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "setStack",
+            "type": " void",
+            "args": [
+                {
+                    "name": "i",
+                    "type": "int"
+                },
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "setStack",
+            "type": " void",
+            "args": [
+                {
+                    "name": "row",
+                    "type": "int"
+                },
+                {
+                    "name": "column",
+                    "type": "int"
+                },
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "size",
+            "type": "int"
+        },
+        {
+            "name": "width",
+            "type": "int"
+        },
+        {
+            "name": "height",
+            "type": "int"
+        },
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        },
+        {
+            "name": "items",
+            "type": "IItemStack[][]"
+        },
+        {
+            "name": "itemArray",
+            "type": "IItemStack[]"
+        },
+        {
+            "name": "stackCount",
+            "type": "int"
+        }
+    ]
 }

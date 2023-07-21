@@ -1,2 +1,28 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.INoteBlockEvent"
+    ],
+    "methods": [
+        {
+            "name": "getInstrument",
+            "type": " string"
+        },
+        {
+            "name": "setInstrument",
+            "type": " void",
+            "args": [
+                {
+                    "name": "instrument",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "instrument",
+            "type": "string"
+        }
+    ]
 }

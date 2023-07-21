@@ -1,16 +1,16 @@
 {
     "imports": [
-        "crafttweaker.block.IBlockState;",
-        "crafttweaker.creativetabs.ICreativeTab;",
-        "crafttweaker.damage.IDamageSource;",
-        "crafttweaker.enchantments.IEnchantmentDefinition;",
-        "crafttweaker.entity.IEntityDefinition;",
-        "crafttweaker.item.IIngredient;",
-        "crafttweaker.item.IItemStack;",
-        "crafttweaker.liquid.ILiquidStack;",
-        "crafttweaker.oredict.IOreDictEntry;",
-        "crafttweaker.potions.IPotion;",
-        "crafttweaker.potions.IPotionType;",
-        "crafttweaker.world.IBiome;"
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.creativetabs.ICreativeTab",
+        "crafttweaker.damage.IDamageSource",
+        "crafttweaker.enchantments.IEnchantmentDefinition",
+        "crafttweaker.entity.IEntityDefinition",
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.liquid.ILiquidStack",
+        "crafttweaker.oredict.IOreDictEntry",
+        "crafttweaker.potions.IPotion",
+        "crafttweaker.potions.IPotionType",
+        "crafttweaker.world.IBiome"
     ]
 }

@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventHasResult",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "bow",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "hand",
+            "type": "string"
+        }
+    ]
 }

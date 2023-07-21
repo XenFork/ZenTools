@@ -1,2 +1,32 @@
 {
+    "methods": [
+        {
+            "name": "setBackgroundImageName",
+            "type": " void",
+            "args": [
+                {
+                    "name": "backgroundImage",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "setNoScrollBar",
+            "type": " void"
+        },
+        {
+            "name": "setNoTitle",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "searchBarWidth",
+            "type": "int"
+        },
+        {
+            "name": "tabLabel",
+            "type": "string"
+        }
+    ]
 }

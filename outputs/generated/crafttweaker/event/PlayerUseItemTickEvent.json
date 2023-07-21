@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "item",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "duration",
+            "type": "int"
+        }
+    ]
 }

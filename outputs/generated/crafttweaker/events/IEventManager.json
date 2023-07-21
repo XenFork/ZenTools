@@ -1,2 +1,1131 @@
 {
+    "imports": [
+        "crafttweaker.event.AnimalTameEvent",
+        "crafttweaker.event.ArrowLooseEvent",
+        "crafttweaker.event.ArrowNockEvent",
+        "crafttweaker.event.BlockBreakEvent",
+        "crafttweaker.event.BlockFarmlandTrampleEvent",
+        "crafttweaker.event.BlockHarvestDropsEvent",
+        "crafttweaker.event.BlockNeighborNotifyEvent",
+        "crafttweaker.event.BlockPlaceEvent",
+        "crafttweaker.event.ClientTickEvent",
+        "crafttweaker.event.CommandEvent",
+        "crafttweaker.event.CriticalHitEvent",
+        "crafttweaker.event.CropGrowPostEvent",
+        "crafttweaker.event.CropGrowPreEvent",
+        "crafttweaker.event.EnchantmentLevelSetEvent",
+        "crafttweaker.event.EnderTeleportEvent",
+        "crafttweaker.event.EntityJoinWorldEvent",
+        "crafttweaker.event.EntityLivingAttackedEvent",
+        "crafttweaker.event.EntityLivingDamageEvent",
+        "crafttweaker.event.EntityLivingDeathDropsEvent",
+        "crafttweaker.event.EntityLivingDeathEvent",
+        "crafttweaker.event.EntityLivingEquipmentChangeEvent",
+        "crafttweaker.event.EntityLivingExtendedSpawnEvent",
+        "crafttweaker.event.EntityLivingFallEvent",
+        "crafttweaker.event.EntityLivingHealEvent",
+        "crafttweaker.event.EntityLivingHurtEvent",
+        "crafttweaker.event.EntityLivingJumpEvent",
+        "crafttweaker.event.EntityLivingSpawnEvent",
+        "crafttweaker.event.EntityLivingUpdateEvent",
+        "crafttweaker.event.EntityLivingUseItemEvent.All",
+        "crafttweaker.event.EntityLivingUseItemEvent.Finish",
+        "crafttweaker.event.EntityLivingUseItemEvent.Start",
+        "crafttweaker.event.EntityLivingUseItemEvent.Stop",
+        "crafttweaker.event.EntityLivingUseItemEvent.Tick",
+        "crafttweaker.event.EntityMountEvent",
+        "crafttweaker.event.EntityStruckByLightningEvent",
+        "crafttweaker.event.EntityTravelToDimensionEvent",
+        "crafttweaker.event.ExplosionDetonateEvent",
+        "crafttweaker.event.ExplosionStartEvent",
+        "crafttweaker.event.IEventHandler",
+        "crafttweaker.event.INoteBlockEvent",
+        "crafttweaker.event.ItemExpireEvent",
+        "crafttweaker.event.ItemFishedEvent",
+        "crafttweaker.event.ItemTossEvent",
+        "crafttweaker.event.LivingDestroyBlockEvent",
+        "crafttweaker.event.LivingExperienceDropEvent",
+        "crafttweaker.event.LivingKnockBackEvent",
+        "crafttweaker.event.LootingLevelEvent",
+        "crafttweaker.event.MinecartCollisionEvent",
+        "crafttweaker.event.MinecartInteractEvent",
+        "crafttweaker.event.MinecartUpdateEvent",
+        "crafttweaker.event.MobGriefingEvent",
+        "crafttweaker.event.NoteBlockChangeEvent",
+        "crafttweaker.event.NoteBlockPlayEvent",
+        "crafttweaker.event.PlayerAdvancementEvent",
+        "crafttweaker.event.PlayerAnvilRepairEvent",
+        "crafttweaker.event.PlayerAnvilUpdateEvent",
+        "crafttweaker.event.PlayerAttackEntityEvent",
+        "crafttweaker.event.PlayerBonemealEvent",
+        "crafttweaker.event.PlayerBreakSpeedEvent",
+        "crafttweaker.event.PlayerBrewedPotionEvent",
+        "crafttweaker.event.PlayerChangedDimensionEvent",
+        "crafttweaker.event.PlayerCloneEvent",
+        "crafttweaker.event.PlayerCloseContainerEvent",
+        "crafttweaker.event.PlayerCraftedEvent",
+        "crafttweaker.event.PlayerDeathDropsEvent",
+        "crafttweaker.event.PlayerDestroyItemEvent",
+        "crafttweaker.event.PlayerFillBucketEvent",
+        "crafttweaker.event.PlayerInteractBlockEvent",
+        "crafttweaker.event.PlayerInteractEntityEvent",
+        "crafttweaker.event.PlayerInteractEvent",
+        "crafttweaker.event.PlayerItemPickupEvent",
+        "crafttweaker.event.PlayerLeftClickBlockEvent",
+        "crafttweaker.event.PlayerLoggedInEvent",
+        "crafttweaker.event.PlayerLoggedOutEvent",
+        "crafttweaker.event.PlayerOpenContainerEvent",
+        "crafttweaker.event.PlayerPickupItemEvent",
+        "crafttweaker.event.PlayerPickupXpEvent",
+        "crafttweaker.event.PlayerRespawnEvent",
+        "crafttweaker.event.PlayerRightClickItemEvent",
+        "crafttweaker.event.PlayerSetSpawnEvent",
+        "crafttweaker.event.PlayerSleepInBedEvent",
+        "crafttweaker.event.PlayerSmeltedEvent",
+        "crafttweaker.event.PlayerTickEvent",
+        "crafttweaker.event.PlayerUseHoeEvent",
+        "crafttweaker.event.PlayerVisibilityEvent",
+        "crafttweaker.event.PlayerWakeUpEvent",
+        "crafttweaker.event.PortalSpawnEvent",
+        "crafttweaker.event.PotionBrewPostEvent",
+        "crafttweaker.event.PotionBrewPreEvent",
+        "crafttweaker.event.PotionEffectAddedEvent",
+        "crafttweaker.event.PotionEffectApplicableEvent",
+        "crafttweaker.event.PotionEffectExpiryEvent",
+        "crafttweaker.event.PotionEffectRemoveEvent",
+        "crafttweaker.event.ProjectileImpactArrowEvent",
+        "crafttweaker.event.ProjectileImpactFireballEvent",
+        "crafttweaker.event.ProjectileImpactThrowableEvent",
+        "crafttweaker.event.RenderTickEvent",
+        "crafttweaker.event.ServerTickEvent",
+        "crafttweaker.event.SleepingLocationCheckEvent",
+        "crafttweaker.event.SleepingTimeCheckEvent",
+        "crafttweaker.event.WorldTickEvent"
+    ],
+    "methods": [
+        {
+            "name": "clear",
+            "type": " void"
+        },
+        {
+            "name": "onWorldTick",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(WorldTickEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onArrowLoose",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ArrowLooseEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onArrowNock",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ArrowNockEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerClone",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerCloneEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onItemExpire",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ItemExpireEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerDeathDrops",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerDeathDropsEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerOpenContainer",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerOpenContainerEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingUseItem",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(Allvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingUseItemStart",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(Startvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingUseItemStop",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(Stopvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingUseItemTick",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(Tickvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingUseItemFinish",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(Finishvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingAttacked",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingAttackedEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingDeath",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingDeathEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingFall",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingFallEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingHurt",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingHurtEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingJump",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingJumpEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingDeathDrops",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingDeathDropsEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerAnvilRepair",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerAnvilRepairEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerAnvilUpdate",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerAnvilUpdateEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onBlockHarvestDrops",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(BlockHarvestDropsEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerBreakSpeed",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerBreakSpeedEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerRightClickBlock",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerInteractBlockEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerInteractBlock",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerInteractBlockEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerAdvancement",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerAdvancementEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onExplosionStart",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ExplosionStartEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onBlockPlace",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(BlockPlaceEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerDestroyItem",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerDestroyItemEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerSleepInBed",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerSleepInBedEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onLivingKnockBack",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(LivingKnockBackEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerLoggedOut",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerLoggedOutEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onAnimalTame",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(AnimalTameEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onServerTick",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ServerTickEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingUpdate",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingUpdateEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPotionEffectAdded",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PotionEffectAddedEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPotionEffectRemove",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PotionEffectRemoveEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPotionEffectApplicable",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PotionEffectApplicableEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPotionEffectExpiry",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PotionEffectExpiryEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onBlockNeighborNotify",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(BlockNeighborNotifyEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onFarmlandTrample",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(BlockFarmlandTrampleEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityStruckByLightning",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityStruckByLightningEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onExplosionDetonate",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ExplosionDetonateEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerBrewedPotion",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerBrewedPotionEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEnchantmentLevelSet",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EnchantmentLevelSetEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityJoinWorld",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityJoinWorldEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerChangedDimension",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerChangedDimensionEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerAttackEntity",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerAttackEntityEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerInteractEntity",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerInteractEntityEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerPickupItem",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerPickupItemEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerFillBucket",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerFillBucketEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerLoggedIn",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerLoggedInEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerCrafted",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerCraftedEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerSmelted",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerSmeltedEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerRespawn",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerRespawnEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerBonemeal",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerBonemealEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerInteract",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerInteractEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerPickupXp",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerPickupXpEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerWakeUp",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerWakeUpEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerUseHoe",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerUseHoeEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEnderTeleport",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EnderTeleportEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onItemToss",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ItemTossEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerSetSpawn",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerSetSpawnEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerTick",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerTickEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onClientTick",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ClientTickEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onRenderTick",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(RenderTickEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onBlockBreak",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(BlockBreakEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onCommand",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(CommandEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onCheckSpawn",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingExtendedSpawnEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onSpecialSpawn",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingExtendedSpawnEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onAllowDespawn",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingSpawnEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onCriticalHit",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(CriticalHitEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityMount",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityMountEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onItemFished",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ItemFishedEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onCropGrowPre",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(CropGrowPreEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onCropGrowPost",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(CropGrowPostEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onMobGriefing",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(MobGriefingEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onLootingLevel",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(LootingLevelEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onMinecartUpdate",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(MinecartUpdateEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onNoteBlock",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(INoteBlockEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onNoteBlockPlay",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(NoteBlockPlayEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPotionBrewPre",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PotionBrewPreEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPotionBrewPost",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PotionBrewPostEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPortalSpawn",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PortalSpawnEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityTravelToDimension",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityTravelToDimensionEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onLivingDestroyBlock",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(LivingDestroyBlockEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onLivingExperienceDrop",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(LivingExperienceDropEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onMinecartCollision",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(MinecartCollisionEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onMinecartInteract",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(MinecartInteractEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onNoteBlockChange",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(NoteBlockChangeEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerCloseContainer",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerCloseContainerEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerItemPickup",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerItemPickupEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerVisibility",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerVisibilityEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerLeftClickBlock",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerLeftClickBlockEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerRightClickItem",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerRightClickItemEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onSleepingLocationCheck",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(SleepingLocationCheckEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onSleepingTimeCheck",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(SleepingTimeCheckEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onProjectileImpactArrow",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ProjectileImpactArrowEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onProjectileImpactFireball",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ProjectileImpactFireballEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onProjectileImpactThrowable",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(ProjectileImpactThrowableEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingEquipmentChange",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingEquipmentChangeEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingDamage",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingDamageEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "onEntityLivingHeal",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(EntityLivingHealEventvoid"
+                }
+            ]
+        }
+    ]
 }

@@ -1,7 +1,78 @@
 {
     "imports": [
-        "crafttweaker.item.IIngredient;",
-        "crafttweaker.item.WeightedItemStack;",
-        "vanilla.LootEntry;"
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.WeightedItemStack",
+        "vanilla.LootEntry"
+    ],
+    "methods": [
+        {
+            "name": "addChestLoot",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "item",
+                    "type": "WeightedItemStack",
+                    "inTheClass": "crafttweaker.item.WeightedItemStack"
+                }
+            ]
+        },
+        {
+            "name": "addChestLoot",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "item",
+                    "type": "WeightedItemStack",
+                    "inTheClass": "crafttweaker.item.WeightedItemStack"
+                },
+                {
+                    "name": "min",
+                    "type": "int"
+                },
+                {
+                    "name": "max",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "removeChestLoot",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "ingredient",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                }
+            ]
+        },
+        {
+            "name": "getLoot",
+            "type": " [LootEntry]",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "lootTypes",
+            "type": "[string]"
+        }
     ]
 }

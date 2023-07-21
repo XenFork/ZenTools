@@ -1,2 +1,16 @@
 {
+    "imports": [
+        "crafttweaker.player.IPlayer"
+    ],
+    "fields": [
+        {
+            "name": "language",
+            "type": "string"
+        },
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        }
+    ]
 }

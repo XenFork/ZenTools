@@ -1,2 +1,6 @@
 {
+    "imports": [
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.potions.IPotionType"
+    ]
 }

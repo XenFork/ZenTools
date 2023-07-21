@@ -1,2 +1,19 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityItem",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "stackCopy",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "originalEntity",
+            "type": "IEntityItem",
+            "import": "crafttweaker.entity.IEntityItem"
+        }
+    ]
 }

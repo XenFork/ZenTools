@@ -1,2 +1,57 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityAgeable",
+        "crafttweaker.entity.IEntityAnimal",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "isBreedingItem",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "itemStack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "setInLove",
+            "type": " void",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer = null"
+                }
+            ]
+        },
+        {
+            "name": "resetInLove",
+            "type": " void"
+        },
+        {
+            "name": "canMateWith",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IEntityAnimal",
+                    "inTheClass": "crafttweaker.entity.IEntityAnimal"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "loveCause",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        },
+        {
+            "name": "isInLove",
+            "type": "bool"
+        }
+    ]
 }

@@ -1,2 +1,14 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.event.IEntityEvent",
+        "crafttweaker.event.IEventCancelable"
+    ],
+    "fields": [
+        {
+            "name": "lightning",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        }
+    ]
 }

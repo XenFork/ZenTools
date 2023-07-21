@@ -1,2 +1,67 @@
 {
+    "imports": [
+        "crafttweaker.event.IBlockEvent"
+    ],
+    "methods": [
+        {
+            "name": "setOctave",
+            "type": " void",
+            "args": [
+                {
+                    "name": "octave",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "setBoth",
+            "type": " void",
+            "args": [
+                {
+                    "name": "note",
+                    "type": "string"
+                },
+                {
+                    "name": "octave",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "getNoteId",
+            "type": " int"
+        },
+        {
+            "name": "getNote",
+            "type": " string"
+        },
+        {
+            "name": "getOctave",
+            "type": " string"
+        },
+        {
+            "name": "setNote",
+            "type": " void",
+            "args": [
+                {
+                    "name": "note",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "octave",
+            "type": "void"
+        },
+        {
+            "name": "noteId",
+            "type": "int"
+        },
+        {
+            "name": "note",
+            "type": "string"
+        }
+    ]
 }

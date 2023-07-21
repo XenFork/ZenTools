@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.event.IBlockEvent",
+        "crafttweaker.event.IEventCancelable"
+    ],
+    "fields": [
+        {
+            "name": "entity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "fallDistance",
+            "type": "float"
+        }
+    ]
 }

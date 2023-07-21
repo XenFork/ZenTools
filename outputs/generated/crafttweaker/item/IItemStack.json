@@ -1,2 +1,557 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlock",
+        "crafttweaker.block.IBlockDefinition",
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.data.IData",
+        "crafttweaker.enchantments.IEnchantment",
+        "crafttweaker.enchantments.IEnchantmentDefinition",
+        "crafttweaker.entity.AttributeModifier",
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityEquipmentSlot",
+        "crafttweaker.entity.IEntityItem",
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IItemDefinition",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.item.IMutableItemStack",
+        "crafttweaker.item.WeightedItemStack",
+        "crafttweaker.liquid.ILiquidStack",
+        "crafttweaker.oredict.IOreDictEntry",
+        "crafttweaker.player.IPlayer",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "getCapNBT",
+            "type": " IData"
+        },
+        {
+            "name": "withCapNBT",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "capNBT",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                }
+            ]
+        },
+        {
+            "name": "isBlock",
+            "type": " bool"
+        },
+        {
+            "name": "addAttributeModifier",
+            "type": " void",
+            "args": [
+                {
+                    "name": "attributeName",
+                    "type": "string"
+                },
+                {
+                    "name": "modifier",
+                    "type": "AttributeModifier",
+                    "inTheClass": "crafttweaker.entity.AttributeModifier"
+                },
+                {
+                    "name": "equipmentSlot",
+                    "type": "IEntityEquipmentSlot",
+                    "inTheClass": "crafttweaker.entity.IEntityEquipmentSlot"
+                }
+            ]
+        },
+        {
+            "name": "getMaxItemUseDuration",
+            "type": " int"
+        },
+        {
+            "name": "weight",
+            "type": " WeightedItemStack",
+            "args": [
+                {
+                    "name": "p",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "amount",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "amount",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getStrengthAgainstBlock",
+            "type": " float",
+            "args": [
+                {
+                    "name": "blockState",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "canApplyAtEnchantingTable",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "enchantment",
+                    "type": "IEnchantmentDefinition",
+                    "inTheClass": "crafttweaker.enchantments.IEnchantmentDefinition"
+                }
+            ]
+        },
+        {
+            "name": "canHarvestBlock",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "block",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "getHarvestLevel",
+            "type": " int",
+            "args": [
+                {
+                    "name": "toolClass",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "getHarvestLevel",
+            "type": " int",
+            "args": [
+                {
+                    "name": "toolClass",
+                    "type": "string"
+                },
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                },
+                {
+                    "name": "blockState",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "anyDamage",
+            "type": " IIngredient"
+        },
+        {
+            "name": "withDamage",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "damage",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "withAmount",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "anyAmount",
+            "type": " IItemStack"
+        },
+        {
+            "name": "withTag",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "tag",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                },
+                {
+                    "name": "matchTagExact",
+                    "type": "bool = true"
+                }
+            ]
+        },
+        {
+            "name": "withEmptyTag",
+            "type": " IItemStack"
+        },
+        {
+            "name": "removeTag",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "tag",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "updateTag",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "tagUpdate",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                },
+                {
+                    "name": "matchTagExact",
+                    "type": "bool = true"
+                }
+            ]
+        },
+        {
+            "name": "asBlock",
+            "type": " IBlock"
+        },
+        {
+            "name": "withDisplayName",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "withLore",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "lore",
+                    "type": "string[]"
+                }
+            ]
+        },
+        {
+            "name": "canPlaceOn",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "block",
+                    "type": "IBlockDefinition",
+                    "inTheClass": "crafttweaker.block.IBlockDefinition"
+                }
+            ]
+        },
+        {
+            "name": "canDestroy",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "block",
+                    "type": "IBlockDefinition",
+                    "inTheClass": "crafttweaker.block.IBlockDefinition"
+                }
+            ]
+        },
+        {
+            "name": "addEnchantment",
+            "type": " void",
+            "args": [
+                {
+                    "name": "enchantment",
+                    "type": "IEnchantment",
+                    "inTheClass": "crafttweaker.enchantments.IEnchantment"
+                }
+            ]
+        },
+        {
+            "name": "clearCustomName",
+            "type": " void"
+        },
+        {
+            "name": "damageItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                },
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "splitStack",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "createEntityItem",
+            "type": " IEntityItem",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "x",
+                    "type": "int"
+                },
+                {
+                    "name": "y",
+                    "type": "int"
+                },
+                {
+                    "name": "z",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "createEntityItem",
+            "type": " IEntityItem",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "x",
+                    "type": "float"
+                },
+                {
+                    "name": "y",
+                    "type": "float"
+                },
+                {
+                    "name": "z",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "createEntityItem",
+            "type": " IEntityItem",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "mutable",
+            "type": " IMutableItemStack"
+        }
+    ],
+    "fields": [
+        {
+            "name": "capNBT",
+            "type": "IData",
+            "import": "crafttweaker.data.IData"
+        },
+        {
+            "name": "isBlock",
+            "type": "bool"
+        },
+        {
+            "name": "maxItemUseDuration",
+            "type": "int"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "isEmpty",
+            "type": "bool"
+        },
+        {
+            "name": "definition",
+            "type": "IItemDefinition",
+            "import": "crafttweaker.item.IItemDefinition"
+        },
+        {
+            "name": "displayName",
+            "type": "string"
+        },
+        {
+            "name": "tag",
+            "type": "IData",
+            "import": "crafttweaker.data.IData"
+        },
+        {
+            "name": "metadata",
+            "type": "int"
+        },
+        {
+            "name": "isEnchantable",
+            "type": "bool"
+        },
+        {
+            "name": "showsDurabilityBar",
+            "type": "bool"
+        },
+        {
+            "name": "itemEnchantability",
+            "type": "int"
+        },
+        {
+            "name": "containerItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "hasContainerItem",
+            "type": "bool"
+        },
+        {
+            "name": "hasCustomEntity",
+            "type": "bool"
+        },
+        {
+            "name": "damage",
+            "type": "int"
+        },
+        {
+            "name": "maxDamage",
+            "type": "int"
+        },
+        {
+            "name": "toolClasses",
+            "type": "[string]"
+        },
+        {
+            "name": "isBeaconPayment",
+            "type": "bool"
+        },
+        {
+            "name": "burnTime",
+            "type": "int"
+        },
+        {
+            "name": "liquid",
+            "type": "ILiquidStack",
+            "import": "crafttweaker.liquid.ILiquidStack"
+        },
+        {
+            "name": "enchantments",
+            "type": "[IEnchantment]"
+        },
+        {
+            "name": "isItemBlock",
+            "type": "bool"
+        },
+        {
+            "name": "maxStackSize",
+            "type": "int"
+        },
+        {
+            "name": "hardness",
+            "type": "float"
+        },
+        {
+            "name": "matchTagExact",
+            "type": "bool"
+        },
+        {
+            "name": "repairCost",
+            "type": "int"
+        },
+        {
+            "name": "canEditBlocks",
+            "type": "bool"
+        },
+        {
+            "name": "isOnItemFrame",
+            "type": "bool"
+        },
+        {
+            "name": "isEnchanted",
+            "type": "bool"
+        },
+        {
+            "name": "isDamaged",
+            "type": "bool"
+        },
+        {
+            "name": "isDamageable",
+            "type": "bool"
+        },
+        {
+            "name": "isStackable",
+            "type": "bool"
+        },
+        {
+            "name": "hasEffect",
+            "type": "bool"
+        },
+        {
+            "name": "hasDisplayName",
+            "type": "bool"
+        },
+        {
+            "name": "hasTag",
+            "type": "bool"
+        },
+        {
+            "name": "hasSubtypes",
+            "type": "bool"
+        },
+        {
+            "name": "isFood",
+            "type": "bool"
+        },
+        {
+            "name": "saturation",
+            "type": "float"
+        },
+        {
+            "name": "healAmount",
+            "type": "int"
+        },
+        {
+            "name": "ores",
+            "type": "[IOreDictEntry]"
+        }
+    ]
 }

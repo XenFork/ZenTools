@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityXp",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "fields": [
+        {
+            "name": "entityXp",
+            "type": "IEntityXp",
+            "import": "crafttweaker.entity.IEntityXp"
+        },
+        {
+            "name": "xp",
+            "type": "float"
+        }
+    ]
 }

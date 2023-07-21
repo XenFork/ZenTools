@@ -1,2 +1,259 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.block.IMaterial",
+        "crafttweaker.block.IMobilityFlag",
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.player.IPlayer",
+        "crafttweaker.world.IBlockAccess",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IFacing",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "getLightValue",
+            "type": " int",
+            "args": [
+                {
+                    "name": "access",
+                    "type": "IBlockAccess",
+                    "inTheClass": "crafttweaker.world.IBlockAccess"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getLightOpacity",
+            "type": " int",
+            "args": [
+                {
+                    "name": "access",
+                    "type": "IBlockAccess",
+                    "inTheClass": "crafttweaker.world.IBlockAccess"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "isSideSolid",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "access",
+                    "type": "IBlockAccess",
+                    "inTheClass": "crafttweaker.world.IBlockAccess"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "facing",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        },
+        {
+            "name": "doesSideBlockRendering",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "access",
+                    "type": "IBlockAccess",
+                    "inTheClass": "crafttweaker.world.IBlockAccess"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "facing",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        },
+        {
+            "name": "canEntitySpawn",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "getBlockHardness",
+            "type": " float",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getPlayerRelativeBlockHardness",
+            "type": " float",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                },
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getComparatorInputOverride",
+            "type": " int",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getStrongPower",
+            "type": " int",
+            "args": [
+                {
+                    "name": "access",
+                    "type": "IBlockAccess",
+                    "inTheClass": "crafttweaker.world.IBlockAccess"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "facing",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        },
+        {
+            "name": "getWeakPower",
+            "type": " int",
+            "args": [
+                {
+                    "name": "access",
+                    "type": "IBlockAccess",
+                    "inTheClass": "crafttweaker.world.IBlockAccess"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "facing",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        },
+        {
+            "name": "getActualState",
+            "type": " IBlockState",
+            "args": [
+                {
+                    "name": "access",
+                    "type": "IBlockAccess",
+                    "inTheClass": "crafttweaker.world.IBlockAccess"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "normalCube",
+            "type": "bool"
+        },
+        {
+            "name": "useNeighborBrightness",
+            "type": "bool"
+        },
+        {
+            "name": "blockNormalCube",
+            "type": "bool"
+        },
+        {
+            "name": "hasCustomBreakingProgress",
+            "type": "bool"
+        },
+        {
+            "name": "causesSuffocation",
+            "type": "bool"
+        },
+        {
+            "name": "mobilityFlag",
+            "type": "IMobilityFlag",
+            "import": "crafttweaker.block.IMobilityFlag"
+        },
+        {
+            "name": "canProvidePower",
+            "type": "bool"
+        },
+        {
+            "name": "material",
+            "type": "IMaterial",
+            "import": "crafttweaker.block.IMaterial"
+        },
+        {
+            "name": "fullBlock",
+            "type": "bool"
+        },
+        {
+            "name": "fullCube",
+            "type": "bool"
+        },
+        {
+            "name": "opaqueCube",
+            "type": "bool"
+        }
+    ]
 }

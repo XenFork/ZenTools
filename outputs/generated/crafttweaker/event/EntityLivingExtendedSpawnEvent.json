@@ -1,2 +1,13 @@
 {
+    "imports": [
+        "crafttweaker.event.EntityLivingSpawnEvent",
+        "crafttweaker.tileentity.IMobSpawnerBaseLogic"
+    ],
+    "fields": [
+        {
+            "name": "spawner",
+            "type": "IMobSpawnerBaseLogic",
+            "import": "crafttweaker.tileentity.IMobSpawnerBaseLogic"
+        }
+    ]
 }

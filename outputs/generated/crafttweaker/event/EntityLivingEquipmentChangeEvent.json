@@ -1,2 +1,38 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityEquipmentSlot",
+        "crafttweaker.event.ILivingEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "getSlot",
+            "type": " IEntityEquipmentSlot"
+        },
+        {
+            "name": "getFrom",
+            "type": " IItemStack"
+        },
+        {
+            "name": "getTo",
+            "type": " IItemStack"
+        }
+    ],
+    "fields": [
+        {
+            "name": "slot",
+            "type": "IEntityEquipmentSlot",
+            "import": "crafttweaker.entity.IEntityEquipmentSlot"
+        },
+        {
+            "name": "oldItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "newItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        }
+    ]
 }

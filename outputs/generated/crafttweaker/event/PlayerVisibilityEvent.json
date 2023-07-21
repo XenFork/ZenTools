@@ -1,2 +1,23 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "methods": [
+        {
+            "name": "modifyVisibility",
+            "type": " void",
+            "args": [
+                {
+                    "name": "modifier",
+                    "type": "double"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "modifier",
+            "type": "double"
+        }
+    ]
 }

@@ -1,2 +1,20 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityAnimal",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.player.IPlayer"
+    ],
+    "fields": [
+        {
+            "name": "animal",
+            "type": "IEntityAnimal",
+            "import": "crafttweaker.entity.IEntityAnimal"
+        },
+        {
+            "name": "tamer",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        }
+    ]
 }

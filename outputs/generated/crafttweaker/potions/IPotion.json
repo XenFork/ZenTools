@@ -1,2 +1,82 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.potions.IPotionEffect"
+    ],
+    "methods": [
+        {
+            "name": "makePotionEffect",
+            "type": " IPotionEffect",
+            "args": [
+                {
+                    "name": "duration",
+                    "type": "int"
+                },
+                {
+                    "name": "amplifier",
+                    "type": "int"
+                },
+                {
+                    "name": "ambient",
+                    "type": "bool"
+                },
+                {
+                    "name": "showParticles",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "makePotionEffect",
+            "type": " IPotionEffect",
+            "args": [
+                {
+                    "name": "duration",
+                    "type": "int"
+                },
+                {
+                    "name": "amplifier",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "setBeneficial",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "curativeItems",
+            "type": "[IItemStack]"
+        },
+        {
+            "name": "badEffect",
+            "type": "bool"
+        },
+        {
+            "name": "liquidColor",
+            "type": "int"
+        },
+        {
+            "name": "liquidColour",
+            "type": "int"
+        },
+        {
+            "name": "hasStatusIcon",
+            "type": "bool"
+        },
+        {
+            "name": "isBeneficial",
+            "type": "bool"
+        },
+        {
+            "name": "isInstant",
+            "type": "bool"
+        }
+    ]
 }

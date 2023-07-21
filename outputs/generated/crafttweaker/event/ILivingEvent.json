@@ -1,2 +1,13 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.event.IEntityEvent"
+    ],
+    "fields": [
+        {
+            "name": "entityLivingBase",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        }
+    ]
 }

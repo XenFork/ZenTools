@@ -1,2 +1,238 @@
 {
+    "imports": [
+        "crafttweaker.formatting.IFormattedText"
+    ],
+    "methods": [
+        {
+            "name": "red",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "bold",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "underline",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "yellow",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "white",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "black",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "blue",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "green",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "gold",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "gray",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "darkBlue",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "darkGreen",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "darkAqua",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "darkRed",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "darkPurple",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "aqua",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "lightPurple",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "darkGray",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "italic",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "strikethrough",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "obfuscated",
+            "type": " IFormattedText",
+            "args": [
+                {
+                    "name": "text",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        }
+    ]
 }

@@ -1,2 +1,11 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "fields": [
+        {
+            "name": "endConquered",
+            "type": "bool"
+        }
+    ]
 }

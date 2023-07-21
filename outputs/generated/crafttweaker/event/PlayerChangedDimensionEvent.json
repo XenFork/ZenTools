@@ -1,2 +1,26 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.world.IWorld"
+    ],
+    "fields": [
+        {
+            "name": "from",
+            "type": "int"
+        },
+        {
+            "name": "to",
+            "type": "int"
+        },
+        {
+            "name": "fromWorld",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "toWorld",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        }
+    ]
 }

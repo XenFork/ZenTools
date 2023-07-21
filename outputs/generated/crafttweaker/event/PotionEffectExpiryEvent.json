@@ -1,2 +1,5 @@
 {
+    "imports": [
+        "crafttweaker.event.IPotionEffectEvent"
+    ]
 }

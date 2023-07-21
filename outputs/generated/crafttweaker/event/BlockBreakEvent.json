@@ -1,2 +1,22 @@
 {
+    "imports": [
+        "crafttweaker.event.IBlockEvent",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.player.IPlayer"
+    ],
+    "fields": [
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        },
+        {
+            "name": "isPlayer",
+            "type": "bool"
+        },
+        {
+            "name": "experience",
+            "type": "int"
+        }
+    ]
 }

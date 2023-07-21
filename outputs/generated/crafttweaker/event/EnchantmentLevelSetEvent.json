@@ -1,2 +1,35 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventPositionable",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.world.IWorld"
+    ],
+    "fields": [
+        {
+            "name": "item",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "level",
+            "type": "int"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "power",
+            "type": "int"
+        },
+        {
+            "name": "originalLevel",
+            "type": "int"
+        },
+        {
+            "name": "enchantRow",
+            "type": "int"
+        }
+    ]
 }

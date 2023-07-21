@@ -1,2 +1,20 @@
 {
+    "imports": [
+        "crafttweaker.event.IBlockEvent",
+        "crafttweaker.event.IEventCancelable"
+    ],
+    "fields": [
+        {
+            "name": "valid",
+            "type": "bool"
+        },
+        {
+            "name": "width",
+            "type": "int"
+        },
+        {
+            "name": "height",
+            "type": "int"
+        }
+    ]
 }

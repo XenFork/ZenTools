@@ -1,2 +1,76 @@
 {
+    "methods": [
+        {
+            "name": "nextInt",
+            "type": " int",
+            "args": [
+                {
+                    "name": "minimum",
+                    "type": "int"
+                },
+                {
+                    "name": "maximum",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "nextInt",
+            "type": " int",
+            "args": [
+                {
+                    "name": "bound",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "nextInt",
+            "type": " int"
+        },
+        {
+            "name": "nextDouble",
+            "type": " double",
+            "args": [
+                {
+                    "name": "minimum",
+                    "type": "double"
+                },
+                {
+                    "name": "maximum",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "nextDouble",
+            "type": " double"
+        },
+        {
+            "name": "nextBoolean",
+            "type": " bool"
+        },
+        {
+            "name": "nextFloat",
+            "type": " float"
+        },
+        {
+            "name": "nextFloat",
+            "type": " float",
+            "args": [
+                {
+                    "name": "minimum",
+                    "type": "float"
+                },
+                {
+                    "name": "maximum",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "getRandomUUID",
+            "type": " string"
+        }
+    ]
 }

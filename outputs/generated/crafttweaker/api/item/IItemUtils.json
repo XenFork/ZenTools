@@ -1,2 +1,129 @@
 {
+    "imports": [
+        "crafttweaker.data.IData",
+        "crafttweaker.enchantments.IEnchantment",
+        "crafttweaker.entity.IEntityDefinition",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.potions.IPotionEffect"
+    ],
+    "methods": [
+        {
+            "name": "getItem",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "location",
+                    "type": "string"
+                },
+                {
+                    "name": "meta",
+                    "type": "int = 0"
+                }
+            ]
+        },
+        {
+            "name": "createEnchantedBook",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "enchantments",
+                    "type": "IEnchantment[]"
+                }
+            ]
+        },
+        {
+            "name": "combineEnchantments",
+            "type": " IData",
+            "args": [
+                {
+                    "name": "baseKey",
+                    "type": "string"
+                },
+                {
+                    "name": "enchantments",
+                    "type": "IEnchantment[]"
+                }
+            ]
+        },
+        {
+            "name": "combineEnchantments",
+            "type": " IData",
+            "args": [
+                {
+                    "name": "enchantments",
+                    "type": "IEnchantment[]"
+                }
+            ]
+        },
+        {
+            "name": "getItemsByRegexRegistryName",
+            "type": " IItemStack[]",
+            "args": [
+                {
+                    "name": "regex",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "getItemsByRegexUnlocalizedName",
+            "type": " IItemStack[]",
+            "args": [
+                {
+                    "name": "regex",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "createPotion",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "params",
+                    "type": "IPotionEffect[]"
+                }
+            ]
+        },
+        {
+            "name": "createPotion",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "params",
+                    "type": "any[][]"
+                }
+            ]
+        },
+        {
+            "name": "enchantItem",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "enchantments",
+                    "type": "IEnchantment[]"
+                }
+            ]
+        },
+        {
+            "name": "createSpawnEgg",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntityDefinition",
+                    "inTheClass": "crafttweaker.entity.IEntityDefinition"
+                },
+                {
+                    "name": "customNBT",
+                    "type": "IData = null"
+                }
+            ]
+        }
+    ]
 }

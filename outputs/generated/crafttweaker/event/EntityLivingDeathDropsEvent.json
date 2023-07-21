@@ -1,2 +1,52 @@
 {
+    "imports": [
+        "crafttweaker.damage.IDamageSource",
+        "crafttweaker.entity.IEntityItem",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ILivingEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "addItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "entityItem",
+                    "type": "IEntityItem",
+                    "inTheClass": "crafttweaker.entity.IEntityItem"
+                }
+            ]
+        },
+        {
+            "name": "addItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "lootingLevel",
+            "type": "int"
+        },
+        {
+            "name": "drops",
+            "type": "[IEntityItem]"
+        },
+        {
+            "name": "damageSource",
+            "type": "IDamageSource",
+            "import": "crafttweaker.damage.IDamageSource"
+        },
+        {
+            "name": "isRecentlyHit",
+            "type": "bool"
+        }
+    ]
 }

@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "getWorld",
+            "type": " IWorld"
+        }
+    ],
+    "fields": [
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        }
+    ]
 }

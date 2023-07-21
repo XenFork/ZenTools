@@ -1,2 +1,8 @@
 {
+    "fields": [
+        {
+            "name": "cancellationResult",
+            "type": "string"
+        }
+    ]
 }

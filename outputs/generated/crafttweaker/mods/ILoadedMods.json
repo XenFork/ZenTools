@@ -1,2 +1,17 @@
 {
+    "imports": [
+        "crafttweaker.mods.IMod"
+    ],
+    "methods": [
+        {
+            "name": "contains",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
 }

@@ -1,2 +1,41 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityCreature"
+    ],
+    "methods": [
+        {
+            "name": "ageUp",
+            "type": " void",
+            "args": [
+                {
+                    "name": "seconds",
+                    "type": "int"
+                },
+                {
+                    "name": "forced",
+                    "type": "bool = false"
+                }
+            ]
+        },
+        {
+            "name": "addGrowth",
+            "type": " void",
+            "args": [
+                {
+                    "name": "seconds",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "growingAge",
+            "type": "int"
+        },
+        {
+            "name": "scaleForAge",
+            "type": "void"
+        }
+    ]
 }

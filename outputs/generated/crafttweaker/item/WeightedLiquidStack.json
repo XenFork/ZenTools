@@ -1,2 +1,27 @@
 {
+    "imports": [
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IWeightedIngredient",
+        "crafttweaker.liquid.ILiquidStack"
+    ],
+    "fields": [
+        {
+            "name": "percent",
+            "type": "float"
+        },
+        {
+            "name": "stack",
+            "type": "ILiquidStack",
+            "import": "crafttweaker.liquid.ILiquidStack"
+        },
+        {
+            "name": "chance",
+            "type": "float"
+        },
+        {
+            "name": "ingredient",
+            "type": "IIngredient",
+            "import": "crafttweaker.item.IIngredient"
+        }
+    ]
 }

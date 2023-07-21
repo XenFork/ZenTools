@@ -1,2 +1,6 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.event.ILivingEvent"
+    ]
 }

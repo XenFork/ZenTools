@@ -1,2 +1,14 @@
 {
+    "methods": [
+        {
+            "name": "getName",
+            "type": " string"
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "void"
+        }
+    ]
 }

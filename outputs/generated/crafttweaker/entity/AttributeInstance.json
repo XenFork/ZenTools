@@ -1,2 +1,120 @@
 {
+    "imports": [
+        "crafttweaker.entity.Attribute",
+        "crafttweaker.entity.AttributeModifier"
+    ],
+    "methods": [
+        {
+            "name": "getModifiers",
+            "type": " [AttributeModifier]"
+        },
+        {
+            "name": "getAttribute",
+            "type": " Attribute"
+        },
+        {
+            "name": "getAttributeValue",
+            "type": " double"
+        },
+        {
+            "name": "getBaseValue",
+            "type": " double"
+        },
+        {
+            "name": "setBaseValue",
+            "type": " void",
+            "args": [
+                {
+                    "name": "baseValue",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "hasModifier",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "modifier",
+                    "type": "AttributeModifier",
+                    "inTheClass": "crafttweaker.entity.AttributeModifier"
+                }
+            ]
+        },
+        {
+            "name": "getModifier",
+            "type": " AttributeModifier",
+            "args": [
+                {
+                    "name": "uuid",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "applyModifier",
+            "type": " void",
+            "args": [
+                {
+                    "name": "modifier",
+                    "type": "AttributeModifier",
+                    "inTheClass": "crafttweaker.entity.AttributeModifier"
+                }
+            ]
+        },
+        {
+            "name": "removeModifier",
+            "type": " void",
+            "args": [
+                {
+                    "name": "uuid",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "removeModifier",
+            "type": " void",
+            "args": [
+                {
+                    "name": "modifier",
+                    "type": "AttributeModifier",
+                    "inTheClass": "crafttweaker.entity.AttributeModifier"
+                }
+            ]
+        },
+        {
+            "name": "getModifiersByOperation",
+            "type": " [AttributeModifier]",
+            "args": [
+                {
+                    "name": "operation",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "removeAllModifiers",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "modifiers",
+            "type": "[AttributeModifier]"
+        },
+        {
+            "name": "attribute",
+            "type": "Attribute",
+            "import": "crafttweaker.entity.Attribute"
+        },
+        {
+            "name": "attributeValue",
+            "type": "double"
+        },
+        {
+            "name": "baseValue",
+            "type": "double"
+        }
+    ]
 }

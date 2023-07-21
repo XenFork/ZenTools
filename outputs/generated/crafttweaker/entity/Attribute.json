@@ -1,2 +1,52 @@
 {
+    "imports": [
+        "crafttweaker.entity.Attribute"
+    ],
+    "methods": [
+        {
+            "name": "getName",
+            "type": " string"
+        },
+        {
+            "name": "getParent",
+            "type": " Attribute"
+        },
+        {
+            "name": "getDefaultValue",
+            "type": " double"
+        },
+        {
+            "name": "clampValue",
+            "type": " double",
+            "args": [
+                {
+                    "name": "value",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "getShouldWatch",
+            "type": " bool"
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "parent",
+            "type": "Attribute",
+            "import": "crafttweaker.entity.Attribute"
+        },
+        {
+            "name": "defaultValue",
+            "type": "double"
+        },
+        {
+            "name": "shouldWatch",
+            "type": "bool"
+        }
+    ]
 }

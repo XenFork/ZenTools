@@ -1,2 +1,26 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.INoteBlockEvent"
+    ],
+    "methods": [
+        {
+            "name": "getOldNote",
+            "type": " string"
+        },
+        {
+            "name": "getOldOctave",
+            "type": " string"
+        }
+    ],
+    "fields": [
+        {
+            "name": "oldNote",
+            "type": "string"
+        },
+        {
+            "name": "oldOctave",
+            "type": "string"
+        }
+    ]
 }

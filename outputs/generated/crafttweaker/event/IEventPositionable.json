@@ -1,2 +1,24 @@
 {
+    "imports": [
+        "crafttweaker.world.IBlockPos"
+    ],
+    "fields": [
+        {
+            "name": "x",
+            "type": "int"
+        },
+        {
+            "name": "y",
+            "type": "int"
+        },
+        {
+            "name": "position",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "z",
+            "type": "int"
+        }
+    ]
 }

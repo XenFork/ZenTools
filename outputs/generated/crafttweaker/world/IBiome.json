@@ -1,2 +1,59 @@
 {
+    "imports": [
+        "crafttweaker.world.IBiomeType"
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "types",
+            "type": "[IBiomeType]"
+        },
+        {
+            "name": "waterColorMultiplier",
+            "type": "int"
+        },
+        {
+            "name": "temperature",
+            "type": "float"
+        },
+        {
+            "name": "canRain",
+            "type": "bool"
+        },
+        {
+            "name": "isSnowyBiome",
+            "type": "bool"
+        },
+        {
+            "name": "baseHeight",
+            "type": "float"
+        },
+        {
+            "name": "rainfall",
+            "type": "float"
+        },
+        {
+            "name": "highHumidity",
+            "type": "bool"
+        },
+        {
+            "name": "spawningChance",
+            "type": "float"
+        },
+        {
+            "name": "ignorePlayerSpawnSuitability",
+            "type": "bool"
+        },
+        {
+            "name": "heightVariation",
+            "type": "float"
+        }
+    ]
 }

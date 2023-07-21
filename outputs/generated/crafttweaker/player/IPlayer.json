@@ -1,2 +1,350 @@
 {
+    "imports": [
+        "crafttweaker.chat.IChatMessage",
+        "crafttweaker.container.IContainer",
+        "crafttweaker.data.IData",
+        "crafttweaker.entity.IEntityFishHook",
+        "crafttweaker.entity.IEntityItem",
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.formatting.IFormattedText",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.player.IFoodStats",
+        "crafttweaker.player.IUser",
+        "crafttweaker.text.ITextComponent",
+        "crafttweaker.util.Position3f",
+        "crafttweaker.world.IBlockPos"
+    ],
+    "methods": [
+        {
+            "name": "update",
+            "type": " void",
+            "args": [
+                {
+                    "name": "data",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                }
+            ]
+        },
+        {
+            "name": "changeDimension",
+            "type": " void",
+            "args": [
+                {
+                    "name": "dimensionId",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "sendStatusMessage",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                },
+                {
+                    "name": "hotBar",
+                    "type": "bool = true"
+                }
+            ]
+        },
+        {
+            "name": "sendStatusMessage",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "string"
+                },
+                {
+                    "name": "hotBar",
+                    "type": "bool = true"
+                }
+            ]
+        },
+        {
+            "name": "getInventoryStack",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "i",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "teleport",
+            "type": " void",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "Position3f",
+                    "inTheClass": "crafttweaker.util.Position3f"
+                }
+            ]
+        },
+        {
+            "name": "give",
+            "type": " void",
+            "args": [
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "sendChat",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "sendChat",
+            "type": " void",
+            "args": [
+                {
+                    "name": "message",
+                    "type": "IChatMessage",
+                    "inTheClass": "crafttweaker.chat.IChatMessage"
+                }
+            ]
+        },
+        {
+            "name": "removeXP",
+            "type": " void",
+            "args": [
+                {
+                    "name": "xp",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getHotbarStack",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "i",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getScore",
+            "type": " int"
+        },
+        {
+            "name": "addScore",
+            "type": " void",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "setScore",
+            "type": " void",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "executeCommand",
+            "type": " void",
+            "args": [
+                {
+                    "name": "rawCommand",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "dropItem",
+            "type": " IEntityItem",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "dropItem",
+            "type": " IEntityItem",
+            "args": [
+                {
+                    "name": "dropAll",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "setCooldown",
+            "type": " void",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "time",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getCooldown",
+            "type": " float",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "isSleeping",
+            "type": " bool"
+        },
+        {
+            "name": "isFullyAsleep",
+            "type": " bool"
+        },
+        {
+            "name": "getSleepTimer",
+            "type": " int"
+        },
+        {
+            "name": "getBedLocation",
+            "type": " IBlockPos"
+        },
+        {
+            "name": "getFishHook",
+            "type": " IEntityFishHook"
+        },
+        {
+            "name": "getInventoryContainer",
+            "type": " IContainer"
+        },
+        {
+            "name": "sendRichTextStatusMessage",
+            "type": " void",
+            "args": [
+                {
+                    "name": "textComponent",
+                    "type": "ITextComponent",
+                    "inTheClass": "crafttweaker.text.ITextComponent"
+                },
+                {
+                    "name": "hotbar",
+                    "type": "bool = true"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "xp",
+            "type": "int"
+        },
+        {
+            "name": "data",
+            "type": "IData",
+            "import": "crafttweaker.data.IData"
+        },
+        {
+            "name": "damageDisabled",
+            "type": "void"
+        },
+        {
+            "name": "creative",
+            "type": "bool"
+        },
+        {
+            "name": "uuid",
+            "type": "string"
+        },
+        {
+            "name": "hotbarSize",
+            "type": "int"
+        },
+        {
+            "name": "inventorySize",
+            "type": "int"
+        },
+        {
+            "name": "currentItem",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "adventure",
+            "type": "bool"
+        },
+        {
+            "name": "score",
+            "type": "int"
+        },
+        {
+            "name": "foodStats",
+            "type": "IFoodStats",
+            "import": "crafttweaker.player.IFoodStats"
+        },
+        {
+            "name": "canFly",
+            "type": "bool"
+        },
+        {
+            "name": "canEdit",
+            "type": "bool"
+        },
+        {
+            "name": "isSleeping",
+            "type": "bool"
+        },
+        {
+            "name": "isFullyAsleep",
+            "type": "bool"
+        },
+        {
+            "name": "sleepTimer",
+            "type": "int"
+        },
+        {
+            "name": "bedLocation",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "fishHook",
+            "type": "IEntityFishHook",
+            "import": "crafttweaker.entity.IEntityFishHook"
+        },
+        {
+            "name": "inventoryContainer",
+            "type": "IContainer",
+            "import": "crafttweaker.container.IContainer"
+        }
+    ]
 }

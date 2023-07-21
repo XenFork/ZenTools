@@ -1,2 +1,23 @@
 {
+    "imports": [
+        "crafttweaker.command.ICommand",
+        "crafttweaker.command.ICommandSender",
+        "crafttweaker.event.IEventCancelable"
+    ],
+    "fields": [
+        {
+            "name": "parameters",
+            "type": "string[]"
+        },
+        {
+            "name": "command",
+            "type": "ICommand",
+            "import": "crafttweaker.command.ICommand"
+        },
+        {
+            "name": "commandSender",
+            "type": "ICommandSender",
+            "import": "crafttweaker.command.ICommandSender"
+        }
+    ]
 }

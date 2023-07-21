@@ -1,2 +1,175 @@
 {
+    "imports": [
+        "crafttweaker.damage.IDamageSource",
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.player.IPlayer",
+        "crafttweaker.world.IVector3d"
+    ],
+    "methods": [
+        {
+            "name": "canHarmInCreative",
+            "type": " bool"
+        },
+        {
+            "name": "getImmediateSource",
+            "type": " IEntity"
+        },
+        {
+            "name": "isDifficultyScaled",
+            "type": " bool"
+        },
+        {
+            "name": "setDamageAllowedInCreativeMode",
+            "type": " IDamageSource"
+        },
+        {
+            "name": "setDamageBypassesArmor",
+            "type": " IDamageSource"
+        },
+        {
+            "name": "setDamageIsAbsolute",
+            "type": " IDamageSource"
+        },
+        {
+            "name": "setDifficultyScaled",
+            "type": " IDamageSource"
+        },
+        {
+            "name": "getDamageType",
+            "type": " string"
+        },
+        {
+            "name": "getDeathMessage",
+            "type": " string",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "getHungerDamage",
+            "type": " float"
+        },
+        {
+            "name": "getTrueSource",
+            "type": " IEntity"
+        },
+        {
+            "name": "isCreativePlayer",
+            "type": " bool"
+        },
+        {
+            "name": "isDamageAbsolute",
+            "type": " bool"
+        },
+        {
+            "name": "isExplosion",
+            "type": " bool"
+        },
+        {
+            "name": "isFireDamage",
+            "type": " bool"
+        },
+        {
+            "name": "isMagicDamage",
+            "type": " bool"
+        },
+        {
+            "name": "isProjectile",
+            "type": " bool"
+        },
+        {
+            "name": "setExplosion",
+            "type": " IDamageSource"
+        },
+        {
+            "name": "setFireDamage",
+            "type": " IDamageSource"
+        },
+        {
+            "name": "setMagicDamage",
+            "type": " IDamageSource"
+        },
+        {
+            "name": "setProjectile",
+            "type": " IDamageSource"
+        },
+        {
+            "name": "isDamageUnblockable",
+            "type": " bool"
+        },
+        {
+            "name": "getDamageLocation",
+            "type": " IVector3d"
+        }
+    ],
+    "fields": [
+        {
+            "name": "harmInCreative",
+            "type": "bool"
+        },
+        {
+            "name": "hungerDamage",
+            "type": "float"
+        },
+        {
+            "name": "immediateSource",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "difficultyScaled",
+            "type": "bool"
+        },
+        {
+            "name": "damageType",
+            "type": "string"
+        },
+        {
+            "name": "hunderDamage",
+            "type": "float"
+        },
+        {
+            "name": "trueSource",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "creativePlayer",
+            "type": "bool"
+        },
+        {
+            "name": "damageAbsolute",
+            "type": "bool"
+        },
+        {
+            "name": "explosion",
+            "type": "bool"
+        },
+        {
+            "name": "fireDamage",
+            "type": "bool"
+        },
+        {
+            "name": "magicDamage",
+            "type": "bool"
+        },
+        {
+            "name": "projectile",
+            "type": "bool"
+        },
+        {
+            "name": "damageUnblockable",
+            "type": "bool"
+        },
+        {
+            "name": "damageLocation",
+            "type": "IVector3d",
+            "import": "crafttweaker.world.IVector3d"
+        }
+    ]
 }

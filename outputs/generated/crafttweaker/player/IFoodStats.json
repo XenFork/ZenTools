@@ -1,2 +1,61 @@
 {
+    "imports": [
+        "crafttweaker.data.IData",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "addStats",
+            "type": " void",
+            "args": [
+                {
+                    "name": "foodValue",
+                    "type": "int"
+                },
+                {
+                    "name": "saturationLevel",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "asNBT",
+            "type": " IData"
+        },
+        {
+            "name": "addExhaustion",
+            "type": " void",
+            "args": [
+                {
+                    "name": "exhaustion",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "onUpdate",
+            "type": " void",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "foodLevel",
+            "type": "int"
+        },
+        {
+            "name": "needFood",
+            "type": "bool"
+        },
+        {
+            "name": "saturationLevel",
+            "type": "float"
+        }
+    ]
 }

@@ -1,2 +1,59 @@
 {
+    "imports": [
+        "crafttweaker.entity.AttributeModifier"
+    ],
+    "methods": [
+        {
+            "name": "isSaved",
+            "type": " bool"
+        },
+        {
+            "name": "setSaved",
+            "type": " void",
+            "args": [
+                {
+                    "name": "saved",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "getName",
+            "type": " string"
+        },
+        {
+            "name": "getAmount",
+            "type": " double"
+        },
+        {
+            "name": "getOperation",
+            "type": " int"
+        },
+        {
+            "name": "getUUID",
+            "type": " string"
+        }
+    ],
+    "fields": [
+        {
+            "name": "saved",
+            "type": "bool"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "amount",
+            "type": "double"
+        },
+        {
+            "name": "operation",
+            "type": "int"
+        },
+        {
+            "name": "uuid",
+            "type": "string"
+        }
+    ]
 }

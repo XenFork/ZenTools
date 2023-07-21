@@ -1,2 +1,27 @@
 {
+    "imports": [
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IWeightedIngredient",
+        "crafttweaker.oredict.IOreDictEntry"
+    ],
+    "fields": [
+        {
+            "name": "entry",
+            "type": "IOreDictEntry",
+            "import": "crafttweaker.oredict.IOreDictEntry"
+        },
+        {
+            "name": "percent",
+            "type": "float"
+        },
+        {
+            "name": "chance",
+            "type": "float"
+        },
+        {
+            "name": "ingredient",
+            "type": "IIngredient",
+            "import": "crafttweaker.item.IIngredient"
+        }
+    ]
 }

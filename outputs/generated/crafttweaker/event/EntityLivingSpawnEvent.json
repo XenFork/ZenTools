@@ -1,2 +1,39 @@
 {
+    "imports": [
+        "crafttweaker.event.ILivingEvent",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "pass",
+            "type": " void"
+        },
+        {
+            "name": "allow",
+            "type": " void"
+        },
+        {
+            "name": "deny",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "x",
+            "type": "float"
+        },
+        {
+            "name": "y",
+            "type": "float"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "z",
+            "type": "float"
+        }
+    ]
 }

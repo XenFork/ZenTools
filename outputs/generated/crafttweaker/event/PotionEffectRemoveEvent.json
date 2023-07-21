@@ -1,2 +1,20 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IPotionEffectEvent",
+        "crafttweaker.potions.IPotion"
+    ],
+    "methods": [
+        {
+            "name": "getPotion",
+            "type": " IPotion"
+        }
+    ],
+    "fields": [
+        {
+            "name": "potion",
+            "type": "IPotion",
+            "import": "crafttweaker.potions.IPotion"
+        }
+    ]
 }

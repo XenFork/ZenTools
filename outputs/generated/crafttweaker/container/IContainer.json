@@ -1,2 +1,42 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "getStack",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "i",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "asString",
+            "type": " string"
+        },
+        {
+            "name": "setStack",
+            "type": " void",
+            "args": [
+                {
+                    "name": "i",
+                    "type": "int"
+                },
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "containerSize",
+            "type": "int"
+        }
+    ]
 }

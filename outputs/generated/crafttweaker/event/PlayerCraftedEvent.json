@@ -1,2 +1,19 @@
 {
+    "imports": [
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.recipes.ICraftingInventory"
+    ],
+    "fields": [
+        {
+            "name": "output",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "inventory",
+            "type": "ICraftingInventory",
+            "import": "crafttweaker.recipes.ICraftingInventory"
+        }
+    ]
 }

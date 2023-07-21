@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.event.IPotionEffectEvent",
+        "crafttweaker.potions.IPotionEffect"
+    ],
+    "fields": [
+        {
+            "name": "oldEffect",
+            "type": "IPotionEffect",
+            "import": "crafttweaker.potions.IPotionEffect"
+        },
+        {
+            "name": "newEffect",
+            "type": "IPotionEffect",
+            "import": "crafttweaker.potions.IPotionEffect"
+        }
+    ]
 }

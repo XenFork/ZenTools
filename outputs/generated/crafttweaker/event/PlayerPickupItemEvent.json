@@ -1,2 +1,15 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityItem",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IEventHasResult",
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "fields": [
+        {
+            "name": "item",
+            "type": "IEntityItem",
+            "import": "crafttweaker.entity.IEntityItem"
+        }
+    ]
 }

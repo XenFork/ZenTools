@@ -1,2 +1,33 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.event.IEntityEvent",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.world.IWorld"
+    ],
+    "fields": [
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "mountingEntity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "isMounting",
+            "type": "bool"
+        },
+        {
+            "name": "isDismounting",
+            "type": "bool"
+        },
+        {
+            "name": "mountedEntity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        }
+    ]
 }

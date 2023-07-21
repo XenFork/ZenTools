@@ -1,2 +1,102 @@
 {
+    "imports": [
+        "crafttweaker.data.IData"
+    ],
+    "methods": [
+        {
+            "name": "update",
+            "type": " IData",
+            "args": [
+                {
+                    "name": "data",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                }
+            ]
+        },
+        {
+            "name": "asList",
+            "type": " [IData]"
+        },
+        {
+            "name": "asMap",
+            "type": " IData[string]"
+        },
+        {
+            "name": "asString",
+            "type": " string"
+        },
+        {
+            "name": "asInt",
+            "type": " int"
+        },
+        {
+            "name": "asDouble",
+            "type": " double"
+        },
+        {
+            "name": "asLong",
+            "type": " long"
+        },
+        {
+            "name": "asByte",
+            "type": " byte"
+        },
+        {
+            "name": "asBool",
+            "type": " bool"
+        },
+        {
+            "name": "asFloat",
+            "type": " float"
+        },
+        {
+            "name": "asByteArray",
+            "type": " byte[]"
+        },
+        {
+            "name": "asShort",
+            "type": " short"
+        },
+        {
+            "name": "asIntArray",
+            "type": " int[]"
+        },
+        {
+            "name": "memberGet",
+            "type": " IData",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "memberSet",
+            "type": " void",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "data",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "length",
+            "type": "int"
+        },
+        {
+            "name": "immutable",
+            "type": "IData",
+            "import": "crafttweaker.data.IData"
+        }
+    ]
 }

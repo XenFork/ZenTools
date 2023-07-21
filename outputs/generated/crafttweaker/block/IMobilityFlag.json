@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.block.IMobilityFlag"
+    ],
+    "methods": [
+        {
+            "name": "matches",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IMobilityFlag",
+                    "inTheClass": "crafttweaker.block.IMobilityFlag"
+                }
+            ]
+        }
+    ]
 }

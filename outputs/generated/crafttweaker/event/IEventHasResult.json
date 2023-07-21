@@ -1,2 +1,22 @@
 {
+    "methods": [
+        {
+            "name": "default",
+            "type": " void"
+        },
+        {
+            "name": "deny",
+            "type": " void"
+        },
+        {
+            "name": "allow",
+            "type": " void"
+        }
+    ],
+    "fields": [
+        {
+            "name": "result",
+            "type": "string"
+        }
+    ]
 }

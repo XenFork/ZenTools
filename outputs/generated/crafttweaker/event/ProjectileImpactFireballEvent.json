@@ -1,2 +1,32 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.entity.IEntityLivingBase",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ProjectileImpactEvent"
+    ],
+    "fields": [
+        {
+            "name": "fireball",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "shooter",
+            "type": "IEntityLivingBase",
+            "import": "crafttweaker.entity.IEntityLivingBase"
+        },
+        {
+            "name": "accelerationX",
+            "type": "double"
+        },
+        {
+            "name": "accelerationY",
+            "type": "double"
+        },
+        {
+            "name": "accelerationZ",
+            "type": "double"
+        }
+    ]
 }

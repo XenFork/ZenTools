@@ -1,2 +1,104 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlock",
+        "crafttweaker.block.IBlockProperties",
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.block.IBlockStateMatcher",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IWorld"
+    ],
+    "methods": [
+        {
+            "name": "compare",
+            "type": " int",
+            "args": [
+                {
+                    "name": "other",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                }
+            ]
+        },
+        {
+            "name": "getProperties",
+            "type": " string[string]"
+        },
+        {
+            "name": "getPropertyNames",
+            "type": " [string]"
+        },
+        {
+            "name": "getBlock",
+            "type": " IBlock"
+        },
+        {
+            "name": "isReplaceable",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "world",
+                    "type": "IWorld",
+                    "inTheClass": "crafttweaker.world.IWorld"
+                },
+                {
+                    "name": "blockPos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getAllowedValuesForProperty",
+            "type": " [string]",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "getMeta",
+            "type": " int"
+        },
+        {
+            "name": "matchBlock",
+            "type": " IBlockStateMatcher"
+        },
+        {
+            "name": "getPropertyValue",
+            "type": " string",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "withProperty",
+            "type": " IBlockState",
+            "args": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "block",
+            "type": "IBlock",
+            "import": "crafttweaker.block.IBlock"
+        },
+        {
+            "name": "meta",
+            "type": "int"
+        }
+    ]
 }

@@ -1,2 +1,29 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.event.IBlockEvent",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.player.IPlayer"
+    ],
+    "fields": [
+        {
+            "name": "hand",
+            "type": "string"
+        },
+        {
+            "name": "current",
+            "type": "IBlockState",
+            "import": "crafttweaker.block.IBlockState"
+        },
+        {
+            "name": "placedAgainst",
+            "type": "IBlockState",
+            "import": "crafttweaker.block.IBlockState"
+        },
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        }
+    ]
 }

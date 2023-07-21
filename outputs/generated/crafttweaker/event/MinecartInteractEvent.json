@@ -1,2 +1,24 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.MinecartEvent",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.player.IPlayer"
+    ],
+    "fields": [
+        {
+            "name": "item",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "hand",
+            "type": "string"
+        },
+        {
+            "name": "player",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        }
+    ]
 }

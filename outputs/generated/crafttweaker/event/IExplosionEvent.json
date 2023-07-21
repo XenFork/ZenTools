@@ -1,2 +1,36 @@
 {
+    "imports": [
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IExplosion",
+        "crafttweaker.world.IWorld"
+    ],
+    "fields": [
+        {
+            "name": "x",
+            "type": "double"
+        },
+        {
+            "name": "y",
+            "type": "double"
+        },
+        {
+            "name": "position",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "z",
+            "type": "double"
+        },
+        {
+            "name": "explosion",
+            "type": "IExplosion",
+            "import": "crafttweaker.world.IExplosion"
+        }
+    ]
 }

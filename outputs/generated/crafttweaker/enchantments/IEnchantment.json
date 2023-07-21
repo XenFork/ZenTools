@@ -1,2 +1,36 @@
 {
+    "imports": [
+        "crafttweaker.data.IData",
+        "crafttweaker.enchantments.IEnchantmentDefinition",
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "makeTag",
+            "type": " IData"
+        },
+        {
+            "name": "makeBookTag",
+            "type": " IData"
+        },
+        {
+            "name": "makeBook",
+            "type": " IItemStack"
+        }
+    ],
+    "fields": [
+        {
+            "name": "definition",
+            "type": "IEnchantmentDefinition",
+            "import": "crafttweaker.enchantments.IEnchantmentDefinition"
+        },
+        {
+            "name": "displayName",
+            "type": "string"
+        },
+        {
+            "name": "level",
+            "type": "int"
+        }
+    ]
 }

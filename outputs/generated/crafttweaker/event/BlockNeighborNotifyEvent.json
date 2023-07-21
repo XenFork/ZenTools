@@ -1,2 +1,17 @@
 {
+    "imports": [
+        "crafttweaker.event.IBlockEvent",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.world.IFacing"
+    ],
+    "fields": [
+        {
+            "name": "notifiedSides",
+            "type": "IFacing[]"
+        },
+        {
+            "name": "forceRedstoneUpdate",
+            "type": "bool"
+        }
+    ]
 }

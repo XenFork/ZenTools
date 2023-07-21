@@ -1,2 +1,12 @@
 {
+    "fields": [
+        {
+            "name": "phase",
+            "type": "string"
+        },
+        {
+            "name": "side",
+            "type": "string"
+        }
+    ]
 }

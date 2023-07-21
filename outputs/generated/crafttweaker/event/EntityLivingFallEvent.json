@@ -1,2 +1,16 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ILivingEvent"
+    ],
+    "fields": [
+        {
+            "name": "damageMultiplier",
+            "type": "float"
+        },
+        {
+            "name": "distance",
+            "type": "void"
+        }
+    ]
 }

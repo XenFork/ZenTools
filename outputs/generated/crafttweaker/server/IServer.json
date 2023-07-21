@@ -1,2 +1,50 @@
 {
+    "imports": [
+        "crafttweaker.command.ICommandManager",
+        "crafttweaker.command.ICommandSender",
+        "crafttweaker.event.IEventHandler",
+        "crafttweaker.event.PlayerLoggedInEvent",
+        "crafttweaker.event.PlayerLoggedOutEvent",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "onPlayerLoggedOut",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerLoggedOutEventvoid"
+                }
+            ]
+        },
+        {
+            "name": "isOp",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        },
+        {
+            "name": "onPlayerLoggedIn",
+            "type": " IEventHandler",
+            "args": [
+                {
+                    "name": "ev",
+                    "type": "function(PlayerLoggedInEventvoid"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "commandManager",
+            "type": "ICommandManager",
+            "import": "crafttweaker.command.ICommandManager"
+        }
+    ]
 }

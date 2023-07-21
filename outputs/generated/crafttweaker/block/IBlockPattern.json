@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlock",
+        "crafttweaker.block.IBlockPattern"
+    ],
+    "methods": [
+        {
+            "name": "blocks",
+            "type": " [IBlock]"
+        }
+    ],
+    "fields": [
+        {
+            "name": "displayName",
+            "type": "string"
+        }
+    ]
 }

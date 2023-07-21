@@ -1,2 +1,372 @@
 {
+    "imports": [
+        "crafttweaker.data.IData",
+        "crafttweaker.formatting.IFormattedText",
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IItemCondition",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.item.IItemTransformer",
+        "crafttweaker.item.IItemTransformerNew",
+        "crafttweaker.item.ITooltipFunction",
+        "crafttweaker.liquid.ILiquidStack",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "matches",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "matches",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "liquid",
+                    "type": "ILiquidStack",
+                    "inTheClass": "crafttweaker.liquid.ILiquidStack"
+                }
+            ]
+        },
+        {
+            "name": "or",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "ingredient",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                }
+            ]
+        },
+        {
+            "name": "applyTransform",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "byPlayer",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        },
+        {
+            "name": "transform",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "transformer",
+                    "type": "IItemTransformer",
+                    "inTheClass": "crafttweaker.item.IItemTransformer"
+                }
+            ]
+        },
+        {
+            "name": "amount",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "applyNewTransform",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "transformNew",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "transformer",
+                    "type": "IItemTransformerNew",
+                    "inTheClass": "crafttweaker.item.IItemTransformerNew"
+                }
+            ]
+        },
+        {
+            "name": "only",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "condition",
+                    "type": "IItemCondition",
+                    "inTheClass": "crafttweaker.item.IItemCondition"
+                }
+            ]
+        },
+        {
+            "name": "marked",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "mark",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "matchesExact",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "onlyDamageBetween",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "minDamage",
+                    "type": "int"
+                },
+                {
+                    "name": "maxDamage",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "onlyDamageAtLeast",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "minDamage",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "onlyDamaged",
+            "type": " IIngredient"
+        },
+        {
+            "name": "onlyDamageAtMost",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "maxDamage",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "onlyWithTag",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "data",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                }
+            ]
+        },
+        {
+            "name": "onlyStack",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "addAdvancedTooltip",
+            "type": " void",
+            "args": [
+                {
+                    "name": "_function",
+                    "type": "ITooltipFunction",
+                    "inTheClass": "crafttweaker.item.ITooltipFunction"
+                }
+            ]
+        },
+        {
+            "name": "removeTooltipLine",
+            "type": " void",
+            "args": [
+                {
+                    "name": "line",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "addTooltip",
+            "type": " void",
+            "args": [
+                {
+                    "name": "tooltip",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                }
+            ]
+        },
+        {
+            "name": "addShiftTooltip",
+            "type": " void",
+            "args": [
+                {
+                    "name": "_function",
+                    "type": "ITooltipFunction",
+                    "inTheClass": "crafttweaker.item.ITooltipFunction"
+                },
+                {
+                    "name": "showMessage",
+                    "type": "ITooltipFunction = null"
+                }
+            ]
+        },
+        {
+            "name": "addShiftTooltip",
+            "type": " void",
+            "args": [
+                {
+                    "name": "tooltip",
+                    "type": "IFormattedText",
+                    "inTheClass": "crafttweaker.formatting.IFormattedText"
+                },
+                {
+                    "name": "showMessage",
+                    "type": "IFormattedText = null"
+                }
+            ]
+        },
+        {
+            "name": "clearTooltip",
+            "type": " void"
+        },
+        {
+            "name": "clearTooltip",
+            "type": " void",
+            "args": [
+                {
+                    "name": "leaveName",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "removeTooltip",
+            "type": " void",
+            "args": [
+                {
+                    "name": "regex",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "transformDamage",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "damage",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "transformDamage",
+            "type": " IIngredient"
+        },
+        {
+            "name": "transformReplace",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "withItem",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "transformConsume",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "noReturn",
+            "type": " IIngredient"
+        },
+        {
+            "name": "giveBack",
+            "type": " IIngredient",
+            "args": [
+                {
+                    "name": "givenItem",
+                    "type": "IItemStack = null"
+                }
+            ]
+        },
+        {
+            "name": "reuse",
+            "type": " IIngredient"
+        }
+    ],
+    "fields": [
+        {
+            "name": "hasNewTransformers",
+            "type": "bool"
+        },
+        {
+            "name": "mark",
+            "type": "string"
+        },
+        {
+            "name": "amount",
+            "type": "int"
+        },
+        {
+            "name": "items",
+            "type": "[IItemStack]"
+        },
+        {
+            "name": "liquids",
+            "type": "[ILiquidStack]"
+        },
+        {
+            "name": "commandString",
+            "type": "string"
+        },
+        {
+            "name": "itemArray",
+            "type": "IItemStack[]"
+        },
+        {
+            "name": "hasTransformations",
+            "type": "bool"
+        }
+    ]
 }

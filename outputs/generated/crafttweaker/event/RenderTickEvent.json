@@ -1,2 +1,11 @@
 {
+    "imports": [
+        "crafttweaker.event.ITickEvent"
+    ],
+    "fields": [
+        {
+            "name": "renderTickTime",
+            "type": "float"
+        }
+    ]
 }

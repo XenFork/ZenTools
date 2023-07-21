@@ -1,2 +1,551 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlock",
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.data.IData",
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.player.IPlayer",
+        "crafttweaker.util.IAxisAlignedBB",
+        "crafttweaker.util.IRandom",
+        "crafttweaker.util.Position3f",
+        "crafttweaker.world.IBiome",
+        "crafttweaker.world.IBlockAccess",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IExplosion",
+        "crafttweaker.world.IFacing",
+        "crafttweaker.world.IRayTraceResult",
+        "crafttweaker.world.IVector3d",
+        "crafttweaker.world.IWorld",
+        "crafttweaker.world.IWorldInfo",
+        "crafttweaker.world.IWorldProvider"
+    ],
+    "methods": [
+        {
+            "name": "getProvider",
+            "type": " IWorldProvider"
+        },
+        {
+            "name": "getDimension",
+            "type": " int"
+        },
+        {
+            "name": "getBlock",
+            "type": " IBlock",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "int"
+                },
+                {
+                    "name": "y",
+                    "type": "int"
+                },
+                {
+                    "name": "z",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getBlock",
+            "type": " IBlock",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getBrightness",
+            "type": " int",
+            "args": [
+                {
+                    "name": "position",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getBrightness",
+            "type": " int",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "int"
+                },
+                {
+                    "name": "y",
+                    "type": "int"
+                },
+                {
+                    "name": "z",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getWorldTime",
+            "type": " long"
+        },
+        {
+            "name": "getEntitiesInArea",
+            "type": " [IEntity]",
+            "args": [
+                {
+                    "name": "start",
+                    "type": "Position3f",
+                    "inTheClass": "crafttweaker.util.Position3f"
+                },
+                {
+                    "name": "end",
+                    "type": "Position3f = null"
+                }
+            ]
+        },
+        {
+            "name": "isRaining",
+            "type": " bool"
+        },
+        {
+            "name": "getWorldInfo",
+            "type": " IWorldInfo"
+        },
+        {
+            "name": "isRemote",
+            "type": " bool"
+        },
+        {
+            "name": "isDayTime",
+            "type": " bool"
+        },
+        {
+            "name": "isSurfaceWorld",
+            "type": " bool"
+        },
+        {
+            "name": "getMoonPhase",
+            "type": " int"
+        },
+        {
+            "name": "getDimensionType",
+            "type": " string"
+        },
+        {
+            "name": "getWorldType",
+            "type": " string"
+        },
+        {
+            "name": "setBlockState",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                },
+                {
+                    "name": "tileEntityData",
+                    "type": "IData",
+                    "inTheClass": "crafttweaker.data.IData"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "setBlockState",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "IBlockState",
+                    "inTheClass": "crafttweaker.block.IBlockState"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "spawnEntity",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "removeEntity",
+            "type": " void",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "rayTraceBlocks",
+            "type": " IRayTraceResult",
+            "args": [
+                {
+                    "name": "begin",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                },
+                {
+                    "name": "ray",
+                    "type": "IVector3d",
+                    "inTheClass": "crafttweaker.world.IVector3d"
+                },
+                {
+                    "name": "stopOnLiquid",
+                    "type": "bool = false"
+                },
+                {
+                    "name": "ignoreBlockWithoutBoundingBox",
+                    "type": "bool = false"
+                },
+                {
+                    "name": "returnLastUncollidableBlock",
+                    "type": "bool = true"
+                }
+            ]
+        },
+        {
+            "name": "getPickedBlock",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "rayTraceResult",
+                    "type": "IRayTraceResult",
+                    "inTheClass": "crafttweaker.world.IRayTraceResult"
+                },
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                }
+            ]
+        },
+        {
+            "name": "createExplosion",
+            "type": " IExplosion",
+            "args": [
+                {
+                    "name": "exploder",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                },
+                {
+                    "name": "x",
+                    "type": "double"
+                },
+                {
+                    "name": "y",
+                    "type": "double"
+                },
+                {
+                    "name": "z",
+                    "type": "double"
+                },
+                {
+                    "name": "strength",
+                    "type": "float"
+                },
+                {
+                    "name": "causesFire",
+                    "type": "bool"
+                },
+                {
+                    "name": "damagesTerrain",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "performExplosion",
+            "type": " IExplosion",
+            "args": [
+                {
+                    "name": "exploder",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                },
+                {
+                    "name": "x",
+                    "type": "double"
+                },
+                {
+                    "name": "y",
+                    "type": "double"
+                },
+                {
+                    "name": "z",
+                    "type": "double"
+                },
+                {
+                    "name": "strength",
+                    "type": "float"
+                },
+                {
+                    "name": "causesFire",
+                    "type": "bool"
+                },
+                {
+                    "name": "damagesTerrain",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "performExplosion",
+            "type": " IExplosion",
+            "args": [
+                {
+                    "name": "explosion",
+                    "type": "IExplosion",
+                    "inTheClass": "crafttweaker.world.IExplosion"
+                }
+            ]
+        },
+        {
+            "name": "getBiome",
+            "type": " IBiome",
+            "args": [
+                {
+                    "name": "position",
+                    "type": "Position3f",
+                    "inTheClass": "crafttweaker.util.Position3f"
+                }
+            ]
+        },
+        {
+            "name": "getBiome",
+            "type": " IBiome",
+            "args": [
+                {
+                    "name": "position",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                }
+            ]
+        },
+        {
+            "name": "getRandom",
+            "type": " IRandom"
+        },
+        {
+            "name": "extinguishFire",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "player",
+                    "type": "IPlayer",
+                    "inTheClass": "crafttweaker.player.IPlayer"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos",
+                    "inTheClass": "crafttweaker.world.IBlockPos"
+                },
+                {
+                    "name": "side",
+                    "type": "IFacing",
+                    "inTheClass": "crafttweaker.world.IFacing"
+                }
+            ]
+        },
+        {
+            "name": "isSpawnChunk",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "int"
+                },
+                {
+                    "name": "z",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "getSeaLevel",
+            "type": " int"
+        },
+        {
+            "name": "addWeatherEffect",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "createLightningBolt",
+            "type": " IEntity",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "double"
+                },
+                {
+                    "name": "y",
+                    "type": "double"
+                },
+                {
+                    "name": "z",
+                    "type": "double"
+                },
+                {
+                    "name": "effectOnly",
+                    "type": "bool = false"
+                }
+            ]
+        },
+        {
+            "name": "summonLightningBolt",
+            "type": " IEntity",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "double"
+                },
+                {
+                    "name": "y",
+                    "type": "double"
+                },
+                {
+                    "name": "z",
+                    "type": "double"
+                },
+                {
+                    "name": "effectOnly",
+                    "type": "bool = false"
+                }
+            ]
+        },
+        {
+            "name": "getEntitiesWithinAABB",
+            "type": " IEntity[]",
+            "args": [
+                {
+                    "name": "aabb",
+                    "type": "IAxisAlignedBB",
+                    "inTheClass": "crafttweaker.util.IAxisAlignedBB"
+                }
+            ]
+        },
+        {
+            "name": "findNearestEntityWithinAABB",
+            "type": " IEntity",
+            "args": [
+                {
+                    "name": "aabb",
+                    "type": "IAxisAlignedBB",
+                    "inTheClass": "crafttweaker.util.IAxisAlignedBB"
+                },
+                {
+                    "name": "closestTo",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "getEntitiesWithinAABBExcludingEntity",
+            "type": " IEntity[]",
+            "args": [
+                {
+                    "name": "aabb",
+                    "type": "IAxisAlignedBB",
+                    "inTheClass": "crafttweaker.util.IAxisAlignedBB"
+                },
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "provider",
+            "type": "IWorldProvider",
+            "import": "crafttweaker.world.IWorldProvider"
+        },
+        {
+            "name": "dimension",
+            "type": "int"
+        },
+        {
+            "name": "time",
+            "type": "long"
+        },
+        {
+            "name": "raining",
+            "type": "bool"
+        },
+        {
+            "name": "worldInfo",
+            "type": "IWorldInfo",
+            "import": "crafttweaker.world.IWorldInfo"
+        },
+        {
+            "name": "remote",
+            "type": "bool"
+        },
+        {
+            "name": "dayTime",
+            "type": "bool"
+        },
+        {
+            "name": "surfaceWorld",
+            "type": "bool"
+        },
+        {
+            "name": "moonPhase",
+            "type": "int"
+        },
+        {
+            "name": "dimensionType",
+            "type": "string"
+        },
+        {
+            "name": "worldType",
+            "type": "string"
+        },
+        {
+            "name": "random",
+            "type": "IRandom",
+            "import": "crafttweaker.util.IRandom"
+        },
+        {
+            "name": "seaLevel",
+            "type": "int"
+        }
+    ]
 }

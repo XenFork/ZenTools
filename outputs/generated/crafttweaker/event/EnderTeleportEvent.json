@@ -1,2 +1,24 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ILivingEvent"
+    ],
+    "fields": [
+        {
+            "name": "targetX",
+            "type": "double"
+        },
+        {
+            "name": "targetY",
+            "type": "double"
+        },
+        {
+            "name": "targetZ",
+            "type": "double"
+        },
+        {
+            "name": "attackDamage",
+            "type": "float"
+        }
+    ]
 }

@@ -1,2 +1,12 @@
 {
+    "imports": [
+        "crafttweaker.event.IEntityEvent",
+        "crafttweaker.event.IEventCancelable"
+    ],
+    "fields": [
+        {
+            "name": "dimension",
+            "type": "int"
+        }
+    ]
 }

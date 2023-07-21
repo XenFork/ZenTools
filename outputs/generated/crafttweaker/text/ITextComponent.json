@@ -1,2 +1,36 @@
 {
+    "imports": [
+        "crafttweaker.data.IData",
+        "crafttweaker.text.IStyle",
+        "crafttweaker.text.ITextComponent"
+    ],
+    "methods": [
+        {
+            "name": "createCopy",
+            "type": " ITextComponent"
+        }
+    ],
+    "fields": [
+        {
+            "name": "style",
+            "type": "IStyle",
+            "import": "crafttweaker.text.IStyle"
+        },
+        {
+            "name": "formattedText",
+            "type": "string"
+        },
+        {
+            "name": "siblings",
+            "type": "[ITextComponent]"
+        },
+        {
+            "name": "unformattedComponentText",
+            "type": "string"
+        },
+        {
+            "name": "unformattedText",
+            "type": "string"
+        }
+    ]
 }

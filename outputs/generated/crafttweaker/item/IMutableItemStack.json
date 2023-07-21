@@ -1,2 +1,46 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "copy",
+            "type": " IItemStack"
+        },
+        {
+            "name": "grow",
+            "type": " void",
+            "args": [
+                {
+                    "name": "quality",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "shrink",
+            "type": " void",
+            "args": [
+                {
+                    "name": "quality",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "attemptDamageItem",
+            "type": " bool",
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "int"
+                },
+                {
+                    "name": "player",
+                    "type": "IPlayer = null"
+                }
+            ]
+        }
+    ]
 }

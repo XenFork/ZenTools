@@ -1,2 +1,17 @@
 {
+    "imports": [
+        "crafttweaker.damage.IDamageSource",
+        "crafttweaker.event.ILivingEvent"
+    ],
+    "fields": [
+        {
+            "name": "lootingLevel",
+            "type": "int"
+        },
+        {
+            "name": "damageSource",
+            "type": "IDamageSource",
+            "import": "crafttweaker.damage.IDamageSource"
+        }
+    ]
 }

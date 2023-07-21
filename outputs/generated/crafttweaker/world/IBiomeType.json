@@ -1,2 +1,21 @@
 {
+    "imports": [
+        "crafttweaker.world.IBiome"
+    ],
+    "methods": [
+        {
+            "name": "getBiomes",
+            "type": " [IBiome]"
+        }
+    ],
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "biomes",
+            "type": "[IBiome]"
+        }
+    ]
 }

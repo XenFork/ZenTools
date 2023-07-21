@@ -1,2 +1,43 @@
 {
+    "imports": [
+        "crafttweaker.damage.IDamageSource",
+        "crafttweaker.entity.IEntityItem",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "addItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "addItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "entityItem",
+                    "type": "IEntityItem",
+                    "inTheClass": "crafttweaker.entity.IEntityItem"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "items",
+            "type": "[IEntityItem]"
+        },
+        {
+            "name": "damageSource",
+            "type": "IDamageSource",
+            "import": "crafttweaker.damage.IDamageSource"
+        }
+    ]
 }

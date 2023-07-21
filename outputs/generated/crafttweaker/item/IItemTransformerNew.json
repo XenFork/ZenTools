@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "transform",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "item",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        }
+    ]
 }

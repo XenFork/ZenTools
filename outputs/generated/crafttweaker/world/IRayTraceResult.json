@@ -1,2 +1,36 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.world.IBlockPos",
+        "crafttweaker.world.IFacing"
+    ],
+    "fields": [
+        {
+            "name": "entity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "blockPos",
+            "type": "IBlockPos",
+            "import": "crafttweaker.world.IBlockPos"
+        },
+        {
+            "name": "isMiss",
+            "type": "bool"
+        },
+        {
+            "name": "isEntity",
+            "type": "bool"
+        },
+        {
+            "name": "isBlock",
+            "type": "bool"
+        },
+        {
+            "name": "sideHit",
+            "type": "IFacing",
+            "import": "crafttweaker.world.IFacing"
+        }
+    ]
 }

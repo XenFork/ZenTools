@@ -1,2 +1,60 @@
 {
+    "imports": [
+        "crafttweaker.command.ICommand",
+        "crafttweaker.command.ICommandSender",
+        "crafttweaker.world.IBlockPos"
+    ],
+    "methods": [
+        {
+            "name": "getTabCompletions",
+            "type": " [string]",
+            "args": [
+                {
+                    "name": "sender",
+                    "type": "ICommandSender",
+                    "inTheClass": "crafttweaker.command.ICommandSender"
+                },
+                {
+                    "name": "input",
+                    "type": "string"
+                },
+                {
+                    "name": "pos",
+                    "type": "IBlockPos = null"
+                }
+            ]
+        },
+        {
+            "name": "getPossibleCommands",
+            "type": " [ICommand]",
+            "args": [
+                {
+                    "name": "sender",
+                    "type": "ICommandSender",
+                    "inTheClass": "crafttweaker.command.ICommandSender"
+                }
+            ]
+        },
+        {
+            "name": "executeCommand",
+            "type": " int",
+            "args": [
+                {
+                    "name": "sender",
+                    "type": "ICommandSender",
+                    "inTheClass": "crafttweaker.command.ICommandSender"
+                },
+                {
+                    "name": "rawCommand",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "commands",
+            "type": "ICommand[string]"
+        }
+    ]
 }

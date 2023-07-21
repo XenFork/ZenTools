@@ -1,2 +1,38 @@
 {
+    "imports": [
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "getItem",
+            "type": " IItemStack",
+            "args": [
+                {
+                    "name": "index",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "setItem",
+            "type": " void",
+            "args": [
+                {
+                    "name": "index",
+                    "type": "int"
+                },
+                {
+                    "name": "stack",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "length",
+            "type": "int"
+        }
+    ]
 }

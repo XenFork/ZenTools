@@ -1,2 +1,12 @@
 {
+    "imports": [
+        "crafttweaker.event.IEventPositionable",
+        "crafttweaker.event.IPlayerEvent"
+    ],
+    "fields": [
+        {
+            "name": "result",
+            "type": "string"
+        }
+    ]
 }

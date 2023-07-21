@@ -1,2 +1,68 @@
 {
+    "imports": [
+        "crafttweaker.util.Position3f",
+        "crafttweaker.world.IBlockPos"
+    ],
+    "methods": [
+        {
+            "name": "getX",
+            "type": " float"
+        },
+        {
+            "name": "getY",
+            "type": " float"
+        },
+        {
+            "name": "getZ",
+            "type": " float"
+        },
+        {
+            "name": "setY",
+            "type": " void",
+            "args": [
+                {
+                    "name": "y",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "setZ",
+            "type": " void",
+            "args": [
+                {
+                    "name": "z",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "setX",
+            "type": " void",
+            "args": [
+                {
+                    "name": "x",
+                    "type": "float"
+                }
+            ]
+        },
+        {
+            "name": "asBlockPos",
+            "type": " IBlockPos"
+        }
+    ],
+    "fields": [
+        {
+            "name": "x",
+            "type": "float"
+        },
+        {
+            "name": "y",
+            "type": "float"
+        },
+        {
+            "name": "z",
+            "type": "float"
+        }
+    ]
 }

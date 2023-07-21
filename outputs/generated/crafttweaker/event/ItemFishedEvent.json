@@ -1,2 +1,27 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntityFishHook",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack"
+    ],
+    "fields": [
+        {
+            "name": "drops",
+            "type": "IItemStack[]"
+        },
+        {
+            "name": "damage",
+            "type": "int"
+        },
+        {
+            "name": "additionalDamage",
+            "type": "void"
+        },
+        {
+            "name": "fishHook",
+            "type": "IEntityFishHook",
+            "import": "crafttweaker.entity.IEntityFishHook"
+        }
+    ]
 }

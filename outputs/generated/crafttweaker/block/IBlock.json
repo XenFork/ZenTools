@@ -1,2 +1,29 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlockDefinition",
+        "crafttweaker.block.IBlockPattern",
+        "crafttweaker.data.IData",
+        "crafttweaker.liquid.ILiquidDefinition"
+    ],
+    "fields": [
+        {
+            "name": "definition",
+            "type": "IBlockDefinition",
+            "import": "crafttweaker.block.IBlockDefinition"
+        },
+        {
+            "name": "data",
+            "type": "IData",
+            "import": "crafttweaker.data.IData"
+        },
+        {
+            "name": "fluid",
+            "type": "ILiquidDefinition",
+            "import": "crafttweaker.liquid.ILiquidDefinition"
+        },
+        {
+            "name": "meta",
+            "type": "int"
+        }
+    ]
 }

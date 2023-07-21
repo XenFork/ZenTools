@@ -1,2 +1,18 @@
 {
+    "imports": [
+        "crafttweaker.damage.IDamageSource",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.ILivingEvent"
+    ],
+    "fields": [
+        {
+            "name": "amount",
+            "type": "float"
+        },
+        {
+            "name": "damageSource",
+            "type": "IDamageSource",
+            "import": "crafttweaker.damage.IDamageSource"
+        }
+    ]
 }

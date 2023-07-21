@@ -1,2 +1,85 @@
 {
+    "imports": [
+        "crafttweaker.entity.IEntity",
+        "crafttweaker.player.IPlayer"
+    ],
+    "methods": [
+        {
+            "name": "getState",
+            "type": " string"
+        },
+        {
+            "name": "setState",
+            "type": " void",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "getCaughtEntity",
+            "type": " IEntity"
+        },
+        {
+            "name": "setCaughtEntity",
+            "type": " void",
+            "args": [
+                {
+                    "name": "entity",
+                    "type": "IEntity",
+                    "inTheClass": "crafttweaker.entity.IEntity"
+                }
+            ]
+        },
+        {
+            "name": "getAngler",
+            "type": " IPlayer"
+        },
+        {
+            "name": "setLureSpeed",
+            "type": " void",
+            "args": [
+                {
+                    "name": "lureSpeed",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "setLuck",
+            "type": " void",
+            "args": [
+                {
+                    "name": "luck",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "type": "string"
+        },
+        {
+            "name": "caughtEntity",
+            "type": "IEntity",
+            "import": "crafttweaker.entity.IEntity"
+        },
+        {
+            "name": "angler",
+            "type": "IPlayer",
+            "import": "crafttweaker.player.IPlayer"
+        },
+        {
+            "name": "lureSpeed",
+            "type": "void"
+        },
+        {
+            "name": "luck",
+            "type": "void"
+        }
+    ]
 }

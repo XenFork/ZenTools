@@ -1,2 +1,84 @@
 {
+    "imports": [
+        "crafttweaker.item.IIngredient",
+        "crafttweaker.item.IItemStack"
+    ],
+    "methods": [
+        {
+            "name": "addBrew",
+            "type": " void",
+            "args": [
+                {
+                    "name": "input",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "ingredient",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "hidden",
+                    "type": "bool = false"
+                }
+            ]
+        },
+        {
+            "name": "addBrew",
+            "type": " void",
+            "args": [
+                {
+                    "name": "input",
+                    "type": "IIngredient",
+                    "inTheClass": "crafttweaker.item.IIngredient"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "IIngredient[]"
+                },
+                {
+                    "name": "output",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "hidden",
+                    "type": "bool = false"
+                }
+            ]
+        },
+        {
+            "name": "removeRecipe",
+            "type": " void",
+            "args": [
+                {
+                    "name": "ingredient",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        },
+        {
+            "name": "removeRecipe",
+            "type": " void",
+            "args": [
+                {
+                    "name": "input",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                },
+                {
+                    "name": "ingredient",
+                    "type": "IItemStack",
+                    "inTheClass": "crafttweaker.item.IItemStack"
+                }
+            ]
+        }
+    ]
 }

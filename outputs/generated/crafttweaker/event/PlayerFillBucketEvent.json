@@ -1,2 +1,49 @@
 {
+    "imports": [
+        "crafttweaker.block.IBlock",
+        "crafttweaker.block.IBlockState",
+        "crafttweaker.event.IEventCancelable",
+        "crafttweaker.event.IEventPositionable",
+        "crafttweaker.event.IEventProcessable",
+        "crafttweaker.event.IPlayerEvent",
+        "crafttweaker.item.IItemStack",
+        "crafttweaker.world.IRayTraceResult",
+        "crafttweaker.world.IWorld"
+    ],
+    "fields": [
+        {
+            "name": "result",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "dimension",
+            "type": "int"
+        },
+        {
+            "name": "block",
+            "type": "IBlock",
+            "import": "crafttweaker.block.IBlock"
+        },
+        {
+            "name": "world",
+            "type": "IWorld",
+            "import": "crafttweaker.world.IWorld"
+        },
+        {
+            "name": "emptyBucket",
+            "type": "IItemStack",
+            "import": "crafttweaker.item.IItemStack"
+        },
+        {
+            "name": "rayTraceResult",
+            "type": "IRayTraceResult",
+            "import": "crafttweaker.world.IRayTraceResult"
+        },
+        {
+            "name": "blockState",
+            "type": "IBlockState",
+            "import": "crafttweaker.block.IBlockState"
+        }
+    ]
 }
