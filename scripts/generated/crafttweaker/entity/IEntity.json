@@ -1,0 +1,21 @@
+{
+    "imports": [
+        "crafttweaker.block.IBlockDefinition;",
+        "crafttweaker.block.IMaterial;",
+        "crafttweaker.command.ICommandSender;",
+        "crafttweaker.damage.IDamageSource;",
+        "crafttweaker.data.IData;",
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.entity.IEntityDefinition;",
+        "crafttweaker.entity.IEntityItem;",
+        "crafttweaker.game.ITeam;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.util.IAxisAlignedBB;",
+        "crafttweaker.util.Position3f;",
+        "crafttweaker.world.IBlockPos;",
+        "crafttweaker.world.IFacing;",
+        "crafttweaker.world.IRayTraceResult;",
+        "crafttweaker.world.IVector3d;",
+        "crafttweaker.world.IWorld;"
+    ]
+}

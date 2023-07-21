@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.item.IIngredient;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.recipes.IFurnaceRecipe;"
+    ]
+}

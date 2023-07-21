@@ -1,0 +1,8 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntityAgeable;",
+        "crafttweaker.entity.IEntityAnimal;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.player.IPlayer;"
+    ]
+}

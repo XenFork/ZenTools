@@ -1,0 +1,23 @@
+{
+    "imports": [
+        "crafttweaker.block.IBlock;",
+        "crafttweaker.block.IBlockState;",
+        "crafttweaker.data.IData;",
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.player.IPlayer;",
+        "crafttweaker.util.IAxisAlignedBB;",
+        "crafttweaker.util.IRandom;",
+        "crafttweaker.util.Position3f;",
+        "crafttweaker.world.IBiome;",
+        "crafttweaker.world.IBlockAccess;",
+        "crafttweaker.world.IBlockPos;",
+        "crafttweaker.world.IExplosion;",
+        "crafttweaker.world.IFacing;",
+        "crafttweaker.world.IRayTraceResult;",
+        "crafttweaker.world.IVector3d;",
+        "crafttweaker.world.IWorld;",
+        "crafttweaker.world.IWorldInfo;",
+        "crafttweaker.world.IWorldProvider;"
+    ]
+}

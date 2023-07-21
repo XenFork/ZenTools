@@ -1,0 +1,12 @@
+{
+    "imports": [
+        "crafttweaker.block.IBlock;",
+        "crafttweaker.block.IBlockState;",
+        "crafttweaker.event.IEventCancelable;",
+        "crafttweaker.event.IEventPositionable;",
+        "crafttweaker.event.IEventProcessable;",
+        "crafttweaker.event.IPlayerEvent;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.world.IWorld;"
+    ]
+}

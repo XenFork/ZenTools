@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.item.IIngredient;",
+        "crafttweaker.item.WeightedItemStack;"
+    ]
+}

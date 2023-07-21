@@ -1,0 +1,8 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.entity.IEntityEquipmentSlot;",
+        "crafttweaker.entity.IEntityLivingBase;",
+        "crafttweaker.player.IPlayer;"
+    ]
+}

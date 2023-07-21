@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntityLiving;",
+        "crafttweaker.world.IBlockPos;"
+    ]
+}

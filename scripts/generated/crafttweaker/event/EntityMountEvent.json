@@ -1,0 +1,8 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.event.IEntityEvent;",
+        "crafttweaker.event.IEventCancelable;",
+        "crafttweaker.world.IWorld;"
+    ]
+}

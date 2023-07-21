@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.entity.Attribute;",
+        "crafttweaker.entity.AttributeModifier;"
+    ]
+}

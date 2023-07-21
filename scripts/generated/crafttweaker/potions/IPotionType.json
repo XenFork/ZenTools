@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.potions.IPotionEffect;",
+        "crafttweaker.potions.IPotionType;"
+    ]
+}

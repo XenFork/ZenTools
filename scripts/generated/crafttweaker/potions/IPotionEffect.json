@@ -1,0 +1,8 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.potions.IPotion;",
+        "crafttweaker.potions.IPotionEffect;"
+    ]
+}

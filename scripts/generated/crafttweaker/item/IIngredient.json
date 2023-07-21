@@ -1,0 +1,14 @@
+{
+    "imports": [
+        "crafttweaker.data.IData;",
+        "crafttweaker.formatting.IFormattedText;",
+        "crafttweaker.item.IIngredient;",
+        "crafttweaker.item.IItemCondition;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.item.IItemTransformer;",
+        "crafttweaker.item.IItemTransformerNew;",
+        "crafttweaker.item.ITooltipFunction;",
+        "crafttweaker.liquid.ILiquidStack;",
+        "crafttweaker.player.IPlayer;"
+    ]
+}

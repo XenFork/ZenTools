@@ -1,0 +1,17 @@
+{
+    "imports": [
+        "crafttweaker.chat.IChatMessage;",
+        "crafttweaker.container.IContainer;",
+        "crafttweaker.data.IData;",
+        "crafttweaker.entity.IEntityFishHook;",
+        "crafttweaker.entity.IEntityItem;",
+        "crafttweaker.entity.IEntityLivingBase;",
+        "crafttweaker.formatting.IFormattedText;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.player.IFoodStats;",
+        "crafttweaker.player.IUser;",
+        "crafttweaker.text.ITextComponent;",
+        "crafttweaker.util.Position3f;",
+        "crafttweaker.world.IBlockPos;"
+    ]
+}

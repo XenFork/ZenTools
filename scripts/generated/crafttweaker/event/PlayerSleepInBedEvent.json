@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.event.IEventPositionable;",
+        "crafttweaker.event.IPlayerEvent;"
+    ]
+}

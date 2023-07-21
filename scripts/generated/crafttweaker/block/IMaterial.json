@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.block.IMaterial;",
+        "crafttweaker.block.IMobilityFlag;"
+    ]
+}

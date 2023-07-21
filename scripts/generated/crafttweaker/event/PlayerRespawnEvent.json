@@ -1,0 +1,5 @@
+{
+    "imports": [
+        "crafttweaker.event.IPlayerEvent;"
+    ]
+}

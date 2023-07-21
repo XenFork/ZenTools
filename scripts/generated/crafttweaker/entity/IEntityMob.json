@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntityCreature;",
+        "crafttweaker.player.IPlayer;"
+    ]
+}

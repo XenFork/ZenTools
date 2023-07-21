@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.event.IEventCancelable;",
+        "crafttweaker.event.IExplosionEvent;"
+    ]
+}

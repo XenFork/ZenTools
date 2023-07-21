@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.player.IPlayer;",
+        "crafttweaker.recipes.ICraftingInventory;",
+        "crafttweaker.world.IWorld;"
+    ]
+}

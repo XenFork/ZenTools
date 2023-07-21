@@ -1,0 +1,5 @@
+{
+    "imports": [
+        "crafttweaker.data.IData;"
+    ]
+}

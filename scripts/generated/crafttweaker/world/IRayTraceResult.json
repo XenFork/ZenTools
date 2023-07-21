@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.world.IBlockPos;",
+        "crafttweaker.world.IFacing;"
+    ]
+}

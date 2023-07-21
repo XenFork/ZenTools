@@ -1,0 +1,12 @@
+{
+    "imports": [
+        "crafttweaker.block.IBlockDefinition;",
+        "crafttweaker.enchantments.IEnchantmentDefinition;",
+        "crafttweaker.entity.IEntityDefinition;",
+        "crafttweaker.item.IItemDefinition;",
+        "crafttweaker.liquid.ILiquidDefinition;",
+        "crafttweaker.liquid.ILiquidStack;",
+        "crafttweaker.potions.IPotion;",
+        "crafttweaker.world.IBiome;"
+    ]
+}

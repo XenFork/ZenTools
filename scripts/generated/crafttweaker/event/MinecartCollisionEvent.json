@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.event.MinecartEvent;"
+    ]
+}

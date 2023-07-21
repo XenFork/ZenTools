@@ -1,0 +1,5 @@
+{
+    "imports": [
+        "crafttweaker.world.IVector3d;"
+    ]
+}

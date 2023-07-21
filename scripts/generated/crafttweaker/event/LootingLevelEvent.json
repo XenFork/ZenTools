@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.damage.IDamageSource;",
+        "crafttweaker.event.ILivingEvent;"
+    ]
+}

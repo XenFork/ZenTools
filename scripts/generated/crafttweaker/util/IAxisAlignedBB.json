@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.util.IAxisAlignedBB;",
+        "crafttweaker.world.IBlockPos;",
+        "crafttweaker.world.IVector3d;"
+    ]
+}

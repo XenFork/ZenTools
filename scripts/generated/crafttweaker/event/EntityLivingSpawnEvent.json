@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.event.ILivingEvent;",
+        "crafttweaker.world.IWorld;"
+    ]
+}

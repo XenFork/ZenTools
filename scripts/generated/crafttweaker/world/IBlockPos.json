@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.util.Position3f;",
+        "crafttweaker.world.IBlockPos;",
+        "crafttweaker.world.IFacing;"
+    ]
+}

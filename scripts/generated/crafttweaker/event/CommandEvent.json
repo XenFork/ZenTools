@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.command.ICommand;",
+        "crafttweaker.command.ICommandSender;",
+        "crafttweaker.event.IEventCancelable;"
+    ]
+}

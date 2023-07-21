@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.chat.IChatMessage;",
+        "crafttweaker.data.IData;",
+        "crafttweaker.formatting.IFormattedText;"
+    ]
+}

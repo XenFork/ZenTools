@@ -1,0 +1,10 @@
+{
+    "imports": [
+        "crafttweaker.command.ICommandManager;",
+        "crafttweaker.command.ICommandSender;",
+        "crafttweaker.event.IEventHandler;",
+        "crafttweaker.event.PlayerLoggedInEvent;",
+        "crafttweaker.event.PlayerLoggedOutEvent;",
+        "crafttweaker.player.IPlayer;"
+    ]
+}

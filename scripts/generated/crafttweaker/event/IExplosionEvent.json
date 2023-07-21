@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.world.IBlockPos;",
+        "crafttweaker.world.IExplosion;",
+        "crafttweaker.world.IWorld;"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.damage.IDamageSource;",
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.item.IItemStack;"
+    ]
+}

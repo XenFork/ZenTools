@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.entity.IEntityLivingBase;",
+        "crafttweaker.entity.IProjectile;"
+    ]
+}

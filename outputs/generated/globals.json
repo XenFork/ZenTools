@@ -1,0 +1,17 @@
+{
+    "imports": [
+        "crafttweaker.api.IClient;",
+        "crafttweaker.api.formatting.IFormatter;",
+        "crafttweaker.api.item.IItemUtils;",
+        "crafttweaker.api.recipes.IBrewingManager;",
+        "crafttweaker.events.IEventManager;",
+        "crafttweaker.game.IGame;",
+        "crafttweaker.mods.ILoadedMods;",
+        "crafttweaker.oredict.IOreDict;",
+        "crafttweaker.recipes.IFurnaceManager;",
+        "crafttweaker.recipes.IRecipeManager;",
+        "crafttweaker.runtime.ILogger;",
+        "crafttweaker.server.IServer;",
+        "vanilla.IVanilla;"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "imports": [
+        "crafttweaker.creativetabs.ICreativeTab;",
+        "crafttweaker.dispenser.IDispenserBehavior;",
+        "crafttweaker.dispenser.IDispenserSoundFunction;",
+        "crafttweaker.entity.IEntityDefinition;",
+        "crafttweaker.item.IItemDefinition;",
+        "crafttweaker.item.IItemStack;",
+        "crafttweaker.oredict.IOreDictEntry;"
+    ]
+}

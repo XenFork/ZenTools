@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.container.IContainer;",
+        "crafttweaker.event.IPlayerEvent;"
+    ]
+}

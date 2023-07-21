@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "crafttweaker.enchantments.IEnchantment;",
+        "crafttweaker.enchantments.IEnchantmentDefinition;",
+        "crafttweaker.item.IItemStack;"
+    ]
+}

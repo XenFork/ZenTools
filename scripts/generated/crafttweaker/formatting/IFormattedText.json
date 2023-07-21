@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.formatting.IFormattedText;",
+        "crafttweaker.text.ITextComponent;"
+    ]
+}

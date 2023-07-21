@@ -1,0 +1,13 @@
+{
+    "imports": [
+        "crafttweaker.block.IBlockState;",
+        "crafttweaker.block.IMaterial;",
+        "crafttweaker.block.IMobilityFlag;",
+        "crafttweaker.entity.IEntity;",
+        "crafttweaker.player.IPlayer;",
+        "crafttweaker.world.IBlockAccess;",
+        "crafttweaker.world.IBlockPos;",
+        "crafttweaker.world.IFacing;",
+        "crafttweaker.world.IWorld;"
+    ]
+}

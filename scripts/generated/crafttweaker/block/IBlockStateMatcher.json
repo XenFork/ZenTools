@@ -1,0 +1,6 @@
+{
+    "imports": [
+        "crafttweaker.block.IBlockState;",
+        "crafttweaker.block.IBlockStateMatcher;"
+    ]
+}
