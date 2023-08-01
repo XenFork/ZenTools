@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "apply",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "source",

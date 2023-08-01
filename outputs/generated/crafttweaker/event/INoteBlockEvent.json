@@ -5,7 +5,6 @@
     "methods": [
         {
             "name": "setOctave",
-            "type": " void",
             "args": [
                 {
                     "name": "octave",
@@ -15,7 +14,6 @@
         },
         {
             "name": "setBoth",
-            "type": " void",
             "args": [
                 {
                     "name": "note",
@@ -28,20 +26,16 @@
             ]
         },
         {
-            "name": "getNoteId",
-            "type": " int"
+            "name": "getNoteId"
         },
         {
-            "name": "getNote",
-            "type": " string"
+            "name": "getNote"
         },
         {
-            "name": "getOctave",
-            "type": " string"
+            "name": "getOctave"
         },
         {
             "name": "setNote",
-            "type": " void",
             "args": [
                 {
                     "name": "note",

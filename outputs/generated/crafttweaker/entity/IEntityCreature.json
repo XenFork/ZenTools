@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "isPositionWithinHomeDistance",
-            "type": " bool",
             "args": [
                 {
                     "name": "pos",
@@ -17,7 +16,6 @@
         },
         {
             "name": "setHomePositionAndDistance",
-            "type": " void",
             "args": [
                 {
                     "name": "pos",
@@ -31,8 +29,7 @@
             ]
         },
         {
-            "name": "detachHome",
-            "type": " void"
+            "name": "detachHome"
         }
     ],
     "fields": [

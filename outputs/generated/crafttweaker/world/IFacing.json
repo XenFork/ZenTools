@@ -6,12 +6,10 @@
     ],
     "methods": [
         {
-            "name": "getName",
-            "type": " string"
+            "name": "getName"
         },
         {
             "name": "compare",
-            "type": " int",
             "args": [
                 {
                     "name": "other",
@@ -21,12 +19,10 @@
             ]
         },
         {
-            "name": "opposite",
-            "type": " IFacing"
+            "name": "opposite"
         },
         {
-            "name": "rotateY",
-            "type": " IFacing"
+            "name": "rotateY"
         }
     ],
     "fields": [

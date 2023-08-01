@@ -8,7 +8,6 @@
     "methods": [
         {
             "name": "add",
-            "type": " void",
             "args": [
                 {
                     "name": "items",
@@ -18,7 +17,6 @@
         },
         {
             "name": "remove",
-            "type": " void",
             "args": [
                 {
                     "name": "items",
@@ -28,7 +26,6 @@
         },
         {
             "name": "addAll",
-            "type": " void",
             "args": [
                 {
                     "name": "entry",
@@ -38,7 +35,6 @@
         },
         {
             "name": "mirror",
-            "type": " void",
             "args": [
                 {
                     "name": "other",
@@ -49,7 +45,6 @@
         },
         {
             "name": "addItems",
-            "type": " void",
             "args": [
                 {
                     "name": "items",
@@ -59,7 +54,6 @@
         },
         {
             "name": "removeItems",
-            "type": " void",
             "args": [
                 {
                     "name": "items",
@@ -69,7 +63,6 @@
         },
         {
             "name": "weight",
-            "type": " WeightedOreDictEntry",
             "args": [
                 {
                     "name": "p",

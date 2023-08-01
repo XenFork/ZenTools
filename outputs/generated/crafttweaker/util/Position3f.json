@@ -5,20 +5,16 @@
     ],
     "methods": [
         {
-            "name": "getX",
-            "type": " float"
+            "name": "getX"
         },
         {
-            "name": "getY",
-            "type": " float"
+            "name": "getY"
         },
         {
-            "name": "getZ",
-            "type": " float"
+            "name": "getZ"
         },
         {
             "name": "setY",
-            "type": " void",
             "args": [
                 {
                     "name": "y",
@@ -28,7 +24,6 @@
         },
         {
             "name": "setZ",
-            "type": " void",
             "args": [
                 {
                     "name": "z",
@@ -38,7 +33,6 @@
         },
         {
             "name": "setX",
-            "type": " void",
             "args": [
                 {
                     "name": "x",
@@ -47,8 +41,7 @@
             ]
         },
         {
-            "name": "asBlockPos",
-            "type": " IBlockPos"
+            "name": "asBlockPos"
         }
     ],
     "fields": [

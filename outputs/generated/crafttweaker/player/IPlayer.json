@@ -17,7 +17,6 @@
     "methods": [
         {
             "name": "update",
-            "type": " void",
             "args": [
                 {
                     "name": "data",
@@ -28,7 +27,6 @@
         },
         {
             "name": "changeDimension",
-            "type": " void",
             "args": [
                 {
                     "name": "dimensionId",
@@ -38,7 +36,6 @@
         },
         {
             "name": "sendStatusMessage",
-            "type": " void",
             "args": [
                 {
                     "name": "message",
@@ -53,7 +50,6 @@
         },
         {
             "name": "sendStatusMessage",
-            "type": " void",
             "args": [
                 {
                     "name": "message",
@@ -67,7 +63,6 @@
         },
         {
             "name": "getInventoryStack",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "i",
@@ -77,7 +72,6 @@
         },
         {
             "name": "teleport",
-            "type": " void",
             "args": [
                 {
                     "name": "pos",
@@ -88,7 +82,6 @@
         },
         {
             "name": "give",
-            "type": " void",
             "args": [
                 {
                     "name": "stack",
@@ -99,7 +92,6 @@
         },
         {
             "name": "sendChat",
-            "type": " void",
             "args": [
                 {
                     "name": "message",
@@ -109,7 +101,6 @@
         },
         {
             "name": "sendChat",
-            "type": " void",
             "args": [
                 {
                     "name": "message",
@@ -120,7 +111,6 @@
         },
         {
             "name": "removeXP",
-            "type": " void",
             "args": [
                 {
                     "name": "xp",
@@ -130,7 +120,6 @@
         },
         {
             "name": "getHotbarStack",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "i",
@@ -139,12 +128,10 @@
             ]
         },
         {
-            "name": "getScore",
-            "type": " int"
+            "name": "getScore"
         },
         {
             "name": "addScore",
-            "type": " void",
             "args": [
                 {
                     "name": "amount",
@@ -154,7 +141,6 @@
         },
         {
             "name": "setScore",
-            "type": " void",
             "args": [
                 {
                     "name": "amount",
@@ -164,7 +150,6 @@
         },
         {
             "name": "executeCommand",
-            "type": " void",
             "args": [
                 {
                     "name": "rawCommand",
@@ -174,7 +159,6 @@
         },
         {
             "name": "dropItem",
-            "type": " IEntityItem",
             "args": [
                 {
                     "name": "item",
@@ -185,7 +169,6 @@
         },
         {
             "name": "dropItem",
-            "type": " IEntityItem",
             "args": [
                 {
                     "name": "dropAll",
@@ -195,7 +178,6 @@
         },
         {
             "name": "setCooldown",
-            "type": " void",
             "args": [
                 {
                     "name": "item",
@@ -210,7 +192,6 @@
         },
         {
             "name": "getCooldown",
-            "type": " float",
             "args": [
                 {
                     "name": "item",
@@ -220,32 +201,25 @@
             ]
         },
         {
-            "name": "isSleeping",
-            "type": " bool"
+            "name": "isSleeping"
         },
         {
-            "name": "isFullyAsleep",
-            "type": " bool"
+            "name": "isFullyAsleep"
         },
         {
-            "name": "getSleepTimer",
-            "type": " int"
+            "name": "getSleepTimer"
         },
         {
-            "name": "getBedLocation",
-            "type": " IBlockPos"
+            "name": "getBedLocation"
         },
         {
-            "name": "getFishHook",
-            "type": " IEntityFishHook"
+            "name": "getFishHook"
         },
         {
-            "name": "getInventoryContainer",
-            "type": " IContainer"
+            "name": "getInventoryContainer"
         },
         {
             "name": "sendRichTextStatusMessage",
-            "type": " void",
             "args": [
                 {
                     "name": "textComponent",

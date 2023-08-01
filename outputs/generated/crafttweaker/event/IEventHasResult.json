@@ -1,16 +1,13 @@
 {
     "methods": [
         {
-            "name": "default",
-            "type": " void"
+            "name": "default"
         },
         {
-            "name": "deny",
-            "type": " void"
+            "name": "deny"
         },
         {
-            "name": "allow",
-            "type": " void"
+            "name": "allow"
         }
     ],
     "fields": [

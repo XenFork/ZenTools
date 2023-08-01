@@ -20,16 +20,13 @@
     ],
     "methods": [
         {
-            "name": "doWaterSplashEffect",
-            "type": " void"
+            "name": "doWaterSplashEffect"
         },
         {
-            "name": "getLastPortalDirection",
-            "type": " IFacing"
+            "name": "getLastPortalDirection"
         },
         {
             "name": "setLastPortalDirection",
-            "type": " void",
             "args": [
                 {
                     "name": "teleportDirection",
@@ -39,12 +36,10 @@
             ]
         },
         {
-            "name": "getHorizontalFacing",
-            "type": " IFacing"
+            "name": "getHorizontalFacing"
         },
         {
             "name": "setBoundingBox",
-            "type": " void",
             "args": [
                 {
                     "name": "aabb",
@@ -54,12 +49,10 @@
             ]
         },
         {
-            "name": "getStepHeight",
-            "type": " float"
+            "name": "getStepHeight"
         },
         {
             "name": "setStepHeight",
-            "type": " void",
             "args": [
                 {
                     "name": "stepHeight",
@@ -69,7 +62,6 @@
         },
         {
             "name": "setTeam",
-            "type": " void",
             "args": [
                 {
                     "name": "team",
@@ -79,16 +71,13 @@
             ]
         },
         {
-            "name": "removeFromWorld",
-            "type": " void"
+            "name": "removeFromWorld"
         },
         {
-            "name": "getUpdateBlocked",
-            "type": " bool"
+            "name": "getUpdateBlocked"
         },
         {
             "name": "setUpdateBlocked",
-            "type": " void",
             "args": [
                 {
                     "name": "updateBlocked",
@@ -97,12 +86,10 @@
             ]
         },
         {
-            "name": "getInPortal",
-            "type": " bool"
+            "name": "getInPortal"
         },
         {
             "name": "setInPortal",
-            "type": " void",
             "args": [
                 {
                     "name": "inPortal",
@@ -111,12 +98,10 @@
             ]
         },
         {
-            "name": "getPortalCounter",
-            "type": " int"
+            "name": "getPortalCounter"
         },
         {
             "name": "setPortalCounter",
-            "type": " void",
             "args": [
                 {
                     "name": "portalCounter",
@@ -125,12 +110,10 @@
             ]
         },
         {
-            "name": "getLastPortalVec",
-            "type": " IVector3d"
+            "name": "getLastPortalVec"
         },
         {
             "name": "setLastPortalVec",
-            "type": " void",
             "args": [
                 {
                     "name": "lastPortalVec",
@@ -140,12 +123,10 @@
             ]
         },
         {
-            "name": "getLastPortalPos",
-            "type": " IBlockPos"
+            "name": "getLastPortalPos"
         },
         {
             "name": "setLastPortalPos",
-            "type": " void",
             "args": [
                 {
                     "name": "lastPortalPos",
@@ -155,16 +136,13 @@
             ]
         },
         {
-            "name": "getBoundingBox",
-            "type": " IAxisAlignedBB"
+            "name": "getBoundingBox"
         },
         {
-            "name": "getUUID",
-            "type": " string"
+            "name": "getUUID"
         },
         {
             "name": "update",
-            "type": " void",
             "args": [
                 {
                     "name": "data",
@@ -174,20 +152,16 @@
             ]
         },
         {
-            "name": "isAlive",
-            "type": " bool"
+            "name": "isAlive"
         },
         {
-            "name": "getDimension",
-            "type": " int"
+            "name": "getDimension"
         },
         {
-            "name": "getPickedResult",
-            "type": " IItemStack"
+            "name": "getPickedResult"
         },
         {
             "name": "canTrample",
-            "type": " bool",
             "args": [
                 {
                     "name": "world",
@@ -211,16 +185,13 @@
             ]
         },
         {
-            "name": "getX",
-            "type": " double"
+            "name": "getX"
         },
         {
-            "name": "getY",
-            "type": " double"
+            "name": "getY"
         },
         {
             "name": "getDistanceSqToEntity",
-            "type": " double",
             "args": [
                 {
                     "name": "entity",
@@ -230,16 +201,13 @@
             ]
         },
         {
-            "name": "spawnRunningParticles",
-            "type": " void"
+            "name": "spawnRunningParticles"
         },
         {
-            "name": "dismountRidingEntity",
-            "type": " void"
+            "name": "dismountRidingEntity"
         },
         {
             "name": "setToLocationFrom",
-            "type": " void",
             "args": [
                 {
                     "name": "other",
@@ -250,7 +218,6 @@
         },
         {
             "name": "shouldRiderDismountInWater",
-            "type": " bool",
             "args": [
                 {
                     "name": "rider",
@@ -261,7 +228,6 @@
         },
         {
             "name": "setDimension",
-            "type": " void",
             "args": [
                 {
                     "name": "dimensionID",
@@ -271,7 +237,6 @@
         },
         {
             "name": "isInsideOfMaterial",
-            "type": " bool",
             "args": [
                 {
                     "name": "material",
@@ -281,12 +246,10 @@
             ]
         },
         {
-            "name": "getZ",
-            "type": " double"
+            "name": "getZ"
         },
         {
             "name": "setPosition",
-            "type": " void",
             "args": [
                 {
                     "name": "position",
@@ -297,7 +260,6 @@
         },
         {
             "name": "removeTag",
-            "type": " void",
             "args": [
                 {
                     "name": "tag",
@@ -307,7 +269,6 @@
         },
         {
             "name": "isRidingSameEntity",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",
@@ -318,7 +279,6 @@
         },
         {
             "name": "dropItem",
-            "type": " IEntityItem",
             "args": [
                 {
                     "name": "itemStack",
@@ -332,12 +292,10 @@
             ]
         },
         {
-            "name": "getPosition3f",
-            "type": " Position3f"
+            "name": "getPosition3f"
         },
         {
             "name": "setPosition3f",
-            "type": " void",
             "args": [
                 {
                     "name": "position3f",
@@ -347,12 +305,10 @@
             ]
         },
         {
-            "name": "setDead",
-            "type": " void"
+            "name": "setDead"
         },
         {
             "name": "setFire",
-            "type": " void",
             "args": [
                 {
                     "name": "seconds",
@@ -361,28 +317,22 @@
             ]
         },
         {
-            "name": "extinguish",
-            "type": " void"
+            "name": "extinguish"
         },
         {
-            "name": "isWet",
-            "type": " bool"
+            "name": "isWet"
         },
         {
-            "name": "getPassengers",
-            "type": " [IEntity]"
+            "name": "getPassengers"
         },
         {
-            "name": "getRidingEntity",
-            "type": " IEntity"
+            "name": "getRidingEntity"
         },
         {
-            "name": "getCustomName",
-            "type": " string"
+            "name": "getCustomName"
         },
         {
             "name": "setCustomName",
-            "type": " void",
             "args": [
                 {
                     "name": "name",
@@ -391,16 +341,13 @@
             ]
         },
         {
-            "name": "isImmuneToFire",
-            "type": " bool"
+            "name": "isImmuneToFire"
         },
         {
-            "name": "getAir",
-            "type": " int"
+            "name": "getAir"
         },
         {
             "name": "setAir",
-            "type": " void",
             "args": [
                 {
                     "name": "seconds",
@@ -409,16 +356,13 @@
             ]
         },
         {
-            "name": "onEntityUpdate",
-            "type": " void"
+            "name": "onEntityUpdate"
         },
         {
-            "name": "onUpdate",
-            "type": " void"
+            "name": "onUpdate"
         },
         {
             "name": "addTag",
-            "type": " void",
             "args": [
                 {
                     "name": "tag",
@@ -427,12 +371,10 @@
             ]
         },
         {
-            "name": "onKillCommand",
-            "type": " void"
+            "name": "onKillCommand"
         },
         {
             "name": "attackEntityFrom",
-            "type": " bool",
             "args": [
                 {
                     "name": "source",
@@ -446,16 +388,13 @@
             ]
         },
         {
-            "name": "getNBT",
-            "type": " IData"
+            "name": "getNBT"
         },
         {
-            "name": "removePassengers",
-            "type": " void"
+            "name": "removePassengers"
         },
         {
             "name": "isOnSameTeam",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",
@@ -465,16 +404,13 @@
             ]
         },
         {
-            "name": "setInWeb",
-            "type": " void"
+            "name": "setInWeb"
         },
         {
-            "name": "parts",
-            "type": " IEntity[]"
+            "name": "parts"
         },
         {
             "name": "isEntityEqual",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",
@@ -485,7 +421,6 @@
         },
         {
             "name": "isInvulnerableTo",
-            "type": " bool",
             "args": [
                 {
                     "name": "source",
@@ -496,7 +431,6 @@
         },
         {
             "name": "isPassenger",
-            "type": " bool",
             "args": [
                 {
                     "name": "entity",
@@ -507,7 +441,6 @@
         },
         {
             "name": "getRayTrace",
-            "type": " IRayTraceResult",
             "args": [
                 {
                     "name": "blockReachDistance",
@@ -533,7 +466,6 @@
         },
         {
             "name": "setNBT",
-            "type": " void",
             "args": [
                 {
                     "name": "data",
@@ -543,8 +475,7 @@
             ]
         },
         {
-            "name": "onGround",
-            "type": " bool"
+            "name": "onGround"
         }
     ],
     "fields": [

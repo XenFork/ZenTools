@@ -8,40 +8,31 @@
     ],
     "methods": [
         {
-            "name": "canHarmInCreative",
-            "type": " bool"
+            "name": "canHarmInCreative"
         },
         {
-            "name": "getImmediateSource",
-            "type": " IEntity"
+            "name": "getImmediateSource"
         },
         {
-            "name": "isDifficultyScaled",
-            "type": " bool"
+            "name": "isDifficultyScaled"
         },
         {
-            "name": "setDamageAllowedInCreativeMode",
-            "type": " IDamageSource"
+            "name": "setDamageAllowedInCreativeMode"
         },
         {
-            "name": "setDamageBypassesArmor",
-            "type": " IDamageSource"
+            "name": "setDamageBypassesArmor"
         },
         {
-            "name": "setDamageIsAbsolute",
-            "type": " IDamageSource"
+            "name": "setDamageIsAbsolute"
         },
         {
-            "name": "setDifficultyScaled",
-            "type": " IDamageSource"
+            "name": "setDifficultyScaled"
         },
         {
-            "name": "getDamageType",
-            "type": " string"
+            "name": "getDamageType"
         },
         {
             "name": "getDeathMessage",
-            "type": " string",
             "args": [
                 {
                     "name": "entity",
@@ -51,60 +42,46 @@
             ]
         },
         {
-            "name": "getHungerDamage",
-            "type": " float"
+            "name": "getHungerDamage"
         },
         {
-            "name": "getTrueSource",
-            "type": " IEntity"
+            "name": "getTrueSource"
         },
         {
-            "name": "isCreativePlayer",
-            "type": " bool"
+            "name": "isCreativePlayer"
         },
         {
-            "name": "isDamageAbsolute",
-            "type": " bool"
+            "name": "isDamageAbsolute"
         },
         {
-            "name": "isExplosion",
-            "type": " bool"
+            "name": "isExplosion"
         },
         {
-            "name": "isFireDamage",
-            "type": " bool"
+            "name": "isFireDamage"
         },
         {
-            "name": "isMagicDamage",
-            "type": " bool"
+            "name": "isMagicDamage"
         },
         {
-            "name": "isProjectile",
-            "type": " bool"
+            "name": "isProjectile"
         },
         {
-            "name": "setExplosion",
-            "type": " IDamageSource"
+            "name": "setExplosion"
         },
         {
-            "name": "setFireDamage",
-            "type": " IDamageSource"
+            "name": "setFireDamage"
         },
         {
-            "name": "setMagicDamage",
-            "type": " IDamageSource"
+            "name": "setMagicDamage"
         },
         {
-            "name": "setProjectile",
-            "type": " IDamageSource"
+            "name": "setProjectile"
         },
         {
-            "name": "isDamageUnblockable",
-            "type": " bool"
+            "name": "isDamageUnblockable"
         },
         {
-            "name": "getDamageLocation",
-            "type": " IVector3d"
+            "name": "getDamageLocation"
         }
     ],
     "fields": [

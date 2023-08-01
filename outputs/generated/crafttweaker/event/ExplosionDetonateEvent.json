@@ -6,12 +6,10 @@
     ],
     "methods": [
         {
-            "name": "getAffectedPositions",
-            "type": " [IBlockPos]"
+            "name": "getAffectedPositions"
         },
         {
-            "name": "getAffectedEntities",
-            "type": " [IEntity]"
+            "name": "getAffectedEntities"
         }
     ],
     "fields": [

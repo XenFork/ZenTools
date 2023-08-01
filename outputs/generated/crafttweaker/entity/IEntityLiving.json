@@ -7,12 +7,10 @@
     ],
     "methods": [
         {
-            "name": "playLivingSound",
-            "type": " void"
+            "name": "playLivingSound"
         },
         {
             "name": "clearLeashed",
-            "type": " void",
             "args": [
                 {
                     "name": "sendPacket",
@@ -26,7 +24,6 @@
         },
         {
             "name": "canBeLeashedTo",
-            "type": " bool",
             "args": [
                 {
                     "name": "player",
@@ -36,16 +33,13 @@
             ]
         },
         {
-            "name": "spawnExplosionParticle",
-            "type": " void"
+            "name": "spawnExplosionParticle"
         },
         {
-            "name": "enablePersistence",
-            "type": " void"
+            "name": "enablePersistence"
         },
         {
             "name": "setLeashedToEntity",
-            "type": " void",
             "args": [
                 {
                     "name": "entity",
@@ -60,7 +54,6 @@
         },
         {
             "name": "setDropChance",
-            "type": " void",
             "args": [
                 {
                     "name": "slot",

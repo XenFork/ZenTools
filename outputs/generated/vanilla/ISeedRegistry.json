@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "addSeed",
-            "type": " void",
             "args": [
                 {
                     "name": "item",
@@ -17,7 +16,6 @@
         },
         {
             "name": "removeSeed",
-            "type": " void",
             "args": [
                 {
                     "name": "item",

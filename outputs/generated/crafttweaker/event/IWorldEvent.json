@@ -4,8 +4,7 @@
     ],
     "methods": [
         {
-            "name": "getWorld",
-            "type": " IWorld"
+            "name": "getWorld"
         }
     ],
     "fields": [

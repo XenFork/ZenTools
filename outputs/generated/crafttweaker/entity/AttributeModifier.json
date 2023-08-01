@@ -4,12 +4,10 @@
     ],
     "methods": [
         {
-            "name": "isSaved",
-            "type": " bool"
+            "name": "isSaved"
         },
         {
             "name": "setSaved",
-            "type": " void",
             "args": [
                 {
                     "name": "saved",
@@ -18,20 +16,16 @@
             ]
         },
         {
-            "name": "getName",
-            "type": " string"
+            "name": "getName"
         },
         {
-            "name": "getAmount",
-            "type": " double"
+            "name": "getAmount"
         },
         {
-            "name": "getOperation",
-            "type": " int"
+            "name": "getOperation"
         },
         {
-            "name": "getUUID",
-            "type": " string"
+            "name": "getUUID"
         }
     ],
     "fields": [

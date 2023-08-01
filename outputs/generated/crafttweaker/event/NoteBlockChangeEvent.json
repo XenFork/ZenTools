@@ -5,12 +5,10 @@
     ],
     "methods": [
         {
-            "name": "getOldNote",
-            "type": " string"
+            "name": "getOldNote"
         },
         {
-            "name": "getOldOctave",
-            "type": " string"
+            "name": "getOldOctave"
         }
     ],
     "fields": [

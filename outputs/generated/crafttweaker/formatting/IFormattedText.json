@@ -5,8 +5,7 @@
     ],
     "methods": [
         {
-            "name": "asTextComponent",
-            "type": " ITextComponent"
+            "name": "asTextComponent"
         }
     ]
 }

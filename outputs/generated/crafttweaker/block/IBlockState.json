@@ -10,7 +10,6 @@
     "methods": [
         {
             "name": "compare",
-            "type": " int",
             "args": [
                 {
                     "name": "other",
@@ -20,20 +19,16 @@
             ]
         },
         {
-            "name": "getProperties",
-            "type": " string[string]"
+            "name": "getProperties"
         },
         {
-            "name": "getPropertyNames",
-            "type": " [string]"
+            "name": "getPropertyNames"
         },
         {
-            "name": "getBlock",
-            "type": " IBlock"
+            "name": "getBlock"
         },
         {
             "name": "isReplaceable",
-            "type": " bool",
             "args": [
                 {
                     "name": "world",
@@ -49,7 +44,6 @@
         },
         {
             "name": "getAllowedValuesForProperty",
-            "type": " [string]",
             "args": [
                 {
                     "name": "name",
@@ -58,16 +52,13 @@
             ]
         },
         {
-            "name": "getMeta",
-            "type": " int"
+            "name": "getMeta"
         },
         {
-            "name": "matchBlock",
-            "type": " IBlockStateMatcher"
+            "name": "matchBlock"
         },
         {
             "name": "getPropertyValue",
-            "type": " string",
             "args": [
                 {
                     "name": "name",
@@ -77,7 +68,6 @@
         },
         {
             "name": "withProperty",
-            "type": " IBlockState",
             "args": [
                 {
                     "name": "name",

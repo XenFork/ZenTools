@@ -7,20 +7,16 @@
     ],
     "methods": [
         {
-            "name": "getSeed",
-            "type": " long"
+            "name": "getSeed"
         },
         {
-            "name": "getMovementFactor",
-            "type": " double"
+            "name": "getMovementFactor"
         },
         {
-            "name": "getRandomizedSpawnPoint",
-            "type": " IBlockPos"
+            "name": "getRandomizedSpawnPoint"
         },
         {
             "name": "getRespawnDimension",
-            "type": " IWorldProvider",
             "args": [
                 {
                     "name": "player",
@@ -30,36 +26,28 @@
             ]
         },
         {
-            "name": "getHorizon",
-            "type": " double"
+            "name": "getHorizon"
         },
         {
-            "name": "getCloudHeight",
-            "type": " float"
+            "name": "getCloudHeight"
         },
         {
-            "name": "getHeight",
-            "type": " int"
+            "name": "getHeight"
         },
         {
-            "name": "isDaytime",
-            "type": " bool"
+            "name": "isDaytime"
         },
         {
-            "name": "getWorldTime",
-            "type": " long"
+            "name": "getWorldTime"
         },
         {
-            "name": "getSpawnPoint",
-            "type": " IBlockPos"
+            "name": "getSpawnPoint"
         },
         {
-            "name": "getActualHeight",
-            "type": " int"
+            "name": "getActualHeight"
         },
         {
             "name": "getBiomeForCoords",
-            "type": " IBiome",
             "args": [
                 {
                     "name": "pos",
@@ -70,7 +58,6 @@
         },
         {
             "name": "getSunBrightnessFactor",
-            "type": " float",
             "args": [
                 {
                     "name": "something",
@@ -79,12 +66,10 @@
             ]
         },
         {
-            "name": "getCurrentMoonPhaseFactor",
-            "type": " float"
+            "name": "getCurrentMoonPhaseFactor"
         },
         {
             "name": "isBlockHighHumidity",
-            "type": " bool",
             "args": [
                 {
                     "name": "pos",
@@ -94,16 +79,13 @@
             ]
         },
         {
-            "name": "getDimensionID",
-            "type": " int"
+            "name": "getDimensionID"
         },
         {
-            "name": "getSaveFolder",
-            "type": " string"
+            "name": "getSaveFolder"
         },
         {
             "name": "getSunBrightness",
-            "type": " float",
             "args": [
                 {
                     "name": "something",
@@ -112,36 +94,28 @@
             ]
         },
         {
-            "name": "canRespawnHere",
-            "type": " bool"
+            "name": "canRespawnHere"
         },
         {
-            "name": "hasSkyLight",
-            "type": " bool"
+            "name": "hasSkyLight"
         },
         {
-            "name": "isNether",
-            "type": " bool"
+            "name": "isNether"
         },
         {
-            "name": "isSkyColored",
-            "type": " bool"
+            "name": "isSkyColored"
         },
         {
-            "name": "getAverageGroundLevel",
-            "type": " int"
+            "name": "getAverageGroundLevel"
         },
         {
-            "name": "getLightBrightnesTable",
-            "type": " float[]"
+            "name": "getLightBrightnesTable"
         },
         {
-            "name": "getSpawnCoordinate",
-            "type": " IBlockPos"
+            "name": "getSpawnCoordinate"
         },
         {
             "name": "getStarBrightness",
-            "type": " float",
             "args": [
                 {
                     "name": "something",
@@ -150,20 +124,16 @@
             ]
         },
         {
-            "name": "getVoidFogYFactor",
-            "type": " double"
+            "name": "getVoidFogYFactor"
         },
         {
-            "name": "doesWaterVaporize",
-            "type": " bool"
+            "name": "doesWaterVaporize"
         },
         {
-            "name": "isSurfaceWorld",
-            "type": " bool"
+            "name": "isSurfaceWorld"
         },
         {
             "name": "getMoonPhase",
-            "type": " int",
             "args": [
                 {
                     "name": "time",

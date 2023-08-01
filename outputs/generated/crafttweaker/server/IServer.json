@@ -10,7 +10,6 @@
     "methods": [
         {
             "name": "onPlayerLoggedOut",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -20,7 +19,6 @@
         },
         {
             "name": "isOp",
-            "type": " bool",
             "args": [
                 {
                     "name": "player",
@@ -31,7 +29,6 @@
         },
         {
             "name": "onPlayerLoggedIn",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",

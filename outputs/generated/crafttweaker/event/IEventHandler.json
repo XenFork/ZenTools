@@ -1,8 +1,7 @@
 {
     "methods": [
         {
-            "name": "close",
-            "type": " void"
+            "name": "close"
         }
     ]
 }

@@ -5,7 +5,6 @@
     "methods": [
         {
             "name": "getStack",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "i",
@@ -14,12 +13,10 @@
             ]
         },
         {
-            "name": "asString",
-            "type": " string"
+            "name": "asString"
         },
         {
             "name": "setStack",
-            "type": " void",
             "args": [
                 {
                     "name": "i",

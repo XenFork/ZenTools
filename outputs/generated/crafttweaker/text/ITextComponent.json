@@ -6,8 +6,7 @@
     ],
     "methods": [
         {
-            "name": "createCopy",
-            "type": " ITextComponent"
+            "name": "createCopy"
         }
     ],
     "fields": [

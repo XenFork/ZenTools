@@ -5,16 +5,13 @@
     ],
     "methods": [
         {
-            "name": "pass",
-            "type": " void"
+            "name": "pass"
         },
         {
-            "name": "allow",
-            "type": " void"
+            "name": "allow"
         },
         {
-            "name": "deny",
-            "type": " void"
+            "name": "deny"
         }
     ],
     "fields": [

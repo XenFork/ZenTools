@@ -11,7 +11,6 @@
     "methods": [
         {
             "name": "damageItem",
-            "type": " void",
             "args": [
                 {
                     "name": "amount",

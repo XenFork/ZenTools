@@ -5,12 +5,10 @@
     ],
     "methods": [
         {
-            "name": "getInstrument",
-            "type": " string"
+            "name": "getInstrument"
         },
         {
             "name": "setInstrument",
-            "type": " void",
             "args": [
                 {
                     "name": "instrument",

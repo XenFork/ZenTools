@@ -4,12 +4,10 @@
     ],
     "methods": [
         {
-            "name": "createDeepCopy",
-            "type": " IStyle"
+            "name": "createDeepCopy"
         },
         {
-            "name": "createShallowCopy",
-            "type": " IStyle"
+            "name": "createShallowCopy"
         }
     ],
     "fields": [

@@ -7,7 +7,6 @@
     "methods": [
         {
             "name": "getBlockState",
-            "type": " IBlockState",
             "args": [
                 {
                     "name": "pos",
@@ -18,7 +17,6 @@
         },
         {
             "name": "isAirBlock",
-            "type": " bool",
             "args": [
                 {
                     "name": "pos",
@@ -29,7 +27,6 @@
         },
         {
             "name": "getStrongPower",
-            "type": " int",
             "args": [
                 {
                     "name": "pos",

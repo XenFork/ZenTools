@@ -7,7 +7,6 @@
     "methods": [
         {
             "name": "getOffset",
-            "type": " IBlockPos",
             "args": [
                 {
                     "name": "direction",
@@ -21,20 +20,16 @@
             ]
         },
         {
-            "name": "getX",
-            "type": " int"
+            "name": "getX"
         },
         {
-            "name": "getY",
-            "type": " int"
+            "name": "getY"
         },
         {
-            "name": "getZ",
-            "type": " int"
+            "name": "getZ"
         },
         {
-            "name": "asPosition3f",
-            "type": " Position3f"
+            "name": "asPosition3f"
         }
     ],
     "fields": [

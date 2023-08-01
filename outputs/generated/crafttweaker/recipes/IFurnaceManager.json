@@ -7,7 +7,6 @@
     "methods": [
         {
             "name": "remove",
-            "type": " void",
             "args": [
                 {
                     "name": "output",
@@ -21,12 +20,10 @@
             ]
         },
         {
-            "name": "removeAll",
-            "type": " void"
+            "name": "removeAll"
         },
         {
             "name": "getSmeltingResult",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "stack",
@@ -37,7 +34,6 @@
         },
         {
             "name": "addRecipe",
-            "type": " void",
             "args": [
                 {
                     "name": "output",
@@ -57,7 +53,6 @@
         },
         {
             "name": "setFuel",
-            "type": " void",
             "args": [
                 {
                     "name": "item",
@@ -72,7 +67,6 @@
         },
         {
             "name": "getFuel",
-            "type": " int",
             "args": [
                 {
                     "name": "item",

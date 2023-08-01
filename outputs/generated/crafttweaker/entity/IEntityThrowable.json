@@ -6,12 +6,10 @@
     ],
     "methods": [
         {
-            "name": "getThrowableShake",
-            "type": " int"
+            "name": "getThrowableShake"
         },
         {
             "name": "getThrower",
-            "type": "e",
             "args": [
                 {
                     "name": "",

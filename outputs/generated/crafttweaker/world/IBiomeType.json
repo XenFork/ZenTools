@@ -4,8 +4,7 @@
     ],
     "methods": [
         {
-            "name": "getBiomes",
-            "type": " [IBiome]"
+            "name": "getBiomes"
         }
     ],
     "fields": [

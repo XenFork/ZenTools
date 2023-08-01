@@ -10,7 +10,6 @@
     "methods": [
         {
             "name": "onExplosionStart",
-            "type": " bool",
             "args": [
                 {
                     "name": "world",
@@ -20,16 +19,13 @@
             ]
         },
         {
-            "name": "clearAffectedBlockPositions",
-            "type": " void"
+            "name": "clearAffectedBlockPositions"
         },
         {
-            "name": "doExplosionA",
-            "type": " void"
+            "name": "doExplosionA"
         },
         {
             "name": "doExplosionB",
-            "type": " void",
             "args": [
                 {
                     "name": "spawnParticles",

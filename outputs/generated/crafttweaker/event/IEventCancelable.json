@@ -1,12 +1,10 @@
 {
     "methods": [
         {
-            "name": "cancel",
-            "type": " void"
+            "name": "cancel"
         },
         {
-            "name": "isCanceled",
-            "type": " bool"
+            "name": "isCanceled"
         }
     ],
     "fields": [

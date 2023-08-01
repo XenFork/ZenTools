@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "shoot",
-            "type": " void",
             "args": [
                 {
                     "name": "shooter",
@@ -36,12 +35,10 @@
             ]
         },
         {
-            "name": "arrowShake",
-            "type": " int"
+            "name": "arrowShake"
         },
         {
             "name": "setShooter",
-            "type": " void",
             "args": [
                 {
                     "name": "shooter",
@@ -52,7 +49,6 @@
         },
         {
             "name": "setPickupStatus",
-            "type": " void",
             "args": [
                 {
                     "name": "pickupStatus",
@@ -62,7 +58,6 @@
         },
         {
             "name": "setKnockbackStrength",
-            "type": " void",
             "args": [
                 {
                     "name": "knockbackStrength",
@@ -71,20 +66,16 @@
             ]
         },
         {
-            "name": "setPickupDisallowed",
-            "type": " void"
+            "name": "setPickupDisallowed"
         },
         {
-            "name": "setPickupCreativeOnly",
-            "type": " void"
+            "name": "setPickupCreativeOnly"
         },
         {
-            "name": "getDamage",
-            "type": " double"
+            "name": "getDamage"
         },
         {
             "name": "setDamage",
-            "type": " void",
             "args": [
                 {
                     "name": "damage",
@@ -93,16 +84,13 @@
             ]
         },
         {
-            "name": "getShooter",
-            "type": " IEntity"
+            "name": "getShooter"
         },
         {
-            "name": "getIsCritical",
-            "type": " bool"
+            "name": "getIsCritical"
         },
         {
             "name": "setIsCritical",
-            "type": " void",
             "args": [
                 {
                     "name": "critical",
@@ -111,16 +99,13 @@
             ]
         },
         {
-            "name": "getPickupStatus",
-            "type": " string"
+            "name": "getPickupStatus"
         },
         {
-            "name": "setPickupAllowed",
-            "type": " void"
+            "name": "setPickupAllowed"
         },
         {
-            "name": "getKnockbackStrength",
-            "type": " int"
+            "name": "getKnockbackStrength"
         }
     ],
     "fields": [

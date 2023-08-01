@@ -23,12 +23,10 @@
     ],
     "methods": [
         {
-            "name": "getCapNBT",
-            "type": " IData"
+            "name": "getCapNBT"
         },
         {
             "name": "withCapNBT",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "capNBT",
@@ -38,12 +36,10 @@
             ]
         },
         {
-            "name": "isBlock",
-            "type": " bool"
+            "name": "isBlock"
         },
         {
             "name": "addAttributeModifier",
-            "type": " void",
             "args": [
                 {
                     "name": "attributeName",
@@ -62,12 +58,10 @@
             ]
         },
         {
-            "name": "getMaxItemUseDuration",
-            "type": " int"
+            "name": "getMaxItemUseDuration"
         },
         {
             "name": "weight",
-            "type": " WeightedItemStack",
             "args": [
                 {
                     "name": "p",
@@ -77,7 +71,6 @@
         },
         {
             "name": "amount",
-            "type": " IIngredient",
             "args": [
                 {
                     "name": "amount",
@@ -87,7 +80,6 @@
         },
         {
             "name": "amount",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "amount",
@@ -97,7 +89,6 @@
         },
         {
             "name": "getStrengthAgainstBlock",
-            "type": " float",
             "args": [
                 {
                     "name": "blockState",
@@ -108,7 +99,6 @@
         },
         {
             "name": "canApplyAtEnchantingTable",
-            "type": " bool",
             "args": [
                 {
                     "name": "enchantment",
@@ -119,7 +109,6 @@
         },
         {
             "name": "canHarvestBlock",
-            "type": " bool",
             "args": [
                 {
                     "name": "block",
@@ -130,7 +119,6 @@
         },
         {
             "name": "getHarvestLevel",
-            "type": " int",
             "args": [
                 {
                     "name": "toolClass",
@@ -140,7 +128,6 @@
         },
         {
             "name": "getHarvestLevel",
-            "type": " int",
             "args": [
                 {
                     "name": "toolClass",
@@ -159,12 +146,10 @@
             ]
         },
         {
-            "name": "anyDamage",
-            "type": " IIngredient"
+            "name": "anyDamage"
         },
         {
             "name": "withDamage",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "damage",
@@ -174,7 +159,6 @@
         },
         {
             "name": "withAmount",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "amount",
@@ -183,12 +167,10 @@
             ]
         },
         {
-            "name": "anyAmount",
-            "type": " IItemStack"
+            "name": "anyAmount"
         },
         {
             "name": "withTag",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "tag",
@@ -202,12 +184,10 @@
             ]
         },
         {
-            "name": "withEmptyTag",
-            "type": " IItemStack"
+            "name": "withEmptyTag"
         },
         {
             "name": "removeTag",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "tag",
@@ -217,7 +197,6 @@
         },
         {
             "name": "updateTag",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "tagUpdate",
@@ -231,12 +210,10 @@
             ]
         },
         {
-            "name": "asBlock",
-            "type": " IBlock"
+            "name": "asBlock"
         },
         {
             "name": "withDisplayName",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "name",
@@ -246,7 +223,6 @@
         },
         {
             "name": "withLore",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "lore",
@@ -256,7 +232,6 @@
         },
         {
             "name": "canPlaceOn",
-            "type": " bool",
             "args": [
                 {
                     "name": "block",
@@ -267,7 +242,6 @@
         },
         {
             "name": "canDestroy",
-            "type": " bool",
             "args": [
                 {
                     "name": "block",
@@ -278,7 +252,6 @@
         },
         {
             "name": "addEnchantment",
-            "type": " void",
             "args": [
                 {
                     "name": "enchantment",
@@ -288,12 +261,10 @@
             ]
         },
         {
-            "name": "clearCustomName",
-            "type": " void"
+            "name": "clearCustomName"
         },
         {
             "name": "damageItem",
-            "type": " void",
             "args": [
                 {
                     "name": "amount",
@@ -308,7 +279,6 @@
         },
         {
             "name": "splitStack",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "amount",
@@ -318,7 +288,6 @@
         },
         {
             "name": "createEntityItem",
-            "type": " IEntityItem",
             "args": [
                 {
                     "name": "world",
@@ -341,7 +310,6 @@
         },
         {
             "name": "createEntityItem",
-            "type": " IEntityItem",
             "args": [
                 {
                     "name": "world",
@@ -364,7 +332,6 @@
         },
         {
             "name": "createEntityItem",
-            "type": " IEntityItem",
             "args": [
                 {
                     "name": "world",
@@ -379,8 +346,7 @@
             ]
         },
         {
-            "name": "mutable",
-            "type": " IMutableItemStack"
+            "name": "mutable"
         }
     ],
     "fields": [

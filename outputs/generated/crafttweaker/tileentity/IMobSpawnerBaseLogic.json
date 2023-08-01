@@ -7,12 +7,10 @@
     ],
     "methods": [
         {
-            "name": "updateSpawner",
-            "type": " void"
+            "name": "updateSpawner"
         },
         {
-            "name": "setDelayToMin",
-            "type": " void"
+            "name": "setDelayToMin"
         }
     ],
     "fields": [

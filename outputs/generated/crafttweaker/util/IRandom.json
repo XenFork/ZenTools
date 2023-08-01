@@ -2,7 +2,6 @@
     "methods": [
         {
             "name": "nextInt",
-            "type": " int",
             "args": [
                 {
                     "name": "minimum",
@@ -16,7 +15,6 @@
         },
         {
             "name": "nextInt",
-            "type": " int",
             "args": [
                 {
                     "name": "bound",
@@ -25,12 +23,10 @@
             ]
         },
         {
-            "name": "nextInt",
-            "type": " int"
+            "name": "nextInt"
         },
         {
             "name": "nextDouble",
-            "type": " double",
             "args": [
                 {
                     "name": "minimum",
@@ -43,20 +39,16 @@
             ]
         },
         {
-            "name": "nextDouble",
-            "type": " double"
+            "name": "nextDouble"
         },
         {
-            "name": "nextBoolean",
-            "type": " bool"
+            "name": "nextBoolean"
         },
         {
-            "name": "nextFloat",
-            "type": " float"
+            "name": "nextFloat"
         },
         {
             "name": "nextFloat",
-            "type": " float",
             "args": [
                 {
                     "name": "minimum",
@@ -69,8 +61,7 @@
             ]
         },
         {
-            "name": "getRandomUUID",
-            "type": " string"
+            "name": "getRandomUUID"
         }
     ]
 }

@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "addStats",
-            "type": " void",
             "args": [
                 {
                     "name": "foodValue",
@@ -19,12 +18,10 @@
             ]
         },
         {
-            "name": "asNBT",
-            "type": " IData"
+            "name": "asNBT"
         },
         {
             "name": "addExhaustion",
-            "type": " void",
             "args": [
                 {
                     "name": "exhaustion",
@@ -34,7 +31,6 @@
         },
         {
             "name": "onUpdate",
-            "type": " void",
             "args": [
                 {
                     "name": "player",

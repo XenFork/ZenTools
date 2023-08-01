@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "getStack",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "i",
@@ -16,7 +15,6 @@
         },
         {
             "name": "getStack",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "row",
@@ -30,7 +28,6 @@
         },
         {
             "name": "setStack",
-            "type": " void",
             "args": [
                 {
                     "name": "i",
@@ -45,7 +42,6 @@
         },
         {
             "name": "setStack",
-            "type": " void",
             "args": [
                 {
                     "name": "row",

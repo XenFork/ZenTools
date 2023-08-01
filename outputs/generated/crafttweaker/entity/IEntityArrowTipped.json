@@ -7,7 +7,6 @@
     "methods": [
         {
             "name": "setPotionEffect",
-            "type": " void",
             "args": [
                 {
                     "name": "stack",
@@ -18,7 +17,6 @@
         },
         {
             "name": "addPotionEffect",
-            "type": " void",
             "args": [
                 {
                     "name": "effect",

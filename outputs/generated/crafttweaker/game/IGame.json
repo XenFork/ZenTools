@@ -12,7 +12,6 @@
     "methods": [
         {
             "name": "getEntity",
-            "type": " IEntityDefinition",
             "args": [
                 {
                     "name": "entityName",
@@ -22,7 +21,6 @@
         },
         {
             "name": "getLiquid",
-            "type": " ILiquidStack",
             "args": [
                 {
                     "name": "name",
@@ -32,7 +30,6 @@
         },
         {
             "name": "setLocalization",
-            "type": " void",
             "args": [
                 {
                     "name": "key",
@@ -46,7 +43,6 @@
         },
         {
             "name": "setLocalization",
-            "type": " void",
             "args": [
                 {
                     "name": "lang",
@@ -64,7 +60,6 @@
         },
         {
             "name": "localize",
-            "type": " string",
             "args": [
                 {
                     "name": "key",
@@ -78,7 +73,6 @@
         },
         {
             "name": "localize",
-            "type": " string",
             "args": [
                 {
                     "name": "key",

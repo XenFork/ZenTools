@@ -7,7 +7,6 @@
     "methods": [
         {
             "name": "isCompatibleWith",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",
@@ -18,7 +17,6 @@
         },
         {
             "name": "canApplyAtEnchantmentTable",
-            "type": " bool",
             "args": [
                 {
                     "name": "itemStack",
@@ -29,7 +27,6 @@
         },
         {
             "name": "getMaxEnchantability",
-            "type": " int",
             "args": [
                 {
                     "name": "enchantmentLevel",
@@ -39,7 +36,6 @@
         },
         {
             "name": "getMinEnchantability",
-            "type": " int",
             "args": [
                 {
                     "name": "enchantmentLevel",
@@ -49,7 +45,6 @@
         },
         {
             "name": "getTranslatedName",
-            "type": " string",
             "args": [
                 {
                     "name": "enchantmentLevel",
@@ -59,7 +54,6 @@
         },
         {
             "name": "canApply",
-            "type": " bool",
             "args": [
                 {
                     "name": "itemStack",
@@ -70,7 +64,6 @@
         },
         {
             "name": "makeEnchantment",
-            "type": " IEnchantment",
             "args": [
                 {
                     "name": "level",

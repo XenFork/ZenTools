@@ -104,12 +104,10 @@
     ],
     "methods": [
         {
-            "name": "clear",
-            "type": " void"
+            "name": "clear"
         },
         {
             "name": "onWorldTick",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -119,7 +117,6 @@
         },
         {
             "name": "onArrowLoose",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -129,7 +126,6 @@
         },
         {
             "name": "onArrowNock",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -139,7 +135,6 @@
         },
         {
             "name": "onPlayerClone",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -149,7 +144,6 @@
         },
         {
             "name": "onItemExpire",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -159,7 +153,6 @@
         },
         {
             "name": "onPlayerDeathDrops",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -169,7 +162,6 @@
         },
         {
             "name": "onPlayerOpenContainer",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -179,7 +171,6 @@
         },
         {
             "name": "onEntityLivingUseItem",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -189,7 +180,6 @@
         },
         {
             "name": "onEntityLivingUseItemStart",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -199,7 +189,6 @@
         },
         {
             "name": "onEntityLivingUseItemStop",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -209,7 +198,6 @@
         },
         {
             "name": "onEntityLivingUseItemTick",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -219,7 +207,6 @@
         },
         {
             "name": "onEntityLivingUseItemFinish",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -229,7 +216,6 @@
         },
         {
             "name": "onEntityLivingAttacked",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -239,7 +225,6 @@
         },
         {
             "name": "onEntityLivingDeath",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -249,7 +234,6 @@
         },
         {
             "name": "onEntityLivingFall",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -259,7 +243,6 @@
         },
         {
             "name": "onEntityLivingHurt",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -269,7 +252,6 @@
         },
         {
             "name": "onEntityLivingJump",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -279,7 +261,6 @@
         },
         {
             "name": "onEntityLivingDeathDrops",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -289,7 +270,6 @@
         },
         {
             "name": "onPlayerAnvilRepair",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -299,7 +279,6 @@
         },
         {
             "name": "onPlayerAnvilUpdate",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -309,7 +288,6 @@
         },
         {
             "name": "onBlockHarvestDrops",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -319,7 +297,6 @@
         },
         {
             "name": "onPlayerBreakSpeed",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -329,7 +306,6 @@
         },
         {
             "name": "onPlayerRightClickBlock",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -339,7 +315,6 @@
         },
         {
             "name": "onPlayerInteractBlock",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -349,7 +324,6 @@
         },
         {
             "name": "onPlayerAdvancement",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -359,7 +333,6 @@
         },
         {
             "name": "onExplosionStart",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -369,7 +342,6 @@
         },
         {
             "name": "onBlockPlace",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -379,7 +351,6 @@
         },
         {
             "name": "onPlayerDestroyItem",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -389,7 +360,6 @@
         },
         {
             "name": "onPlayerSleepInBed",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -399,7 +369,6 @@
         },
         {
             "name": "onLivingKnockBack",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -409,7 +378,6 @@
         },
         {
             "name": "onPlayerLoggedOut",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -419,7 +387,6 @@
         },
         {
             "name": "onAnimalTame",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -429,7 +396,6 @@
         },
         {
             "name": "onServerTick",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -439,7 +405,6 @@
         },
         {
             "name": "onEntityLivingUpdate",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -449,7 +414,6 @@
         },
         {
             "name": "onPotionEffectAdded",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -459,7 +423,6 @@
         },
         {
             "name": "onPotionEffectRemove",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -469,7 +432,6 @@
         },
         {
             "name": "onPotionEffectApplicable",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -479,7 +441,6 @@
         },
         {
             "name": "onPotionEffectExpiry",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -489,7 +450,6 @@
         },
         {
             "name": "onBlockNeighborNotify",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -499,7 +459,6 @@
         },
         {
             "name": "onFarmlandTrample",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -509,7 +468,6 @@
         },
         {
             "name": "onEntityStruckByLightning",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -519,7 +477,6 @@
         },
         {
             "name": "onExplosionDetonate",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -529,7 +486,6 @@
         },
         {
             "name": "onPlayerBrewedPotion",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -539,7 +495,6 @@
         },
         {
             "name": "onEnchantmentLevelSet",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -549,7 +504,6 @@
         },
         {
             "name": "onEntityJoinWorld",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -559,7 +513,6 @@
         },
         {
             "name": "onPlayerChangedDimension",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -569,7 +522,6 @@
         },
         {
             "name": "onPlayerAttackEntity",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -579,7 +531,6 @@
         },
         {
             "name": "onPlayerInteractEntity",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -589,7 +540,6 @@
         },
         {
             "name": "onPlayerPickupItem",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -599,7 +549,6 @@
         },
         {
             "name": "onPlayerFillBucket",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -609,7 +558,6 @@
         },
         {
             "name": "onPlayerLoggedIn",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -619,7 +567,6 @@
         },
         {
             "name": "onPlayerCrafted",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -629,7 +576,6 @@
         },
         {
             "name": "onPlayerSmelted",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -639,7 +585,6 @@
         },
         {
             "name": "onPlayerRespawn",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -649,7 +594,6 @@
         },
         {
             "name": "onPlayerBonemeal",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -659,7 +603,6 @@
         },
         {
             "name": "onPlayerInteract",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -669,7 +612,6 @@
         },
         {
             "name": "onPlayerPickupXp",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -679,7 +621,6 @@
         },
         {
             "name": "onPlayerWakeUp",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -689,7 +630,6 @@
         },
         {
             "name": "onPlayerUseHoe",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -699,7 +639,6 @@
         },
         {
             "name": "onEnderTeleport",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -709,7 +648,6 @@
         },
         {
             "name": "onItemToss",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -719,7 +657,6 @@
         },
         {
             "name": "onPlayerSetSpawn",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -729,7 +666,6 @@
         },
         {
             "name": "onPlayerTick",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -739,7 +675,6 @@
         },
         {
             "name": "onClientTick",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -749,7 +684,6 @@
         },
         {
             "name": "onRenderTick",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -759,7 +693,6 @@
         },
         {
             "name": "onBlockBreak",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -769,7 +702,6 @@
         },
         {
             "name": "onCommand",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -779,7 +711,6 @@
         },
         {
             "name": "onCheckSpawn",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -789,7 +720,6 @@
         },
         {
             "name": "onSpecialSpawn",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -799,7 +729,6 @@
         },
         {
             "name": "onAllowDespawn",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -809,7 +738,6 @@
         },
         {
             "name": "onCriticalHit",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -819,7 +747,6 @@
         },
         {
             "name": "onEntityMount",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -829,7 +756,6 @@
         },
         {
             "name": "onItemFished",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -839,7 +765,6 @@
         },
         {
             "name": "onCropGrowPre",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -849,7 +774,6 @@
         },
         {
             "name": "onCropGrowPost",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -859,7 +783,6 @@
         },
         {
             "name": "onMobGriefing",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -869,7 +792,6 @@
         },
         {
             "name": "onLootingLevel",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -879,7 +801,6 @@
         },
         {
             "name": "onMinecartUpdate",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -889,7 +810,6 @@
         },
         {
             "name": "onNoteBlock",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -899,7 +819,6 @@
         },
         {
             "name": "onNoteBlockPlay",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -909,7 +828,6 @@
         },
         {
             "name": "onPotionBrewPre",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -919,7 +837,6 @@
         },
         {
             "name": "onPotionBrewPost",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -929,7 +846,6 @@
         },
         {
             "name": "onPortalSpawn",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -939,7 +855,6 @@
         },
         {
             "name": "onEntityTravelToDimension",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -949,7 +864,6 @@
         },
         {
             "name": "onLivingDestroyBlock",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -959,7 +873,6 @@
         },
         {
             "name": "onLivingExperienceDrop",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -969,7 +882,6 @@
         },
         {
             "name": "onMinecartCollision",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -979,7 +891,6 @@
         },
         {
             "name": "onMinecartInteract",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -989,7 +900,6 @@
         },
         {
             "name": "onNoteBlockChange",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -999,7 +909,6 @@
         },
         {
             "name": "onPlayerCloseContainer",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1009,7 +918,6 @@
         },
         {
             "name": "onPlayerItemPickup",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1019,7 +927,6 @@
         },
         {
             "name": "onPlayerVisibility",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1029,7 +936,6 @@
         },
         {
             "name": "onPlayerLeftClickBlock",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1039,7 +945,6 @@
         },
         {
             "name": "onPlayerRightClickItem",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1049,7 +954,6 @@
         },
         {
             "name": "onSleepingLocationCheck",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1059,7 +963,6 @@
         },
         {
             "name": "onSleepingTimeCheck",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1069,7 +972,6 @@
         },
         {
             "name": "onProjectileImpactArrow",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1079,7 +981,6 @@
         },
         {
             "name": "onProjectileImpactFireball",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1089,7 +990,6 @@
         },
         {
             "name": "onProjectileImpactThrowable",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1099,7 +999,6 @@
         },
         {
             "name": "onEntityLivingEquipmentChange",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1109,7 +1008,6 @@
         },
         {
             "name": "onEntityLivingDamage",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",
@@ -1119,7 +1017,6 @@
         },
         {
             "name": "onEntityLivingHeal",
-            "type": " IEventHandler",
             "args": [
                 {
                     "name": "ev",

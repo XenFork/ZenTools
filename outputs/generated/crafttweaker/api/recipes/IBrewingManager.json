@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "addBrew",
-            "type": " void",
             "args": [
                 {
                     "name": "input",
@@ -31,7 +30,6 @@
         },
         {
             "name": "addBrew",
-            "type": " void",
             "args": [
                 {
                     "name": "input",
@@ -55,7 +53,6 @@
         },
         {
             "name": "removeRecipe",
-            "type": " void",
             "args": [
                 {
                     "name": "ingredient",
@@ -66,7 +63,6 @@
         },
         {
             "name": "removeRecipe",
-            "type": " void",
             "args": [
                 {
                     "name": "input",

@@ -5,12 +5,10 @@
     ],
     "methods": [
         {
-            "name": "getState",
-            "type": " string"
+            "name": "getState"
         },
         {
             "name": "setState",
-            "type": " void",
             "args": [
                 {
                     "name": "state",
@@ -19,12 +17,10 @@
             ]
         },
         {
-            "name": "getCaughtEntity",
-            "type": " IEntity"
+            "name": "getCaughtEntity"
         },
         {
             "name": "setCaughtEntity",
-            "type": " void",
             "args": [
                 {
                     "name": "entity",
@@ -34,12 +30,10 @@
             ]
         },
         {
-            "name": "getAngler",
-            "type": " IPlayer"
+            "name": "getAngler"
         },
         {
             "name": "setLureSpeed",
-            "type": " void",
             "args": [
                 {
                     "name": "lureSpeed",
@@ -49,7 +43,6 @@
         },
         {
             "name": "setLuck",
-            "type": " void",
             "args": [
                 {
                     "name": "luck",

@@ -4,20 +4,16 @@
     ],
     "methods": [
         {
-            "name": "getName",
-            "type": " string"
+            "name": "getName"
         },
         {
-            "name": "getParent",
-            "type": " Attribute"
+            "name": "getParent"
         },
         {
-            "name": "getDefaultValue",
-            "type": " double"
+            "name": "getDefaultValue"
         },
         {
             "name": "clampValue",
-            "type": " double",
             "args": [
                 {
                     "name": "value",
@@ -26,8 +22,7 @@
             ]
         },
         {
-            "name": "getShouldWatch",
-            "type": " bool"
+            "name": "getShouldWatch"
         }
     ],
     "fields": [

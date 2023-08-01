@@ -1,8 +1,7 @@
 {
     "methods": [
         {
-            "name": "process",
-            "type": " void"
+            "name": "process"
         }
     ],
     "fields": [

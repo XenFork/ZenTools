@@ -9,7 +9,6 @@
     "methods": [
         {
             "name": "remove",
-            "type": " void",
             "args": [
                 {
                     "name": "output",
@@ -23,12 +22,10 @@
             ]
         },
         {
-            "name": "removeAll",
-            "type": " void"
+            "name": "removeAll"
         },
         {
             "name": "addShapedMirrored",
-            "type": " void",
             "args": [
                 {
                     "name": "name",
@@ -55,7 +52,6 @@
         },
         {
             "name": "addShapedMirrored",
-            "type": " void",
             "args": [
                 {
                     "name": "output",
@@ -78,7 +74,6 @@
         },
         {
             "name": "addHiddenShapeless",
-            "type": " void",
             "args": [
                 {
                     "name": "name",
@@ -105,7 +100,6 @@
         },
         {
             "name": "removeByRecipeName",
-            "type": " void",
             "args": [
                 {
                     "name": "recipeName",
@@ -119,7 +113,6 @@
         },
         {
             "name": "replaceAllOccurences",
-            "type": " void",
             "args": [
                 {
                     "name": "toReplace",
@@ -139,7 +132,6 @@
         },
         {
             "name": "replaceAllOccurrences",
-            "type": " void",
             "args": [
                 {
                     "name": "toReplace",
@@ -159,7 +151,6 @@
         },
         {
             "name": "getRecipesFor",
-            "type": " [ICraftingRecipe]",
             "args": [
                 {
                     "name": "ingredient",
@@ -170,7 +161,6 @@
         },
         {
             "name": "addShaped",
-            "type": " void",
             "args": [
                 {
                     "name": "name",
@@ -197,7 +187,6 @@
         },
         {
             "name": "addShaped",
-            "type": " void",
             "args": [
                 {
                     "name": "output",
@@ -220,7 +209,6 @@
         },
         {
             "name": "addShapeless",
-            "type": " void",
             "args": [
                 {
                     "name": "output",
@@ -243,7 +231,6 @@
         },
         {
             "name": "addShapeless",
-            "type": " void",
             "args": [
                 {
                     "name": "name",
@@ -270,7 +257,6 @@
         },
         {
             "name": "addHiddenShaped",
-            "type": " void",
             "args": [
                 {
                     "name": "name",
@@ -301,7 +287,6 @@
         },
         {
             "name": "removeByRegex",
-            "type": " void",
             "args": [
                 {
                     "name": "regexString",
@@ -315,7 +300,6 @@
         },
         {
             "name": "removeByMod",
-            "type": " void",
             "args": [
                 {
                     "name": "modid",
@@ -325,7 +309,6 @@
         },
         {
             "name": "removeShaped",
-            "type": " void",
             "args": [
                 {
                     "name": "output",
@@ -340,7 +323,6 @@
         },
         {
             "name": "removeShapeless",
-            "type": " void",
             "args": [
                 {
                     "name": "output",
@@ -359,7 +341,6 @@
         },
         {
             "name": "removeByInput",
-            "type": " void",
             "args": [
                 {
                     "name": "input",
@@ -370,7 +351,6 @@
         },
         {
             "name": "craft",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "contents",

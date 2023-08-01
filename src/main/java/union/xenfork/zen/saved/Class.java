@@ -14,6 +14,9 @@ public class Class {
     @Alias("fields")
     public ArrayList<Field> fields;
 
+    @Alias("extends")
+    public ArrayList<String> extends_class;
+
     public void addImports(String import_) {
         if (imports == null)imports = new ArrayList<>();
         imports.add(import_);

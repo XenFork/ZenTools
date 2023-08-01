@@ -7,7 +7,6 @@
     "methods": [
         {
             "name": "getTabCompletions",
-            "type": " [string]",
             "args": [
                 {
                     "name": "sender",
@@ -26,7 +25,6 @@
         },
         {
             "name": "getPossibleCommands",
-            "type": " [ICommand]",
             "args": [
                 {
                     "name": "sender",
@@ -37,7 +35,6 @@
         },
         {
             "name": "executeCommand",
-            "type": " int",
             "args": [
                 {
                     "name": "sender",

@@ -5,8 +5,7 @@
     ],
     "methods": [
         {
-            "name": "blocks",
-            "type": " [IBlock]"
+            "name": "blocks"
         }
     ],
     "fields": [

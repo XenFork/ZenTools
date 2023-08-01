@@ -6,16 +6,13 @@
     ],
     "methods": [
         {
-            "name": "toString",
-            "type": " string"
+            "name": "toString"
         },
         {
-            "name": "hashCode",
-            "type": " int"
+            "name": "hashCode"
         },
         {
             "name": "compareTo",
-            "type": " int",
             "args": [
                 {
                     "name": "anotherString",
@@ -25,7 +22,6 @@
         },
         {
             "name": "indexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "str",
@@ -39,7 +35,6 @@
         },
         {
             "name": "indexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "str",
@@ -49,7 +44,6 @@
         },
         {
             "name": "indexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "ch",
@@ -63,7 +57,6 @@
         },
         {
             "name": "indexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "ch",
@@ -73,7 +66,6 @@
         },
         {
             "name": "codePointAt",
-            "type": " int",
             "args": [
                 {
                     "name": "index",
@@ -83,7 +75,6 @@
         },
         {
             "name": "codePointBefore",
-            "type": " int",
             "args": [
                 {
                     "name": "index",
@@ -93,7 +84,6 @@
         },
         {
             "name": "codePointCount",
-            "type": " int",
             "args": [
                 {
                     "name": "beginIndex",
@@ -107,7 +97,6 @@
         },
         {
             "name": "compareToIgnoreCase",
-            "type": " int",
             "args": [
                 {
                     "name": "anotherString",
@@ -117,7 +106,6 @@
         },
         {
             "name": "concat",
-            "type": " string",
             "args": [
                 {
                     "name": "str",
@@ -127,7 +115,6 @@
         },
         {
             "name": "contains",
-            "type": " bool",
             "args": [
                 {
                     "name": "s",
@@ -137,7 +124,6 @@
         },
         {
             "name": "contentEquals",
-            "type": " bool",
             "args": [
                 {
                     "name": "arg0",
@@ -147,7 +133,6 @@
         },
         {
             "name": "endsWith",
-            "type": " bool",
             "args": [
                 {
                     "name": "suffix",
@@ -157,7 +142,6 @@
         },
         {
             "name": "equalsIgnoreCase",
-            "type": " bool",
             "args": [
                 {
                     "name": "anotherString",
@@ -166,16 +150,13 @@
             ]
         },
         {
-            "name": "intern",
-            "type": " string"
+            "name": "intern"
         },
         {
-            "name": "isEmpty",
-            "type": " bool"
+            "name": "isEmpty"
         },
         {
             "name": "lastIndexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "ch",
@@ -185,7 +166,6 @@
         },
         {
             "name": "lastIndexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "str",
@@ -195,7 +175,6 @@
         },
         {
             "name": "lastIndexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "str",
@@ -209,7 +188,6 @@
         },
         {
             "name": "lastIndexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "ch",
@@ -222,12 +200,10 @@
             ]
         },
         {
-            "name": "length",
-            "type": " int"
+            "name": "length"
         },
         {
             "name": "matches",
-            "type": " bool",
             "args": [
                 {
                     "name": "regex",
@@ -237,7 +213,6 @@
         },
         {
             "name": "offsetByCodePoints",
-            "type": " int",
             "args": [
                 {
                     "name": "index",
@@ -251,7 +226,6 @@
         },
         {
             "name": "regionMatches",
-            "type": " bool",
             "args": [
                 {
                     "name": "toffset",
@@ -273,7 +247,6 @@
         },
         {
             "name": "regionMatches",
-            "type": " bool",
             "args": [
                 {
                     "name": "ignoreCase",
@@ -299,7 +272,6 @@
         },
         {
             "name": "replace",
-            "type": " string",
             "args": [
                 {
                     "name": "target",
@@ -313,7 +285,6 @@
         },
         {
             "name": "replaceAll",
-            "type": " string",
             "args": [
                 {
                     "name": "regex",
@@ -327,7 +298,6 @@
         },
         {
             "name": "replaceFirst",
-            "type": " string",
             "args": [
                 {
                     "name": "regex",
@@ -341,7 +311,6 @@
         },
         {
             "name": "startsWith",
-            "type": " bool",
             "args": [
                 {
                     "name": "prefix",
@@ -355,7 +324,6 @@
         },
         {
             "name": "startsWith",
-            "type": " bool",
             "args": [
                 {
                     "name": "prefix",
@@ -365,7 +333,6 @@
         },
         {
             "name": "subSequence",
-            "type": " string",
             "args": [
                 {
                     "name": "beginIndex",
@@ -379,7 +346,6 @@
         },
         {
             "name": "substring",
-            "type": " string",
             "args": [
                 {
                     "name": "beginIndex",
@@ -389,7 +355,6 @@
         },
         {
             "name": "substring",
-            "type": " string",
             "args": [
                 {
                     "name": "beginIndex",
@@ -402,20 +367,16 @@
             ]
         },
         {
-            "name": "toLowerCase",
-            "type": " string"
+            "name": "toLowerCase"
         },
         {
-            "name": "toUpperCase",
-            "type": " string"
+            "name": "toUpperCase"
         },
         {
-            "name": "trim",
-            "type": " string"
+            "name": "trim"
         },
         {
             "name": "indexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "needle",
@@ -429,7 +390,6 @@
         },
         {
             "name": "indexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "needle",
@@ -439,7 +399,6 @@
         },
         {
             "name": "lastIndexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "needle",
@@ -449,7 +408,6 @@
         },
         {
             "name": "lastIndexOf",
-            "type": " int",
             "args": [
                 {
                     "name": "needle",
@@ -463,7 +421,6 @@
         },
         {
             "name": "split",
-            "type": " [string]",
             "args": [
                 {
                     "name": "separator",

@@ -8,7 +8,6 @@
     "methods": [
         {
             "name": "sendRichTextMessage",
-            "type": " void",
             "args": [
                 {
                     "name": "textComponent",
@@ -19,7 +18,6 @@
         },
         {
             "name": "sendMessage",
-            "type": " void",
             "args": [
                 {
                     "name": "text",

@@ -5,7 +5,6 @@
     "methods": [
         {
             "name": "modifyVisibility",
-            "type": " void",
             "args": [
                 {
                     "name": "modifier",

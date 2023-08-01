@@ -11,7 +11,6 @@
     "methods": [
         {
             "name": "setHarvestLevel",
-            "type": " void",
             "args": [
                 {
                     "name": "type",
@@ -24,12 +23,10 @@
             ]
         },
         {
-            "name": "setNoRepair",
-            "type": " void"
+            "name": "setNoRepair"
         },
         {
             "name": "getItemBurnTime",
-            "type": " int",
             "args": [
                 {
                     "name": "itemStack",
@@ -40,7 +37,6 @@
         },
         {
             "name": "makeStack",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "meta",
@@ -50,7 +46,6 @@
         },
         {
             "name": "setContainerItem",
-            "type": " void",
             "args": [
                 {
                     "name": "item",
@@ -61,7 +56,6 @@
         },
         {
             "name": "getSubItems",
-            "type": " [IItemStack]",
             "args": [
                 {
                     "name": "tab",
@@ -71,16 +65,13 @@
             ]
         },
         {
-            "name": "isArrow",
-            "type": " bool"
+            "name": "isArrow"
         },
         {
-            "name": "setAlwaysEdible",
-            "type": " void"
+            "name": "setAlwaysEdible"
         },
         {
             "name": "addDispenserBehavior",
-            "type": " void",
             "args": [
                 {
                     "name": "behavior",
@@ -94,12 +85,10 @@
             ]
         },
         {
-            "name": "removeDispenserBehavior",
-            "type": " void"
+            "name": "removeDispenserBehavior"
         },
         {
             "name": "addShootingProjectileDispenserBehavior",
-            "type": " void",
             "args": [
                 {
                     "name": "projectile",

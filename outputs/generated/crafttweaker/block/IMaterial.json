@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "matches",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",
@@ -16,44 +15,34 @@
             ]
         },
         {
-            "name": "isOpaque",
-            "type": " bool"
+            "name": "isOpaque"
         },
         {
-            "name": "isReplaceable",
-            "type": " bool"
+            "name": "isReplaceable"
         },
         {
-            "name": "isToolNotRequired",
-            "type": " bool"
+            "name": "isToolNotRequired"
         },
         {
-            "name": "getMobilityFlag",
-            "type": " IMobilityFlag"
+            "name": "getMobilityFlag"
         },
         {
-            "name": "blocksLight",
-            "type": " bool"
+            "name": "blocksLight"
         },
         {
-            "name": "blocksMovement",
-            "type": " bool"
+            "name": "blocksMovement"
         },
         {
-            "name": "getCanBurn",
-            "type": " bool"
+            "name": "getCanBurn"
         },
         {
-            "name": "isLiquid",
-            "type": " bool"
+            "name": "isLiquid"
         },
         {
-            "name": "isSolid",
-            "type": " bool"
+            "name": "isSolid"
         },
         {
-            "name": "setReplaceable",
-            "type": " IMaterial"
+            "name": "setReplaceable"
         }
     ],
     "fields": [

@@ -5,7 +5,6 @@
     "methods": [
         {
             "name": "matches",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",

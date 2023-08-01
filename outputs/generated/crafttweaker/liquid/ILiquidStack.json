@@ -9,7 +9,6 @@
     "methods": [
         {
             "name": "weight",
-            "type": " WeightedLiquidStack",
             "args": [
                 {
                     "name": "p",
@@ -19,7 +18,6 @@
         },
         {
             "name": "withAmount",
-            "type": " ILiquidStack",
             "args": [
                 {
                     "name": "amount",
@@ -29,7 +27,6 @@
         },
         {
             "name": "withTag",
-            "type": " ILiquidStack",
             "args": [
                 {
                     "name": "data",

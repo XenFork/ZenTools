@@ -11,7 +11,6 @@
     "methods": [
         {
             "name": "createEntity",
-            "type": " IEntity",
             "args": [
                 {
                     "name": "world",
@@ -22,7 +21,6 @@
         },
         {
             "name": "addPlayerOnlyDrop",
-            "type": " void",
             "args": [
                 {
                     "name": "stack",
@@ -45,7 +43,6 @@
         },
         {
             "name": "addPlayerOnlyDrop",
-            "type": " void",
             "args": [
                 {
                     "name": "stack",
@@ -64,7 +61,6 @@
         },
         {
             "name": "spawnEntity",
-            "type": " IEntity",
             "args": [
                 {
                     "name": "world",
@@ -80,7 +76,6 @@
         },
         {
             "name": "addDrop",
-            "type": " void",
             "args": [
                 {
                     "name": "stack",
@@ -99,7 +94,6 @@
         },
         {
             "name": "addDrop",
-            "type": " void",
             "args": [
                 {
                     "name": "stack",
@@ -122,7 +116,6 @@
         },
         {
             "name": "addDropFunction",
-            "type": " void",
             "args": [
                 {
                     "name": "_function",
@@ -133,7 +126,6 @@
         },
         {
             "name": "removeDrop",
-            "type": " void",
             "args": [
                 {
                     "name": "stack",
@@ -143,8 +135,7 @@
             ]
         },
         {
-            "name": "clearDrops",
-            "type": " void"
+            "name": "clearDrops"
         }
     ],
     "fields": [

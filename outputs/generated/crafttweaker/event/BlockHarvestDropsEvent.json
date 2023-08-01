@@ -7,7 +7,6 @@
     "methods": [
         {
             "name": "addItem",
-            "type": " void",
             "args": [
                 {
                     "name": "itemStack",

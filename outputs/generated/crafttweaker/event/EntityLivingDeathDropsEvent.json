@@ -9,7 +9,6 @@
     "methods": [
         {
             "name": "addItem",
-            "type": " void",
             "args": [
                 {
                     "name": "entityItem",
@@ -20,7 +19,6 @@
         },
         {
             "name": "addItem",
-            "type": " void",
             "args": [
                 {
                     "name": "item",

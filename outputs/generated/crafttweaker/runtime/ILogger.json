@@ -5,7 +5,6 @@
     "methods": [
         {
             "name": "logError",
-            "type": " void",
             "args": [
                 {
                     "name": "message",
@@ -15,7 +14,6 @@
         },
         {
             "name": "logInfo",
-            "type": " void",
             "args": [
                 {
                     "name": "message",
@@ -25,7 +23,6 @@
         },
         {
             "name": "logCommand",
-            "type": " void",
             "args": [
                 {
                     "name": "message",
@@ -35,7 +32,6 @@
         },
         {
             "name": "logWarning",
-            "type": " void",
             "args": [
                 {
                     "name": "message",
@@ -45,7 +41,6 @@
         },
         {
             "name": "logPlayer",
-            "type": " void",
             "args": [
                 {
                     "name": "player",
@@ -56,7 +51,6 @@
         },
         {
             "name": "logDefault",
-            "type": " void",
             "args": [
                 {
                     "name": "message",

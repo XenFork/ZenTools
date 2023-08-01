@@ -5,24 +5,19 @@
     ],
     "methods": [
         {
-            "name": "getModifiers",
-            "type": " [AttributeModifier]"
+            "name": "getModifiers"
         },
         {
-            "name": "getAttribute",
-            "type": " Attribute"
+            "name": "getAttribute"
         },
         {
-            "name": "getAttributeValue",
-            "type": " double"
+            "name": "getAttributeValue"
         },
         {
-            "name": "getBaseValue",
-            "type": " double"
+            "name": "getBaseValue"
         },
         {
             "name": "setBaseValue",
-            "type": " void",
             "args": [
                 {
                     "name": "baseValue",
@@ -32,7 +27,6 @@
         },
         {
             "name": "hasModifier",
-            "type": " bool",
             "args": [
                 {
                     "name": "modifier",
@@ -43,7 +37,6 @@
         },
         {
             "name": "getModifier",
-            "type": " AttributeModifier",
             "args": [
                 {
                     "name": "uuid",
@@ -53,7 +46,6 @@
         },
         {
             "name": "applyModifier",
-            "type": " void",
             "args": [
                 {
                     "name": "modifier",
@@ -64,7 +56,6 @@
         },
         {
             "name": "removeModifier",
-            "type": " void",
             "args": [
                 {
                     "name": "uuid",
@@ -74,7 +65,6 @@
         },
         {
             "name": "removeModifier",
-            "type": " void",
             "args": [
                 {
                     "name": "modifier",
@@ -85,7 +75,6 @@
         },
         {
             "name": "getModifiersByOperation",
-            "type": " [AttributeModifier]",
             "args": [
                 {
                     "name": "operation",
@@ -94,8 +83,7 @@
             ]
         },
         {
-            "name": "removeAllModifiers",
-            "type": " void"
+            "name": "removeAllModifiers"
         }
     ],
     "fields": [

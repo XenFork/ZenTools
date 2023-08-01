@@ -5,12 +5,10 @@
     ],
     "methods": [
         {
-            "name": "copy",
-            "type": " IItemStack"
+            "name": "copy"
         },
         {
             "name": "grow",
-            "type": " void",
             "args": [
                 {
                     "name": "quality",
@@ -20,7 +18,6 @@
         },
         {
             "name": "shrink",
-            "type": " void",
             "args": [
                 {
                     "name": "quality",
@@ -30,7 +27,6 @@
         },
         {
             "name": "attemptDamageItem",
-            "type": " bool",
             "args": [
                 {
                     "name": "amount",

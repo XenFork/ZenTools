@@ -1,136 +1,103 @@
 {
     "methods": [
         {
-            "name": "getSeed",
-            "type": " long"
+            "name": "getSeed"
         },
         {
-            "name": "isInitialized",
-            "type": " bool"
+            "name": "isInitialized"
         },
         {
-            "name": "getDifficulty",
-            "type": " string"
+            "name": "getDifficulty"
         },
         {
-            "name": "getBorderCenterX",
-            "type": " double"
+            "name": "getBorderCenterX"
         },
         {
-            "name": "getBorderCenterZ",
-            "type": " double"
+            "name": "getBorderCenterZ"
         },
         {
-            "name": "getBorderSize",
-            "type": " double"
+            "name": "getBorderSize"
         },
         {
-            "name": "getRainTime",
-            "type": " int"
+            "name": "getRainTime"
         },
         {
-            "name": "getSaveVersion",
-            "type": " int"
+            "name": "getSaveVersion"
         },
         {
-            "name": "getSpawnX",
-            "type": " int"
+            "name": "getSpawnX"
         },
         {
-            "name": "getSpawnY",
-            "type": " int"
+            "name": "getSpawnY"
         },
         {
-            "name": "getSpawnZ",
-            "type": " int"
+            "name": "getSpawnZ"
         },
         {
-            "name": "getThunderTime",
-            "type": " int"
+            "name": "getThunderTime"
         },
         {
-            "name": "getVersionId",
-            "type": " int"
+            "name": "getVersionId"
         },
         {
-            "name": "getVersionName",
-            "type": " string"
+            "name": "getVersionName"
         },
         {
-            "name": "getWorldName",
-            "type": " string"
+            "name": "getWorldName"
         },
         {
-            "name": "getBoderLerpTime",
-            "type": " long"
+            "name": "getBoderLerpTime"
         },
         {
-            "name": "isThundering",
-            "type": " bool"
+            "name": "isThundering"
         },
         {
-            "name": "isCommandsAllowed",
-            "type": " bool"
+            "name": "isCommandsAllowed"
         },
         {
-            "name": "getBorderDamagePerBlock",
-            "type": " double"
+            "name": "getBorderDamagePerBlock"
         },
         {
-            "name": "getBorderSafeZone",
-            "type": " double"
+            "name": "getBorderSafeZone"
         },
         {
-            "name": "getBorderWarningDistance",
-            "type": " int"
+            "name": "getBorderWarningDistance"
         },
         {
-            "name": "getBorderWarningTime",
-            "type": " int"
+            "name": "getBorderWarningTime"
         },
         {
-            "name": "getCleanWeatherTime",
-            "type": " double"
+            "name": "getCleanWeatherTime"
         },
         {
-            "name": "getGeneratorOptions",
-            "type": " string"
+            "name": "getGeneratorOptions"
         },
         {
-            "name": "getLastTimePlayed",
-            "type": " long"
+            "name": "getLastTimePlayed"
         },
         {
-            "name": "getWorldTotalTime",
-            "type": " long"
+            "name": "getWorldTotalTime"
         },
         {
-            "name": "getBoderLerpTarget",
-            "type": " double"
+            "name": "getBoderLerpTarget"
         },
         {
-            "name": "getBorderLerpTarget",
-            "type": " double"
+            "name": "getBorderLerpTarget"
         },
         {
-            "name": "getBorderLerpTime",
-            "type": " long"
+            "name": "getBorderLerpTime"
         },
         {
-            "name": "isDifficultyLocked",
-            "type": " bool"
+            "name": "isDifficultyLocked"
         },
         {
-            "name": "isHardcoreModeEnabled",
-            "type": " bool"
+            "name": "isHardcoreModeEnabled"
         },
         {
-            "name": "isMapFeaturesEnabled",
-            "type": " bool"
+            "name": "isMapFeaturesEnabled"
         },
         {
-            "name": "isVersionSnapshot",
-            "type": " bool"
+            "name": "isVersionSnapshot"
         }
     ],
     "fields": [

@@ -7,7 +7,6 @@
     "methods": [
         {
             "name": "contains",
-            "type": " bool",
             "args": [
                 {
                     "name": "vec",
@@ -18,7 +17,6 @@
         },
         {
             "name": "expand",
-            "type": " IAxisAlignedBB",
             "args": [
                 {
                     "name": "x",
@@ -36,7 +34,6 @@
         },
         {
             "name": "grow",
-            "type": " IAxisAlignedBB",
             "args": [
                 {
                     "name": "x",
@@ -54,7 +51,6 @@
         },
         {
             "name": "grow",
-            "type": " IAxisAlignedBB",
             "args": [
                 {
                     "name": "value",
@@ -64,7 +60,6 @@
         },
         {
             "name": "intersects",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",
@@ -75,7 +70,6 @@
         },
         {
             "name": "union",
-            "type": " IAxisAlignedBB",
             "args": [
                 {
                     "name": "other",
@@ -86,7 +80,6 @@
         },
         {
             "name": "shrink",
-            "type": " IAxisAlignedBB",
             "args": [
                 {
                     "name": "value",
@@ -96,7 +89,6 @@
         },
         {
             "name": "intersect",
-            "type": " IAxisAlignedBB",
             "args": [
                 {
                     "name": "other",
@@ -107,7 +99,6 @@
         },
         {
             "name": "contract",
-            "type": " IAxisAlignedBB",
             "args": [
                 {
                     "name": "x",

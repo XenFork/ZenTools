@@ -2,7 +2,6 @@
     "methods": [
         {
             "name": "setBackgroundImageName",
-            "type": " void",
             "args": [
                 {
                     "name": "backgroundImage",
@@ -11,12 +10,10 @@
             ]
         },
         {
-            "name": "setNoScrollBar",
-            "type": " void"
+            "name": "setNoScrollBar"
         },
         {
-            "name": "setNoTitle",
-            "type": " void"
+            "name": "setNoTitle"
         }
     ],
     "fields": [

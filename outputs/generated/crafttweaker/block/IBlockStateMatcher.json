@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "matches",
-            "type": " bool",
             "args": [
                 {
                     "name": "blockState",
@@ -17,7 +16,6 @@
         },
         {
             "name": "withMatchedValuesForProperty",
-            "type": " IBlockStateMatcher",
             "args": [
                 {
                     "name": "name",
@@ -31,7 +29,6 @@
         },
         {
             "name": "allowValuesForProperty",
-            "type": " IBlockStateMatcher",
             "args": [
                 {
                     "name": "name",
@@ -44,12 +41,10 @@
             ]
         },
         {
-            "name": "getMatchingBlockStates",
-            "type": " any"
+            "name": "getMatchingBlockStates"
         },
         {
             "name": "getMatchedValuesForProperty",
-            "type": " [string]",
             "args": [
                 {
                     "name": "name",
@@ -58,12 +53,10 @@
             ]
         },
         {
-            "name": "getMatchedProperties",
-            "type": " [string][string]"
+            "name": "getMatchedProperties"
         },
         {
-            "name": "isCompound",
-            "type": " bool"
+            "name": "isCompound"
         }
     ],
     "fields": [

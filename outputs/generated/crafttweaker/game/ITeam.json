@@ -2,7 +2,6 @@
     "methods": [
         {
             "name": "formatString",
-            "type": " string",
             "args": [
                 {
                     "name": "input",

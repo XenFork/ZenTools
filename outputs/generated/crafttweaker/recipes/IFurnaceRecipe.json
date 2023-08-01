@@ -4,8 +4,7 @@
     ],
     "methods": [
         {
-            "name": "toCommandString",
-            "type": " string"
+            "name": "toCommandString"
         }
     ],
     "fields": [

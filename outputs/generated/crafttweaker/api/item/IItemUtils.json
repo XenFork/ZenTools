@@ -9,7 +9,6 @@
     "methods": [
         {
             "name": "getItem",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "location",
@@ -23,7 +22,6 @@
         },
         {
             "name": "createEnchantedBook",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "enchantments",
@@ -33,7 +31,6 @@
         },
         {
             "name": "combineEnchantments",
-            "type": " IData",
             "args": [
                 {
                     "name": "baseKey",
@@ -47,7 +44,6 @@
         },
         {
             "name": "combineEnchantments",
-            "type": " IData",
             "args": [
                 {
                     "name": "enchantments",
@@ -57,7 +53,6 @@
         },
         {
             "name": "getItemsByRegexRegistryName",
-            "type": " IItemStack[]",
             "args": [
                 {
                     "name": "regex",
@@ -67,7 +62,6 @@
         },
         {
             "name": "getItemsByRegexUnlocalizedName",
-            "type": " IItemStack[]",
             "args": [
                 {
                     "name": "regex",
@@ -77,7 +71,6 @@
         },
         {
             "name": "createPotion",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "params",
@@ -87,7 +80,6 @@
         },
         {
             "name": "createPotion",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "params",
@@ -97,7 +89,6 @@
         },
         {
             "name": "enchantItem",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "item",
@@ -112,7 +103,6 @@
         },
         {
             "name": "createSpawnEgg",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "entity",

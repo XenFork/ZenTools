@@ -22,16 +22,13 @@
     ],
     "methods": [
         {
-            "name": "getProvider",
-            "type": " IWorldProvider"
+            "name": "getProvider"
         },
         {
-            "name": "getDimension",
-            "type": " int"
+            "name": "getDimension"
         },
         {
             "name": "getBlock",
-            "type": " IBlock",
             "args": [
                 {
                     "name": "x",
@@ -49,7 +46,6 @@
         },
         {
             "name": "getBlock",
-            "type": " IBlock",
             "args": [
                 {
                     "name": "pos",
@@ -60,7 +56,6 @@
         },
         {
             "name": "getBrightness",
-            "type": " int",
             "args": [
                 {
                     "name": "position",
@@ -71,7 +66,6 @@
         },
         {
             "name": "getBrightness",
-            "type": " int",
             "args": [
                 {
                     "name": "x",
@@ -88,12 +82,10 @@
             ]
         },
         {
-            "name": "getWorldTime",
-            "type": " long"
+            "name": "getWorldTime"
         },
         {
             "name": "getEntitiesInArea",
-            "type": " [IEntity]",
             "args": [
                 {
                     "name": "start",
@@ -107,40 +99,31 @@
             ]
         },
         {
-            "name": "isRaining",
-            "type": " bool"
+            "name": "isRaining"
         },
         {
-            "name": "getWorldInfo",
-            "type": " IWorldInfo"
+            "name": "getWorldInfo"
         },
         {
-            "name": "isRemote",
-            "type": " bool"
+            "name": "isRemote"
         },
         {
-            "name": "isDayTime",
-            "type": " bool"
+            "name": "isDayTime"
         },
         {
-            "name": "isSurfaceWorld",
-            "type": " bool"
+            "name": "isSurfaceWorld"
         },
         {
-            "name": "getMoonPhase",
-            "type": " int"
+            "name": "getMoonPhase"
         },
         {
-            "name": "getDimensionType",
-            "type": " string"
+            "name": "getDimensionType"
         },
         {
-            "name": "getWorldType",
-            "type": " string"
+            "name": "getWorldType"
         },
         {
             "name": "setBlockState",
-            "type": " bool",
             "args": [
                 {
                     "name": "state",
@@ -161,7 +144,6 @@
         },
         {
             "name": "setBlockState",
-            "type": " bool",
             "args": [
                 {
                     "name": "state",
@@ -177,7 +159,6 @@
         },
         {
             "name": "spawnEntity",
-            "type": " bool",
             "args": [
                 {
                     "name": "entity",
@@ -188,7 +169,6 @@
         },
         {
             "name": "removeEntity",
-            "type": " void",
             "args": [
                 {
                     "name": "entity",
@@ -199,7 +179,6 @@
         },
         {
             "name": "rayTraceBlocks",
-            "type": " IRayTraceResult",
             "args": [
                 {
                     "name": "begin",
@@ -227,7 +206,6 @@
         },
         {
             "name": "getPickedBlock",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "pos",
@@ -248,7 +226,6 @@
         },
         {
             "name": "createExplosion",
-            "type": " IExplosion",
             "args": [
                 {
                     "name": "exploder",
@@ -283,7 +260,6 @@
         },
         {
             "name": "performExplosion",
-            "type": " IExplosion",
             "args": [
                 {
                     "name": "exploder",
@@ -318,7 +294,6 @@
         },
         {
             "name": "performExplosion",
-            "type": " IExplosion",
             "args": [
                 {
                     "name": "explosion",
@@ -329,7 +304,6 @@
         },
         {
             "name": "getBiome",
-            "type": " IBiome",
             "args": [
                 {
                     "name": "position",
@@ -340,7 +314,6 @@
         },
         {
             "name": "getBiome",
-            "type": " IBiome",
             "args": [
                 {
                     "name": "position",
@@ -350,12 +323,10 @@
             ]
         },
         {
-            "name": "getRandom",
-            "type": " IRandom"
+            "name": "getRandom"
         },
         {
             "name": "extinguishFire",
-            "type": " bool",
             "args": [
                 {
                     "name": "player",
@@ -376,7 +347,6 @@
         },
         {
             "name": "isSpawnChunk",
-            "type": " bool",
             "args": [
                 {
                     "name": "x",
@@ -389,12 +359,10 @@
             ]
         },
         {
-            "name": "getSeaLevel",
-            "type": " int"
+            "name": "getSeaLevel"
         },
         {
             "name": "addWeatherEffect",
-            "type": " bool",
             "args": [
                 {
                     "name": "entity",
@@ -405,7 +373,6 @@
         },
         {
             "name": "createLightningBolt",
-            "type": " IEntity",
             "args": [
                 {
                     "name": "x",
@@ -427,7 +394,6 @@
         },
         {
             "name": "summonLightningBolt",
-            "type": " IEntity",
             "args": [
                 {
                     "name": "x",
@@ -449,7 +415,6 @@
         },
         {
             "name": "getEntitiesWithinAABB",
-            "type": " IEntity[]",
             "args": [
                 {
                     "name": "aabb",
@@ -460,7 +425,6 @@
         },
         {
             "name": "findNearestEntityWithinAABB",
-            "type": " IEntity",
             "args": [
                 {
                     "name": "aabb",
@@ -476,7 +440,6 @@
         },
         {
             "name": "getEntitiesWithinAABBExcludingEntity",
-            "type": " IEntity[]",
             "args": [
                 {
                     "name": "aabb",

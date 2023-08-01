@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "isPreventingPlayerRest",
-            "type": " bool",
             "args": [
                 {
                     "name": "player",

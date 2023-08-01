@@ -6,16 +6,13 @@
     ],
     "methods": [
         {
-            "name": "makeTag",
-            "type": " IData"
+            "name": "makeTag"
         },
         {
-            "name": "makeBookTag",
-            "type": " IData"
+            "name": "makeBookTag"
         },
         {
-            "name": "makeBook",
-            "type": " IItemStack"
+            "name": "makeBook"
         }
     ],
     "fields": [

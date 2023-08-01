@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "makePotionEffect",
-            "type": " IPotionEffect",
             "args": [
                 {
                     "name": "duration",
@@ -28,7 +27,6 @@
         },
         {
             "name": "makePotionEffect",
-            "type": " IPotionEffect",
             "args": [
                 {
                     "name": "duration",
@@ -41,8 +39,7 @@
             ]
         },
         {
-            "name": "setBeneficial",
-            "type": " void"
+            "name": "setBeneficial"
         }
     ],
     "fields": [

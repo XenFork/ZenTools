@@ -11,16 +11,13 @@
     ],
     "methods": [
         {
-            "name": "isElytraFlying",
-            "type": " bool"
+            "name": "isElytraFlying"
         },
         {
-            "name": "getActiveHand",
-            "type": " IEntityEquipmentSlot"
+            "name": "getActiveHand"
         },
         {
             "name": "setActiveHand",
-            "type": " void",
             "args": [
                 {
                     "name": "hand",
@@ -30,24 +27,19 @@
             ]
         },
         {
-            "name": "isHandActive",
-            "type": " bool"
+            "name": "isHandActive"
         },
         {
-            "name": "resetActiveHand",
-            "type": " void"
+            "name": "resetActiveHand"
         },
         {
-            "name": "stopActiveHand",
-            "type": " void"
+            "name": "stopActiveHand"
         },
         {
-            "name": "getSwingProgress",
-            "type": " int"
+            "name": "getSwingProgress"
         },
         {
             "name": "setSwingProgress",
-            "type": " void",
             "args": [
                 {
                     "name": "swingProgress",
@@ -57,7 +49,6 @@
         },
         {
             "name": "attemptTeleport",
-            "type": " bool",
             "args": [
                 {
                     "name": "x",
@@ -74,12 +65,10 @@
             ]
         },
         {
-            "name": "getMoveForward",
-            "type": " float"
+            "name": "getMoveForward"
         },
         {
             "name": "setMoveForward",
-            "type": " void",
             "args": [
                 {
                     "name": "moveForward",
@@ -88,12 +77,10 @@
             ]
         },
         {
-            "name": "getMoveStrafing",
-            "type": " float"
+            "name": "getMoveStrafing"
         },
         {
             "name": "setMoveStrafing",
-            "type": " void",
             "args": [
                 {
                     "name": "moveStrafing",
@@ -102,12 +89,10 @@
             ]
         },
         {
-            "name": "getMoveVertical",
-            "type": " float"
+            "name": "getMoveVertical"
         },
         {
             "name": "setMoveVertical",
-            "type": " void",
             "args": [
                 {
                     "name": "moveVertical",
@@ -116,24 +101,19 @@
             ]
         },
         {
-            "name": "getActiveItemStack",
-            "type": " IItemStack"
+            "name": "getActiveItemStack"
         },
         {
-            "name": "isActiveItemStackBlocking",
-            "type": " bool"
+            "name": "isActiveItemStackBlocking"
         },
         {
-            "name": "isSwingInProgress",
-            "type": " bool"
+            "name": "isSwingInProgress"
         },
         {
-            "name": "getCreatureAttribute",
-            "type": " string"
+            "name": "getCreatureAttribute"
         },
         {
             "name": "removePotionEffect",
-            "type": " void",
             "args": [
                 {
                     "name": "potion",
@@ -144,7 +124,6 @@
         },
         {
             "name": "getAttribute",
-            "type": " AttributeInstance",
             "args": [
                 {
                     "name": "name",
@@ -153,20 +132,16 @@
             ]
         },
         {
-            "name": "onLivingUpdate",
-            "type": " void"
+            "name": "onLivingUpdate"
         },
         {
-            "name": "clearActivePotions",
-            "type": " void"
+            "name": "clearActivePotions"
         },
         {
-            "name": "getHeldItemOffHand",
-            "type": " IItemStack"
+            "name": "getHeldItemOffHand"
         },
         {
             "name": "getActivePotionEffect",
-            "type": " IPotionEffect",
             "args": [
                 {
                     "name": "potion",
@@ -177,7 +152,6 @@
         },
         {
             "name": "isPotionEffectApplicable",
-            "type": " bool",
             "args": [
                 {
                     "name": "potionEffect",
@@ -188,7 +162,6 @@
         },
         {
             "name": "isPotionActive",
-            "type": " bool",
             "args": [
                 {
                     "name": "potion",
@@ -199,7 +172,6 @@
         },
         {
             "name": "heal",
-            "type": " void",
             "args": [
                 {
                     "name": "amount",
@@ -209,7 +181,6 @@
         },
         {
             "name": "onDeath",
-            "type": " void",
             "args": [
                 {
                     "name": "source",
@@ -220,7 +191,6 @@
         },
         {
             "name": "knockBack",
-            "type": " void",
             "args": [
                 {
                     "name": "entity",
@@ -243,7 +213,6 @@
         },
         {
             "name": "canEntityBeSeen",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",
@@ -254,7 +223,6 @@
         },
         {
             "name": "addPotionEffect",
-            "type": " void",
             "args": [
                 {
                     "name": "potionEffect",
@@ -265,7 +233,6 @@
         },
         {
             "name": "setItemToSlot",
-            "type": " void",
             "args": [
                 {
                     "name": "slot",
@@ -281,7 +248,6 @@
         },
         {
             "name": "hasItemInSlot",
-            "type": " bool",
             "args": [
                 {
                     "name": "slot",
@@ -292,7 +258,6 @@
         },
         {
             "name": "getItemInSlot",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "slot",

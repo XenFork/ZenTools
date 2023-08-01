@@ -6,7 +6,6 @@
     "methods": [
         {
             "name": "setItem",
-            "type": " void",
             "args": [
                 {
                     "name": "stack",

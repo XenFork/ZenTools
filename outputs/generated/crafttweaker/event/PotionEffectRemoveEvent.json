@@ -6,8 +6,7 @@
     ],
     "methods": [
         {
-            "name": "getPotion",
-            "type": " IPotion"
+            "name": "getPotion"
         }
     ],
     "fields": [

@@ -5,7 +5,6 @@
     "methods": [
         {
             "name": "transform",
-            "type": " IItemStack",
             "args": [
                 {
                     "name": "item",

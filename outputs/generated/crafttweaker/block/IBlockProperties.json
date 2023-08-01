@@ -13,7 +13,6 @@
     "methods": [
         {
             "name": "getLightValue",
-            "type": " int",
             "args": [
                 {
                     "name": "access",
@@ -29,7 +28,6 @@
         },
         {
             "name": "getLightOpacity",
-            "type": " int",
             "args": [
                 {
                     "name": "access",
@@ -45,7 +43,6 @@
         },
         {
             "name": "isSideSolid",
-            "type": " bool",
             "args": [
                 {
                     "name": "access",
@@ -66,7 +63,6 @@
         },
         {
             "name": "doesSideBlockRendering",
-            "type": " bool",
             "args": [
                 {
                     "name": "access",
@@ -87,7 +83,6 @@
         },
         {
             "name": "canEntitySpawn",
-            "type": " bool",
             "args": [
                 {
                     "name": "entity",
@@ -98,7 +93,6 @@
         },
         {
             "name": "getBlockHardness",
-            "type": " float",
             "args": [
                 {
                     "name": "world",
@@ -114,7 +108,6 @@
         },
         {
             "name": "getPlayerRelativeBlockHardness",
-            "type": " float",
             "args": [
                 {
                     "name": "player",
@@ -135,7 +128,6 @@
         },
         {
             "name": "getComparatorInputOverride",
-            "type": " int",
             "args": [
                 {
                     "name": "world",
@@ -151,7 +143,6 @@
         },
         {
             "name": "getStrongPower",
-            "type": " int",
             "args": [
                 {
                     "name": "access",
@@ -172,7 +163,6 @@
         },
         {
             "name": "getWeakPower",
-            "type": " int",
             "args": [
                 {
                     "name": "access",
@@ -193,7 +183,6 @@
         },
         {
             "name": "getActualState",
-            "type": " IBlockState",
             "args": [
                 {
                     "name": "access",

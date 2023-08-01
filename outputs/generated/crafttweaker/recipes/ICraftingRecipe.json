@@ -5,8 +5,7 @@
     ],
     "methods": [
         {
-            "name": "getName",
-            "type": " string"
+            "name": "getName"
         }
     ],
     "fields": [

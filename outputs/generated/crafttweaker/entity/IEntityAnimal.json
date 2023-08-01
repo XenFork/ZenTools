@@ -8,7 +8,6 @@
     "methods": [
         {
             "name": "isBreedingItem",
-            "type": " bool",
             "args": [
                 {
                     "name": "itemStack",
@@ -19,7 +18,6 @@
         },
         {
             "name": "setInLove",
-            "type": " void",
             "args": [
                 {
                     "name": "player",
@@ -28,12 +26,10 @@
             ]
         },
         {
-            "name": "resetInLove",
-            "type": " void"
+            "name": "resetInLove"
         },
         {
             "name": "canMateWith",
-            "type": " bool",
             "args": [
                 {
                     "name": "other",
