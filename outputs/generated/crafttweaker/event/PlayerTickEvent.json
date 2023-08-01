@@ -2,5 +2,9 @@
     "imports": [
         "crafttweaker.event.IPlayerEvent",
         "crafttweaker.event.ITickEvent"
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "ITickEvent"
     ]
 }

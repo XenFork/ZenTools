@@ -9,5 +9,8 @@
             "type": "IEntityLivingBase",
             "import": "crafttweaker.entity.IEntityLivingBase"
         }
+    ],
+    "extends": [
+        "IEntityEvent"
     ]
 }

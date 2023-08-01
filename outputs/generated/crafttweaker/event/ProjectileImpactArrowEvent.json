@@ -43,5 +43,9 @@
             "name": "pickupStatus",
             "type": "string"
         }
+    ],
+    "extends": [
+        "ProjectileImpactEvent",
+        "IEventCancelable"
     ]
 }

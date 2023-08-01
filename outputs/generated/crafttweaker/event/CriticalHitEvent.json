@@ -22,5 +22,9 @@
             "name": "isVanillaCrit",
             "type": "bool"
         }
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "IEventHasResult"
     ]
 }

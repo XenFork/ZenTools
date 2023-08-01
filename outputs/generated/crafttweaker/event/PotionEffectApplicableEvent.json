@@ -2,5 +2,9 @@
     "imports": [
         "crafttweaker.event.IEventHasResult",
         "crafttweaker.event.IPotionEffectEvent"
+    ],
+    "extends": [
+        "IPotionEffectEvent",
+        "IEventHasResult"
     ]
 }

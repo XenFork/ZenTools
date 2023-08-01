@@ -31,5 +31,8 @@
             "name": "xpCost",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IEventCancelable"
     ]
 }

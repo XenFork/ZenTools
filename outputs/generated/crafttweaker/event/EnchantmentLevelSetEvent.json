@@ -31,5 +31,8 @@
             "name": "enchantRow",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IEventPositionable"
     ]
 }

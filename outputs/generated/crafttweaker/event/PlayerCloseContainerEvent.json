@@ -9,5 +9,8 @@
             "type": "IContainer",
             "import": "crafttweaker.container.IContainer"
         }
+    ],
+    "extends": [
+        "IPlayerEvent"
     ]
 }

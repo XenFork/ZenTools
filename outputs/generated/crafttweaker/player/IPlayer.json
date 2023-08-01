@@ -320,5 +320,9 @@
             "type": "IContainer",
             "import": "crafttweaker.container.IContainer"
         }
+    ],
+    "extends": [
+        "IEntityLivingBase",
+        "IUser"
     ]
 }

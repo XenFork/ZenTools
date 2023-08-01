@@ -12,5 +12,8 @@
             "name": "id",
             "type": "string"
         }
+    ],
+    "extends": [
+        "IPlayerEvent"
     ]
 }

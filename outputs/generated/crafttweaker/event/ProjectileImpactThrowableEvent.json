@@ -16,5 +16,9 @@
             "type": "IEntityThrowable",
             "import": "crafttweaker.entity.IEntityThrowable"
         }
+    ],
+    "extends": [
+        "ProjectileImpactEvent",
+        "IEventCancelable"
     ]
 }

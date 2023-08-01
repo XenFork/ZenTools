@@ -2,5 +2,9 @@
     "imports": [
         "crafttweaker.event.ITickEvent",
         "crafttweaker.event.IWorldEvent"
+    ],
+    "extends": [
+        "ITickEvent",
+        "IWorldEvent"
     ]
 }

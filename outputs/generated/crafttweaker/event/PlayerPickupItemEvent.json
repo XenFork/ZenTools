@@ -11,5 +11,10 @@
             "type": "IEntityItem",
             "import": "crafttweaker.entity.IEntityItem"
         }
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "IEventHasResult",
+        "IEventCancelable"
     ]
 }

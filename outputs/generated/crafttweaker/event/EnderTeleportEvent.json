@@ -20,5 +20,9 @@
             "name": "attackDamage",
             "type": "float"
         }
+    ],
+    "extends": [
+        "IEventCancelable",
+        "ILivingEvent"
     ]
 }

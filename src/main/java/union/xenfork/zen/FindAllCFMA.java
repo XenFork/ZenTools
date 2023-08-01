@@ -30,6 +30,8 @@ public class FindAllCFMA {
     public static final String fieldFind = "(val|var) [^\n\r\t]+;";//字段
     public static final String annotation = "#[^|\n\r\t]+";//注解
 
+    public static final String searchArgAndType = " as ";//分类arg和返回值
+
     public static final String extends_class = "#extends [^\n\r\t]+";
     public final Map<String, Class> classMap = new HashMap<>();
     /**
@@ -50,165 +52,101 @@ public class FindAllCFMA {
                 if (clazz == null)
                     clazz = new Class();
                 String line = value.trim();
-                if (line.matches(importHead))
-                    clazz.addImports(line.split(" ")[1].replace(";", ""));
-
-                if (line.matches(classHead))
-                    className = line.substring(line.indexOf("zenClass") + 8, line.indexOf("{"));
-
-                if (line.matches(annotation) && line.startsWith("#hidden")) isHidden = true;
-
-                if (line.matches(methodFind)) {
-                    if (!isHidden) {
-                        Method method = new Method();
-                        String nameArgs = line.substring(line.indexOf("function") + 8, line.lastIndexOf("as"));
-                        method.name = nameArgs.substring(0, nameArgs.indexOf("(")).trim();
-                        String argsName = nameArgs.substring(nameArgs.indexOf("(") + 1).replace(")", "");
-                        if (!argsName.trim().isEmpty()) {
-                            for (String arg_ : argsName.split(",")) {
-                                Arg arg = new Arg();
-                                String[] nameT = arg_.split(" as ");
-                                arg.name = nameT[0].trim();
-                                arg.type = nameT[1].trim();
-                                if (clazz.imports != null) {
-                                    for (String anImport : clazz.imports) {
-                                        String[] split = anImport.split("\\.");
-                                        if (split[split.length - 1].equals(arg.type)) {
-                                            arg.inTheClass = anImport;
-                                            break;
-                                        }
-                                    }
-                                }
-                                method.addArgs(arg);
-                            }
-                        }
-                        clazz.addMethod(method);
-                    } else {
-                        isHidden = false;
+                import_search(clazz, line);//search line about import
+                if (line.matches(extends_class)) {
+                    String exts = line.replace("#extends", "").trim();
+                    for (String ext : exts.split(" ")) {
+                        clazz.addExtendsClass(ext);
                     }
-
                 }
-
-                if (line.matches(fieldFind)) {
-                    String nameType = line.substring(4).replace(";", "");
-                    String[] split = nameType.split(" as ");
-                    Field field = new Field();
-                    field.name = split[0].trim();
-                    field.returnType = split[1].trim();
-                    if (clazz.imports != null) {
-                        for (String anImport : clazz.imports) {
-                            String[] split_ = anImport.split("\\.");
-                            if (split_[split_.length - 1].equals(field.returnType)) {
-                                field.inTheClass = anImport;
-                                break;
-                            }
-                        }
-                    }
-                    clazz.addFields(field);
-                }
-
-                if (line.equals("}")) {
-                    classMap.put(className, clazz);
-                }
+                className = headSearch(className, line);//search head to get className
+                isHidden = annootation(isHidden, line);
+                isHidden = method(clazz, isHidden, line);
+                field(clazz, line);
+                end(clazz, className, line);
 
             }
             File file1 = new File(file.getAbsolutePath().replace(".dzs", ".json").replace("scripts", "outputs"));
             String jsonPrettyStr = JSONUtil.toJsonPrettyStr(clazz);
             FileUtil.writeString(jsonPrettyStr, file1, StandardCharsets.UTF_8);
-
-//            Class clazz = null;
-//            String className = "";
-//            int mode = 0;// 0 默认模式 1，hidden模式,2-operator模式，3-caster模式， 4-lambda模式 ，判断为hidden模式默认为不录入
-//            for (String value : lines) {
-//                if (clazz == null) {
-//                    clazz = new Class();
-//                }
-//                String line = value.replace("    ", "");
-//                if (line.matches(importHead)) {
-//                    clazz.addImports(line.split(" ")[1].replace(";", ""));
-//                }
-//                if (line.matches(classHead)) {
-//                    className = line.substring(line.indexOf("zenClass") + 8, line.indexOf("{"));
-//                }
-//                if (line.matches(annotation)) {
-//                    if (mode != 1) {
-//                        if (line.equals("#hidden")) {
-//                            mode = 1;
-//                        }
-//                    }
-//                }
-//                if (line.matches(methodFind)) {
-//                    if (mode != 1) {
-//                        Method method = new Method();
-//                        String nameArgs = line.substring(line.indexOf("function") + 8, line.lastIndexOf("as"));
-//                        method.name = nameArgs.substring(0, nameArgs.indexOf("(")).trim();
-//                        String argsName = nameArgs.substring(nameArgs.indexOf("(") + 1).replace(")", "");
-//                        if (!argsName.trim().isEmpty()) {
-//                            String[] args_ = argsName.split(",");
-//                            for (String arg_ : args_) {
-//                                Arg arg = new Arg();
-//                                String[] nameT = arg_.split(" as ");
-//                                arg.name = nameT[0].trim();
-//                                arg.type = nameT[1].trim();
-//                                if (clazz.imports != null) {
-//                                    for (String anImport : clazz.imports) {
-//                                        String[] split = anImport.split("\\.");
-//                                        if (split[split.length - 1].equals(arg.type)) {
-//                                            arg.inTheClass = anImport;
-//                                            break;
-//                                        }
-//                                    }
-//                                }
-//                                method.addArgs(arg);
-//                            }
-//                        }
-//                        method.returnType = line.substring(line.lastIndexOf("as") + 2).replace(";", "");
-//                        if (clazz.imports != null) {
-//                            for (String anImport : clazz.imports) {
-//                                String[] split = anImport.split("\\.");
-//                                if (split[split.length - 1].equals(method.returnType)) {
-//                                    method.inTheClass = anImport;
-//                                    break;
-//                                }
-//                            }
-//                        }
-//                        clazz.addMethod(method);
-//
-//                    } else {
-//                        mode = 0;
-//                    }
-//
-//
-//                }
-//
-//                if (line.equals("}")) {
-//                    classMap.put(className, clazz);
-//                }
-//                if (line.matches(fieldFind)) {
-//                    String nameType = line.substring(4).replace(";", "");
-//                    String[] split = nameType.split(" as ");
-//                    Field field = new Field();
-//                    field.name = split[0].trim();
-//                    field.returnType = split[1].trim();
-//                    if (clazz.imports != null) {
-//                        for (String anImport : clazz.imports) {
-//                            String[] split_ = anImport.split("\\.");
-//                            if (split_[split_.length - 1].equals(field.returnType)) {
-//                                field.inTheClass = anImport;
-//                                break;
-//                            }
-//                        }
-//                    }
-//                    clazz.addFields(field);
-////                    System.out.println(nameType);
-//                }
-//            }
-//
-//            File file1 = new File(file.getAbsolutePath().replace(".dzs", ".json").replace("scripts", "outputs"));
-//            String jsonPrettyStr = JSONUtil.toJsonPrettyStr(clazz);
-//            FileUtil.writeString(jsonPrettyStr, file1, StandardCharsets.UTF_8);
         }
 
+    }
+
+    private void end(Class clazz, String className, String line) {
+        if (line.equals("}")) {
+            classMap.put(className, clazz);
+        }
+    }
+
+    private static void field(Class clazz, String line) {
+        if (line.matches(fieldFind)) {
+            String nameType = line.substring(4).replace(";", "");
+            String[] split = nameType.split(searchArgAndType);
+            Field field = new Field();
+            field.name = split[0].trim();
+            field.returnType = split[1].trim();
+            if (clazz.imports != null) {
+                for (String anImport : clazz.imports) {
+                    String[] split_ = anImport.split("\\.");
+                    if (split_[split_.length - 1].equals(field.returnType)) {
+                        field.inTheClass = anImport;
+                        break;
+                    }
+                }
+            }
+            clazz.addFields(field);
+        }
+    }
+
+    private static boolean method(Class clazz, boolean isHidden, String line) {
+        if (line.matches(methodFind)) {
+            if (!isHidden) {
+                Method method = new Method();
+                String nameArgs = line.substring(line.indexOf("function") + 8, line.lastIndexOf("as"));
+                method.name = nameArgs.substring(0, nameArgs.indexOf("(")).trim();
+                String argsName = nameArgs.substring(nameArgs.indexOf("(") + 1).replace(")", "");
+                if (!argsName.trim().isEmpty()) {
+                    for (String arg_ : argsName.split(",")) {
+                        Arg arg = new Arg();
+                        String[] nameT = arg_.split(searchArgAndType);
+                        arg.name = nameT[0].trim();
+                        arg.type = nameT[1].trim();
+                        if (clazz.imports != null) {
+                            for (String anImport : clazz.imports) {
+                                String[] split = anImport.split("\\.");
+                                if (split[split.length - 1].equals(arg.type)) {
+                                    arg.inTheClass = anImport;
+                                    break;
+                                }
+                            }
+                        }
+                        method.addArgs(arg);
+                    }
+                }
+                clazz.addMethod(method);
+            } else {
+                isHidden = false;
+            }
+
+        }
+        return isHidden;
+    }
+
+    private static boolean annootation(boolean isHidden, String line) {
+        if (line.matches(annotation) && line.startsWith("#hidden")) isHidden = true;
+        return isHidden;
+    }
+
+    private static String headSearch(String className, String line) {
+        if (line.matches(classHead))
+            className = line.substring(line.indexOf("zenClass") + 8, line.indexOf("{"));
+        return className;
+    }
+
+    private static void import_search(Class clazz, String line) {
+        if (line.matches(importHead))
+            clazz.addImports(line.split(" ")[1].replace(";", ""));
     }
 
     private void findDzs(File path) {

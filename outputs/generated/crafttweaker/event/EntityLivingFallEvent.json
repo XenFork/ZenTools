@@ -12,5 +12,9 @@
             "name": "distance",
             "type": "void"
         }
+    ],
+    "extends": [
+        "ILivingEvent",
+        "IEventCancelable"
     ]
 }

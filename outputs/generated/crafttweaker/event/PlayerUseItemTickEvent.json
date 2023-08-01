@@ -14,5 +14,9 @@
             "name": "duration",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IEventCancelable",
+        "IPlayerEvent"
     ]
 }

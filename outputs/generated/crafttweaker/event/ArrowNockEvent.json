@@ -14,5 +14,9 @@
             "name": "hand",
             "type": "string"
         }
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "IEventHasResult"
     ]
 }

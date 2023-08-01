@@ -2,5 +2,9 @@
     "imports": [
         "crafttweaker.event.IBlockEvent",
         "crafttweaker.event.IEventHasResult"
+    ],
+    "extends": [
+        "IBlockEvent",
+        "IEventHasResult"
     ]
 }

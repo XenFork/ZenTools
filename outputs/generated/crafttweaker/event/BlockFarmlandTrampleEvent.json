@@ -14,5 +14,9 @@
             "name": "fallDistance",
             "type": "float"
         }
+    ],
+    "extends": [
+        "IBlockEvent",
+        "IEventCancelable"
     ]
 }

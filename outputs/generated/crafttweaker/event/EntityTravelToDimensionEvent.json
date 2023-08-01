@@ -8,5 +8,9 @@
             "name": "dimension",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IEntityEvent",
+        "IEventCancelable"
     ]
 }

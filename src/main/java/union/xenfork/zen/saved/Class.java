@@ -22,6 +22,11 @@ public class Class {
         imports.add(import_);
     }
 
+    public void addExtendsClass(String name) {
+        if (this.extends_class == null) this.extends_class = new ArrayList<>();
+        extends_class.add(name);
+    }
+
     public ArrayList<String> getImports() {
         return imports;
     }

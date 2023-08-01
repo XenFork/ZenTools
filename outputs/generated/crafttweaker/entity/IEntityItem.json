@@ -20,5 +20,8 @@
             "name": "item",
             "type": "void"
         }
+    ],
+    "extends": [
+        "IEntity"
     ]
 }

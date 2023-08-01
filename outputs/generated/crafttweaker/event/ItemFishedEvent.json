@@ -23,5 +23,9 @@
             "type": "IEntityFishHook",
             "import": "crafttweaker.entity.IEntityFishHook"
         }
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "IEventCancelable"
     ]
 }

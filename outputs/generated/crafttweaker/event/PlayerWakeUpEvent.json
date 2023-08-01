@@ -15,5 +15,8 @@
             "name": "shouldSetSpawn",
             "type": "bool"
         }
+    ],
+    "extends": [
+        "IPlayerEvent"
     ]
 }

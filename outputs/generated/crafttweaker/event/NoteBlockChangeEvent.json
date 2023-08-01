@@ -20,5 +20,9 @@
             "name": "oldOctave",
             "type": "string"
         }
+    ],
+    "extends": [
+        "INoteBlockEvent",
+        "IEventCancelable"
     ]
 }

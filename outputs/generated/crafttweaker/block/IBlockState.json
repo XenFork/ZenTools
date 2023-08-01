@@ -90,5 +90,9 @@
             "name": "meta",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IBlockProperties",
+        "IBlockStateMatcher"
     ]
 }

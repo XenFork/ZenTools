@@ -18,5 +18,8 @@
             "name": "modifier",
             "type": "double"
         }
+    ],
+    "extends": [
+        "IPlayerEvent"
     ]
 }

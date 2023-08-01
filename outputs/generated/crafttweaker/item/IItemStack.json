@@ -519,5 +519,8 @@
             "name": "ores",
             "type": "[IOreDictEntry]"
         }
+    ],
+    "extends": [
+        "IIngredient"
     ]
 }

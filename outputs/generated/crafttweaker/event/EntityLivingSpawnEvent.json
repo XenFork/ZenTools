@@ -32,5 +32,8 @@
             "name": "z",
             "type": "float"
         }
+    ],
+    "extends": [
+        "ILivingEvent"
     ]
 }

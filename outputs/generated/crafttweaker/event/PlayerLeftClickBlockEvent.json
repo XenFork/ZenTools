@@ -19,5 +19,10 @@
             "type": "IVector3d",
             "import": "crafttweaker.world.IVector3d"
         }
+    ],
+    "extends": [
+        "PlayerInteractEvent",
+        "IEventCancelable",
+        "IHasCancellationResult"
     ]
 }

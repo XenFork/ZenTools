@@ -3,5 +3,10 @@
         "crafttweaker.event.IEventCancelable",
         "crafttweaker.event.IHasCancellationResult",
         "crafttweaker.event.PlayerInteractEvent"
+    ],
+    "extends": [
+        "PlayerInteractEvent",
+        "IEventCancelable",
+        "IHasCancellationResult"
     ]
 }

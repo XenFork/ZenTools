@@ -10,5 +10,9 @@
             "type": "IEntity",
             "import": "crafttweaker.entity.IEntity"
         }
+    ],
+    "extends": [
+        "IEventCancelable",
+        "IEntityEvent"
     ]
 }

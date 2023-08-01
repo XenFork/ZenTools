@@ -2,5 +2,9 @@
     "imports": [
         "crafttweaker.event.IEventCancelable",
         "crafttweaker.event.PotionBrewEvent"
+    ],
+    "extends": [
+        "PotionBrewEvent",
+        "IEventCancelable"
     ]
 }

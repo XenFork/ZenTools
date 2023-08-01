@@ -798,5 +798,8 @@
             "name": "onGround",
             "type": "bool"
         }
+    ],
+    "extends": [
+        "ICommandSender"
     ]
 }

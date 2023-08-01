@@ -15,5 +15,8 @@
             "type": "IEntityItem",
             "import": "crafttweaker.entity.IEntityItem"
         }
+    ],
+    "extends": [
+        "IPlayerEvent"
     ]
 }

@@ -46,5 +46,9 @@
             "name": "isRecentlyHit",
             "type": "bool"
         }
+    ],
+    "extends": [
+        "ILivingEvent",
+        "IEventCancelable"
     ]
 }

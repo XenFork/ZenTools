@@ -79,5 +79,8 @@
             "name": "viscosity",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IIngredient"
     ]
 }

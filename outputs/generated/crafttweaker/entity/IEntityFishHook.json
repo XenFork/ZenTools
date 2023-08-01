@@ -74,5 +74,8 @@
             "name": "luck",
             "type": "void"
         }
+    ],
+    "extends": [
+        "IEntity"
     ]
 }

@@ -21,5 +21,8 @@
             "name": "affectedEntities",
             "type": "[IEntity]"
         }
+    ],
+    "extends": [
+        "IExplosionEvent"
     ]
 }

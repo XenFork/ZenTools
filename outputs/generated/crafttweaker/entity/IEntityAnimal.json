@@ -49,5 +49,8 @@
             "name": "isInLove",
             "type": "bool"
         }
+    ],
+    "extends": [
+        "IEntityAgeable"
     ]
 }

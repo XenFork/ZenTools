@@ -3,5 +3,10 @@
         "crafttweaker.event.IEntityEvent",
         "crafttweaker.event.IEventCancelable",
         "crafttweaker.event.IWorldEvent"
+    ],
+    "extends": [
+        "IEntityEvent",
+        "IWorldEvent",
+        "IEventCancelable"
     ]
 }

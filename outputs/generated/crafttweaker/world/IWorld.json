@@ -510,5 +510,8 @@
             "name": "seaLevel",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IBlockAccess"
     ]
 }

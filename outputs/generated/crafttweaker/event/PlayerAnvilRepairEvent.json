@@ -23,5 +23,8 @@
             "type": "IItemStack",
             "import": "crafttweaker.item.IItemStack"
         }
+    ],
+    "extends": [
+        "IPlayerEvent"
     ]
 }

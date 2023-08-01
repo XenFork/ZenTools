@@ -14,5 +14,9 @@
             "name": "xp",
             "type": "float"
         }
+    ],
+    "extends": [
+        "IEventCancelable",
+        "IPlayerEvent"
     ]
 }

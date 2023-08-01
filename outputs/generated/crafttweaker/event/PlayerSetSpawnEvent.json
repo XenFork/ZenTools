@@ -14,5 +14,9 @@
             "name": "isForced",
             "type": "bool"
         }
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "IEventCancelable"
     ]
 }

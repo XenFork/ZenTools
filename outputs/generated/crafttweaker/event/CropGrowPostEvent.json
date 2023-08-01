@@ -15,5 +15,8 @@
             "type": "IBlock",
             "import": "crafttweaker.block.IBlock"
         }
+    ],
+    "extends": [
+        "IBlockEvent"
     ]
 }

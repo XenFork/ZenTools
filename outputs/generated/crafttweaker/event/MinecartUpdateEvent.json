@@ -2,5 +2,9 @@
     "imports": [
         "crafttweaker.event.IEventPositionable",
         "crafttweaker.event.MinecartEvent"
+    ],
+    "extends": [
+        "MinecartEvent",
+        "IEventPositionable"
     ]
 }

@@ -16,5 +16,9 @@
             "type": "IPlayer",
             "import": "crafttweaker.player.IPlayer"
         }
+    ],
+    "extends": [
+        "IEntityEvent",
+        "IEventCancelable"
     ]
 }

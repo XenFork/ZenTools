@@ -23,5 +23,8 @@
             "type": "IIngredient",
             "import": "crafttweaker.item.IIngredient"
         }
+    ],
+    "extends": [
+        "IWeightedIngredient"
     ]
 }

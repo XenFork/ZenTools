@@ -18,5 +18,9 @@
             "name": "originalExperience",
             "type": "int"
         }
+    ],
+    "extends": [
+        "ILivingEvent",
+        "IEventCancelable"
     ]
 }

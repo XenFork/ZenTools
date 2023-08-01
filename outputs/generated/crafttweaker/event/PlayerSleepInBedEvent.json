@@ -8,5 +8,9 @@
             "name": "result",
             "type": "string"
         }
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "IEventPositionable"
     ]
 }

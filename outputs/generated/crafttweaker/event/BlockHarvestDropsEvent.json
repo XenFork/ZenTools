@@ -42,5 +42,8 @@
             "name": "silkTouch",
             "type": "bool"
         }
+    ],
+    "extends": [
+        "IBlockEvent"
     ]
 }

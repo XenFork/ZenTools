@@ -14,5 +14,9 @@
             "name": "extraLife",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IEntityEvent",
+        "IEventCancelable"
     ]
 }

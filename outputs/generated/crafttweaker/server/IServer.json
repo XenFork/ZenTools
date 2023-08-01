@@ -43,5 +43,8 @@
             "type": "ICommandManager",
             "import": "crafttweaker.command.ICommandManager"
         }
+    ],
+    "extends": [
+        "ICommandSender"
     ]
 }

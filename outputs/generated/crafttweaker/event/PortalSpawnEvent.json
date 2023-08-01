@@ -16,5 +16,9 @@
             "name": "height",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IBlockEvent",
+        "IEventCancelable"
     ]
 }

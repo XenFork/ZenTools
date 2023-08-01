@@ -28,5 +28,9 @@
             "name": "accelerationZ",
             "type": "double"
         }
+    ],
+    "extends": [
+        "ProjectileImpactEvent",
+        "IEventCancelable"
     ]
 }

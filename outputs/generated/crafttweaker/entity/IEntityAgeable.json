@@ -35,5 +35,8 @@
             "name": "scaleForAge",
             "type": "void"
         }
+    ],
+    "extends": [
+        "IEntityCreature"
     ]
 }

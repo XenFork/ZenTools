@@ -20,5 +20,9 @@
             "type": "IPlayer",
             "import": "crafttweaker.player.IPlayer"
         }
+    ],
+    "extends": [
+        "MinecartEvent",
+        "IEventCancelable"
     ]
 }

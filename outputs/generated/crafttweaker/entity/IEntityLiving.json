@@ -122,5 +122,8 @@
             "type": "IEntity",
             "import": "crafttweaker.entity.IEntity"
         }
+    ],
+    "extends": [
+        "IEntityLivingBase"
     ]
 }

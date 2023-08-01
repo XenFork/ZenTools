@@ -19,5 +19,8 @@
             "type": "ICommandSender",
             "import": "crafttweaker.command.ICommandSender"
         }
+    ],
+    "extends": [
+        "IEventCancelable"
     ]
 }

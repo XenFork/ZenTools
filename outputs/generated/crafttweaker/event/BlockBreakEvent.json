@@ -18,5 +18,9 @@
             "name": "experience",
             "type": "int"
         }
+    ],
+    "extends": [
+        "IBlockEvent",
+        "IEventCancelable"
     ]
 }

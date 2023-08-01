@@ -10,5 +10,9 @@
             "type": "IDamageSource",
             "import": "crafttweaker.damage.IDamageSource"
         }
+    ],
+    "extends": [
+        "ILivingEvent",
+        "IEventCancelable"
     ]
 }

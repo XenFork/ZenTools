@@ -9,5 +9,8 @@
             "type": "IMobSpawnerBaseLogic",
             "import": "crafttweaker.tileentity.IMobSpawnerBaseLogic"
         }
+    ],
+    "extends": [
+        "EntityLivingSpawnEvent"
     ]
 }

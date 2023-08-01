@@ -22,5 +22,8 @@
             "type": "IWorld",
             "import": "crafttweaker.world.IWorld"
         }
+    ],
+    "extends": [
+        "IPlayerEvent"
     ]
 }

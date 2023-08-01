@@ -31,5 +31,8 @@
             "type": "IItemStack",
             "import": "crafttweaker.item.IItemStack"
         }
+    ],
+    "extends": [
+        "ILivingEvent"
     ]
 }

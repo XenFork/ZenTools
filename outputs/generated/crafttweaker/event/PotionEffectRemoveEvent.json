@@ -15,5 +15,9 @@
             "type": "IPotion",
             "import": "crafttweaker.potions.IPotion"
         }
+    ],
+    "extends": [
+        "IPotionEffectEvent",
+        "IEventCancelable"
     ]
 }

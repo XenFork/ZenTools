@@ -15,5 +15,10 @@
             "type": "IItemStack",
             "import": "crafttweaker.item.IItemStack"
         }
+    ],
+    "extends": [
+        "IEventCancelable",
+        "IPlayerEvent",
+        "IWorldEvent"
     ]
 }

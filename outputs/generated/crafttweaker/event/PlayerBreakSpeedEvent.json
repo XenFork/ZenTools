@@ -25,5 +25,10 @@
             "type": "IBlockState",
             "import": "crafttweaker.block.IBlockState"
         }
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "IEventPositionable",
+        "IEventCancelable"
     ]
 }

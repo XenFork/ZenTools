@@ -3,5 +3,10 @@
         "crafttweaker.event.IEventHasResult",
         "crafttweaker.event.IEventPositionable",
         "crafttweaker.event.IPlayerEvent"
+    ],
+    "extends": [
+        "IPlayerEvent",
+        "IEventHasResult",
+        "IEventPositionable"
     ]
 }

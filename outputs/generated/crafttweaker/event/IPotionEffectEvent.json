@@ -9,5 +9,8 @@
             "type": "IPotionEffect",
             "import": "crafttweaker.potions.IPotionEffect"
         }
+    ],
+    "extends": [
+        "ILivingEvent"
     ]
 }

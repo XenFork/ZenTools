@@ -9,5 +9,8 @@
             "type": "IRayTraceResult",
             "import": "crafttweaker.world.IRayTraceResult"
         }
+    ],
+    "extends": [
+        "IEntityEvent"
     ]
 }

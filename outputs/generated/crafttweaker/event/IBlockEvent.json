@@ -22,5 +22,9 @@
             "type": "IBlockState",
             "import": "crafttweaker.block.IBlockState"
         }
+    ],
+    "extends": [
+        "IEventPositionable",
+        "IWorldEvent"
     ]
 }

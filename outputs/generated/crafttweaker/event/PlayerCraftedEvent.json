@@ -15,5 +15,8 @@
             "type": "ICraftingInventory",
             "import": "crafttweaker.recipes.ICraftingInventory"
         }
+    ],
+    "extends": [
+        "IPlayerEvent"
     ]
 }

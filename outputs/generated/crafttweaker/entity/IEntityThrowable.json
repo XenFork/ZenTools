@@ -28,5 +28,9 @@
             "type": "IEntityLivingBase",
             "import": "crafttweaker.entity.IEntityLivingBase"
         }
+    ],
+    "extends": [
+        "IEntity",
+        "IProjectile"
     ]
 }
